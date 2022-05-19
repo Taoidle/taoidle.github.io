@@ -1,26 +1,27 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.taoidle.com</id>
-    <title>タオの小屋 • Posts by &#34;pyqt5&#34; tag</title>
+    <title>Taoidle • Posts by &#34;pyqt5&#34; tag</title>
     <link href="https://www.taoidle.com" />
     <updated>2020-05-02T16:06:38.000Z</updated>
-    <category term="git" />
+    <category term="opencv" />
+    <category term="pyqt5" />
+    <category term="python" />
+    <category term="vscode" />
+    <category term="图像处理" />
     <category term="教程" />
+    <category term="android" />
+    <category term="android studio" />
+    <category term="git" />
     <category term="arduino" />
     <category term="CLion" />
     <category term="esp8266" />
     <category term="nodemcu" />
     <category term="PlatformIO" />
-    <category term="android" />
-    <category term="android studio" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
     <category term="npm" />
-    <category term="opencv" />
-    <category term="pyqt5" />
-    <category term="python" />
-    <category term="图像处理" />
     <category term="原创教程" />
     <category term="Docker" />
     <category term="Raspberry Pi" />
@@ -30,7 +31,10 @@
     <category term="树莓派4b" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
-    <category term="vscode" />
+    <category term="计算机视觉" />
+    <category term="ARM" />
+    <category term="arm-linux-gcc" />
+    <category term="gcc" />
     <category term="Apple" />
     <category term="esp01" />
     <category term="esp01s" />
@@ -38,10 +42,6 @@
     <category term="智能家居" />
     <category term="物联网" />
     <category term="苹果" />
-    <category term="计算机视觉" />
-    <category term="ARM" />
-    <category term="arm-linux-gcc" />
-    <category term="gcc" />
     <entry>
         <id>https://www.taoidle.com/2020/05/03/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-dct%E5%8F%98%E6%8D%A2%EF%BC%881%EF%BC%89/</id>
         <title>Python图像处理 —— DCT变换</title>
@@ -56,11 +56,11 @@
 &lt;h3 id=&#34;彩色图像dct变换&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#彩色图像dct变换&#34;&gt;#&lt;/a&gt; 彩色图像 DCT 变换&lt;/h3&gt;
 &lt;p&gt;打开图像 &lt;img data-src=&#34;https://cdn.site.taoidle.com/wp-content/uploads/2020/05/wp_editor_md_cd0232d0bcdb5fa3abe9279e639b63ee.jpg&#34; alt=&#34;&#34; /&gt; 选定 DCT 去除的信息，进行 DCT 变换 &lt;img data-src=&#34;https://cdn.site.taoidle.com/wp-content/uploads/2020/05/wp_editor_md_392cc8c9f36cf5dadbb8fe641951f85e.jpg&#34; alt=&#34;&#34; /&gt; 得到效果图 &lt;img data-src=&#34;https://cdn.site.taoidle.com/wp-content/uploads/2020/05/wp_editor_md_44c76d239bee25c7f0dfcaa3e9352451.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="教程" />
         <category term="opencv" />
         <category term="pyqt5" />
         <category term="python" />
         <category term="图像处理" />
+        <category term="教程" />
         <updated>2020-05-02T16:06:38.000Z</updated>
     </entry>
     <entry>

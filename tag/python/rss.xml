@@ -1,29 +1,30 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>タオの小屋 • Posts by &#34;python&#34; tag</title>
+        <title>Taoidle • Posts by &#34;python&#34; tag</title>
         <link>https://www.taoidle.com</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Wed, 02 Sep 2020 17:12:15 +0800</pubDate>
         <lastBuildDate>Wed, 02 Sep 2020 17:12:15 +0800</lastBuildDate>
-        <category>git</category>
+        <category>opencv</category>
+        <category>pyqt5</category>
+        <category>python</category>
+        <category>vscode</category>
+        <category>图像处理</category>
         <category>教程</category>
+        <category>android</category>
+        <category>android studio</category>
+        <category>git</category>
         <category>arduino</category>
         <category>CLion</category>
         <category>esp8266</category>
         <category>nodemcu</category>
         <category>PlatformIO</category>
-        <category>android</category>
-        <category>android studio</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
         <category>npm</category>
-        <category>opencv</category>
-        <category>pyqt5</category>
-        <category>python</category>
-        <category>图像处理</category>
         <category>原创教程</category>
         <category>Docker</category>
         <category>Raspberry Pi</category>
@@ -33,7 +34,10 @@
         <category>树莓派4b</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
-        <category>vscode</category>
+        <category>计算机视觉</category>
+        <category>ARM</category>
+        <category>arm-linux-gcc</category>
+        <category>gcc</category>
         <category>Apple</category>
         <category>esp01</category>
         <category>esp01s</category>
@@ -41,18 +45,14 @@
         <category>智能家居</category>
         <category>物联网</category>
         <category>苹果</category>
-        <category>计算机视觉</category>
-        <category>ARM</category>
-        <category>arm-linux-gcc</category>
-        <category>gcc</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/09/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E3%80%81%E7%95%B8%E5%8F%98%E7%9F%AB%E6%AD%A3/</guid>
             <title>Python图像处理 —— 相机标定、畸变矫正</title>
             <link>https://www.taoidle.com/2020/09/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E3%80%81%E7%95%B8%E5%8F%98%E7%9F%AB%E6%AD%A3/</link>
-            <category>教程</category>
             <category>opencv</category>
             <category>python</category>
             <category>图像处理</category>
+            <category>教程</category>
             <category>原创教程</category>
             <pubDate>Wed, 02 Sep 2020 17:12:15 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;实验数据&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实验数据&#34;&gt;#&lt;/a&gt; 实验数据&lt;/h2&gt;
@@ -84,10 +84,10 @@
             <guid isPermalink="true">https://www.taoidle.com/2020/07/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%A9%BA%E5%9F%9F%E4%BF%A1%E6%81%AF%E9%9A%90%E8%97%8F%EF%BC%88lsb%E6%9B%BF%E6%8D%A2%EF%BC%89/</guid>
             <title>Python图像处理 —— 空域信息隐藏（LSB替换）</title>
             <link>https://www.taoidle.com/2020/07/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%A9%BA%E5%9F%9F%E4%BF%A1%E6%81%AF%E9%9A%90%E8%97%8F%EF%BC%88lsb%E6%9B%BF%E6%8D%A2%EF%BC%89/</link>
-            <category>教程</category>
             <category>opencv</category>
             <category>python</category>
             <category>图像处理</category>
+            <category>教程</category>
             <category>原创教程</category>
             <pubDate>Thu, 02 Jul 2020 14:40:04 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;算法描述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算法描述&#34;&gt;#&lt;/a&gt; 算法描述&lt;/h2&gt;
@@ -117,11 +117,11 @@
             <guid isPermalink="true">https://www.taoidle.com/2020/05/03/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-dct%E5%8F%98%E6%8D%A2%EF%BC%881%EF%BC%89/</guid>
             <title>Python图像处理 —— DCT变换</title>
             <link>https://www.taoidle.com/2020/05/03/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-dct%E5%8F%98%E6%8D%A2%EF%BC%881%EF%BC%89/</link>
-            <category>教程</category>
             <category>opencv</category>
             <category>pyqt5</category>
             <category>python</category>
             <category>图像处理</category>
+            <category>教程</category>
             <pubDate>Sun, 03 May 2020 00:06:38 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;图像的dct变换&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图像的dct变换&#34;&gt;#&lt;/a&gt; 图像的 DCT 变换&lt;/h1&gt;
 &lt;h2 id=&#34;python实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python实现&#34;&gt;#&lt;/a&gt; python 实现&lt;/h2&gt;

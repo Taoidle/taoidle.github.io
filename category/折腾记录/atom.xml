@@ -1,26 +1,27 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.taoidle.com</id>
-    <title>タオの小屋 • Posts by &#34;折腾记录&#34; category</title>
+    <title>Taoidle • Posts by &#34;折腾记录&#34; category</title>
     <link href="https://www.taoidle.com" />
     <updated>2020-10-22T04:11:18.000Z</updated>
-    <category term="git" />
+    <category term="opencv" />
+    <category term="pyqt5" />
+    <category term="python" />
+    <category term="vscode" />
+    <category term="图像处理" />
     <category term="教程" />
+    <category term="android" />
+    <category term="android studio" />
+    <category term="git" />
     <category term="arduino" />
     <category term="CLion" />
     <category term="esp8266" />
     <category term="nodemcu" />
     <category term="PlatformIO" />
-    <category term="android" />
-    <category term="android studio" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
     <category term="npm" />
-    <category term="opencv" />
-    <category term="pyqt5" />
-    <category term="python" />
-    <category term="图像处理" />
     <category term="原创教程" />
     <category term="Docker" />
     <category term="Raspberry Pi" />
@@ -30,7 +31,10 @@
     <category term="树莓派4b" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
-    <category term="vscode" />
+    <category term="计算机视觉" />
+    <category term="ARM" />
+    <category term="arm-linux-gcc" />
+    <category term="gcc" />
     <category term="Apple" />
     <category term="esp01" />
     <category term="esp01s" />
@@ -38,10 +42,6 @@
     <category term="智能家居" />
     <category term="物联网" />
     <category term="苹果" />
-    <category term="计算机视觉" />
-    <category term="ARM" />
-    <category term="arm-linux-gcc" />
-    <category term="gcc" />
     <entry>
         <id>https://www.taoidle.com/2020/10/22/windows%E4%B8%8Bclionopencv%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
         <title>Windows下Clion+OpenCV开发环境搭建</title>
