@@ -1,0 +1,21 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "タオの小屋 • All posts by \"raspberry pi\" tag",
+    "description": "",
+    "home_page_url": "https://www.taoidle.com",
+    "items": [
+        {
+            "id": "https://www.taoidle.com/2022/04/09/raspberry-pi4b%E5%AE%89%E8%A3%85docker/",
+            "url": "https://www.taoidle.com/2022/04/09/raspberry-pi4b%E5%AE%89%E8%A3%85docker/",
+            "title": "Raspberry Pi4b安装Docker",
+            "date_published": "2022-04-09T07:22:46.000Z",
+            "content_html": "<ol>\n<li>\n<p>更新软件包</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token function\">sudo</span> <span class=\"token function\">apt</span> update</pre></td></tr><tr><td data-num=\"2\"></td><td><pre><span class=\"token function\">sudo</span> <span class=\"token function\">apt</span> upgrade</pre></td></tr></table></figure></li>\n<li>\n<p>通过运行以下命令下载并运行官方 Docker 设置脚本</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token function\">curl</span> -sSL https://get.docker.com  <span class=\"token function\">sh</span></pre></td></tr></table></figure></li>\n<li>\n<p>将 pi 用户添加到 docker 组中</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token function\">sudo</span> <span class=\"token function\">usermod</span> -aG <span class=\"token function\">docker</span> pi</pre></td></tr></table></figure></li>\n</ol>\n",
+            "tags": [
+                "Docker",
+                "Raspberry Pi",
+                "Raspberry Pi4b",
+                "树莓派"
+            ]
+        }
+    ]
+}
