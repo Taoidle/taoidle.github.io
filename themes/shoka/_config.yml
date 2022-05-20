@@ -185,8 +185,8 @@ creative_commons:
 # Valine
 # For more information: https://github.com/amehime/MiniValine
 valine:
-  appId: #Your_appId
-  appKey: #Your_appkey
+  appId: ApARnfSkw0HMrWiAyJqrYCve-MdYXbMMI #Your_appId
+  appKey: 4halNrDr66n2cthxpXrantIb #Your_appkey
   placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
   avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
   pageSize: 10 # Pagination size
