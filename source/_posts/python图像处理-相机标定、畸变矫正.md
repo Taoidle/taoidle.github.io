@@ -61,11 +61,11 @@ date: 2020-09-02 17:12:15
 
 ## 矫正前图像
 
-![](https://cdn.site.taoidle.com/wp-content/uploads/2020/09/wp_editor_md_46c192be1a69cf0a3d0a1e2d6e95eafb.jpg)
+![](/assets/images/wp_editor_md_46c192be1a69cf0a3d0a1e2d6e95eafb.jpg)
 
 ## 矫正后图像
 
-![](https://cdn.site.taoidle.com/wp-content/uploads/2020/09/wp_editor_md_f77ee67a039c3902f6253c5f1cab1f8a.jpg)
+![](/assets/images/wp_editor_md_f77ee67a039c3902f6253c5f1cab1f8a.jpg)
 
 ## 代码
 
