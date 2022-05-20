@@ -15,12 +15,12 @@
         <category>教程</category>
         <category>android</category>
         <category>android studio</category>
-        <category>git</category>
         <category>arduino</category>
         <category>CLion</category>
         <category>esp8266</category>
         <category>nodemcu</category>
         <category>PlatformIO</category>
+        <category>git</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
@@ -34,10 +34,6 @@
         <category>树莓派4b</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
-        <category>计算机视觉</category>
-        <category>ARM</category>
-        <category>arm-linux-gcc</category>
-        <category>gcc</category>
         <category>Apple</category>
         <category>esp01</category>
         <category>esp01s</category>
@@ -45,6 +41,10 @@
         <category>智能家居</category>
         <category>物联网</category>
         <category>苹果</category>
+        <category>ARM</category>
+        <category>arm-linux-gcc</category>
+        <category>gcc</category>
+        <category>计算机视觉</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2022/04/09/raspberry-pi4b%E5%AE%89%E8%A3%85docker/</guid>
             <title>Raspberry Pi4b安装Docker</title>

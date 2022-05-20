@@ -12,12 +12,12 @@
     <category term="教程" />
     <category term="android" />
     <category term="android studio" />
-    <category term="git" />
     <category term="arduino" />
     <category term="CLion" />
     <category term="esp8266" />
     <category term="nodemcu" />
     <category term="PlatformIO" />
+    <category term="git" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
@@ -31,10 +31,6 @@
     <category term="树莓派4b" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
-    <category term="计算机视觉" />
-    <category term="ARM" />
-    <category term="arm-linux-gcc" />
-    <category term="gcc" />
     <category term="Apple" />
     <category term="esp01" />
     <category term="esp01s" />
@@ -42,6 +38,10 @@
     <category term="智能家居" />
     <category term="物联网" />
     <category term="苹果" />
+    <category term="ARM" />
+    <category term="arm-linux-gcc" />
+    <category term="gcc" />
+    <category term="计算机视觉" />
     <entry>
         <id>https://www.taoidle.com/2020/07/02/manjaro-npm%E6%8D%A2%E6%BA%90/</id>
         <title>manjaro npm换源</title>
