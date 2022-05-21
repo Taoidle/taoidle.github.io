@@ -66,14 +66,19 @@ jobs:
         run: |
           npm run deploy
 
-      - name: read_version
+      - name: Read Version
         id: version
         uses: ashley-taylor/read-json-property-action@v1.0
         with:
           path: ./package.json
           property: version
-
-      - name: create_github_release
+      - name: archive release
+        uses: thedoctor0/zip-release@main
+        with:
+          type: 'zip'
+          filename: 'release.zip'
+          exclusions: '*.git* /*node_modules/* .editorconfig'
+      - name: Create Github Release
         id: create_release
         uses: actions/create-release@latest
         env:
