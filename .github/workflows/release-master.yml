@@ -8,26 +8,26 @@ on:
 jobs:
   build:
     name: Build on node ${{ matrix.node_version }} and ${{ matrix.os }}
-      runs-on: ubuntu-latest
-      strategy:
-        matrix:
-          os: [ubuntu-latest]
-          node_version: [16.x]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node_version: [16.x]
 
-      steps:
-        - name: archive release
-          uses: thedoctor0/zip-release@main
-          with:
-            type: 'zip'
-            filename: 'release.zip'
-            exclusions: '*.git* /*node_modules/* .editorconfig'
-        - name: Create Github Release
-          id: create_release
-          uses: actions/create-release@latest
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
-            tag_name: v${{ github.run_number }}
-            release_name: Release V${{ github.run_number }}
-            draft: false
-            prerelease: false
+    steps:
+      - name: archive release
+        uses: thedoctor0/zip-release@main
+        with:
+          type: 'zip'
+          filename: 'release.zip'
+          exclusions: '*.git* /*node_modules/* .editorconfig'
+      - name: Create Github Release
+        id: create_release
+        uses: actions/create-release@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ github.run_number }}
+          release_name: Release V${{ github.run_number }}
+          draft: false
+          prerelease: false
