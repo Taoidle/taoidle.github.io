@@ -12,6 +12,7 @@ statics: //cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@1.0.2-master/ #//cdn.js
 css: css
 js: js
 images: images
+assets: assets
 
 # themes/shoka/source/images/***
 favicon:
