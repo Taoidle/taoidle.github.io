@@ -1,0 +1,25 @@
+name: HEXO_RELEASE
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+      - name: archive release
+        uses: thedoctor0/zip-release@main
+        with:
+          type: 'zip'
+          filename: 'release.zip'
+          exclusions: '*.git* /*node_modules/* .editorconfig'
+      - name: Create Github Release
+        id: create_release
+        uses: actions/create-release@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ github.run_number }}
+          release_name: Release V${{ github.run_number }}
+          draft: false
+          prerelease: false

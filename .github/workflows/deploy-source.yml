@@ -76,7 +76,7 @@ jobs:
         uses: thedoctor0/zip-release@main
         with:
           type: 'zip'
-          filename: 'release.zip'
+          filename: 'source.zip'
           exclusions: '*.git* /*node_modules/* .editorconfig'
       - name: Create Github Release
         id: create_release
@@ -85,6 +85,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: v${{steps.version.outputs.value}}
-          release_name: v${{steps.version.outputs.value}}
+          release_name: Source V${{steps.version.outputs.value}}
           draft: false
           prerelease: false
