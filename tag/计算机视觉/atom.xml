@@ -38,10 +38,10 @@
     <category term="智能家居" />
     <category term="物联网" />
     <category term="苹果" />
+    <category term="计算机视觉" />
     <category term="ARM" />
     <category term="arm-linux-gcc" />
     <category term="gcc" />
-    <category term="计算机视觉" />
     <entry>
         <id>https://www.taoidle.com/2020/04/21/%E5%85%B3%E4%BA%8Ecv-tool%E5%B0%8F%E5%B7%A5%E5%85%B7/</id>
         <title>关于CV Tool小工具</title>

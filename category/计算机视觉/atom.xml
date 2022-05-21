@@ -38,10 +38,10 @@
     <category term="智能家居" />
     <category term="物联网" />
     <category term="苹果" />
+    <category term="计算机视觉" />
     <category term="ARM" />
     <category term="arm-linux-gcc" />
     <category term="gcc" />
-    <category term="计算机视觉" />
     <entry>
         <id>https://www.taoidle.com/2020/09/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E3%80%81%E7%95%B8%E5%8F%98%E7%9F%AB%E6%AD%A3/</id>
         <title>Python图像处理 —— 相机标定、畸变矫正</title>

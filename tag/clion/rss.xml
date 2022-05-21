@@ -41,10 +41,10 @@
         <category>智能家居</category>
         <category>物联网</category>
         <category>苹果</category>
+        <category>计算机视觉</category>
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
-        <category>计算机视觉</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2021/06/10/clionplatformio%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91nodemcu/</guid>
             <title>CLion+PlatformIO环境搭建开发NodeMcu</title>

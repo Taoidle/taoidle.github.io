@@ -41,10 +41,10 @@
         <category>智能家居</category>
         <category>物联网</category>
         <category>苹果</category>
+        <category>计算机视觉</category>
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
-        <category>计算机视觉</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/07/02/manjaro-npm%E6%8D%A2%E6%BA%90/</guid>
             <title>manjaro npm换源</title>

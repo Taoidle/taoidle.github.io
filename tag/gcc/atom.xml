@@ -38,10 +38,10 @@
     <category term="智能家居" />
     <category term="物联网" />
     <category term="苹果" />
+    <category term="计算机视觉" />
     <category term="ARM" />
     <category term="arm-linux-gcc" />
     <category term="gcc" />
-    <category term="计算机视觉" />
     <entry>
         <id>https://www.taoidle.com/2020/06/12/%E5%85%B3%E4%BA%8Eubuntu20-04%E5%AE%89%E8%A3%85arm-linux-gcc%E5%8F%91%E7%94%9F%E7%9A%84%E9%94%99%E8%AF%AF/</id>
         <title>关于Ubuntu20.04安装arm-linux-gcc发生的错误</title>
