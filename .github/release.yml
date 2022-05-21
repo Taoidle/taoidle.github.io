@@ -1,21 +1,32 @@
-name: Release gocapture
+name: create_github_release
+
 on:
   push:
-    tags:
-      - v*
+    branches:
+      - source
+
 jobs:
-  release:
-    runs-on: ubuntu-latest
-    outputs:
-      upload_url: ${{ steps.create_release.outputs.upload_url }}
+  publish:
     steps:
-      - name: Create Release
+      # check it to your workflow can access it
+      # from: https://github.com/actions/checkout
+      - name: 检查master分支
+        uses: actions/checkout@source
+
+      - name: 读取当前版本号
+        id: version
+        uses: ashley-taylor/read-json-property-action@v1.0
+        with:
+          path: ./package.json
+          property: version
+
+      - name: 创建GitHub Release
         id: create_release
-        uses: actions/create-release@v1
+        uses: actions/create-release@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: gocapture ${{ github.ref }}
+          tag_name: v${{steps.version.outputs.value}}
+          release_name: v${{steps.version.outputs.value}}
           draft: false
           prerelease: false
