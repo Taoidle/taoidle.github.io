@@ -8,12 +8,86 @@ open_graph:
   #fb_app_id:
 
 # Assets
-statics: //cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@v1.0.4-master/ #//cdn.jsdelivr.net/gh/username/RepositoryName@latest/
+statics: / #//cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@v1.0.4-master/ #//cdn.jsdelivr.net/gh/username/RepositoryName@latest/
 css: css
 js: js
 images: images
 assets: assets
 assets/images: assets/images
+
+markdown:
+  render: # 渲染器设置
+    html: false # 过滤 HTML 标签
+    xhtmlOut: true # 使用 '/' 来闭合单标签 （比如 <br />）。
+    breaks: true # 转换段落里的 '\n' 到 <br>。
+    linkify: true # 将类似 URL 的文本自动转换为链接。
+    typographer: 
+    quotes: '“”‘’'
+  plugins: # markdown-it插件设置
+    - plugin:
+        name: markdown-it-toc-and-anchor
+        enable: true
+        options: # 文章目录以及锚点应用的class名称，shoka主题必须设置成这样
+          tocClassName: 'toc'
+          anchorClassName: 'anchor'
+    - plugin:
+        name: markdown-it-multimd-table
+        enable: true
+        options:
+          multiline: true
+          rowspan: true
+          headerless: true
+    - plugin:
+        name: ./markdown-it-furigana
+        enable: true
+        options:
+          fallbackParens: "()"
+    - plugin:
+        name: ./markdown-it-spoiler
+        enable: true
+        options:
+          title: "你知道得太多了"
+
+minify:
+  html:
+    enable: true
+    exclude: # 排除hexo-feed用到的模板文件
+      - '**/json.ejs'
+      - '**/atom.ejs'
+      - '**/rss.ejs'
+  css:
+    enable: true
+    exclude:
+      - '**/*.min.css'
+  js:
+    enable: true
+    mangle:
+      toplevel: true
+    output:
+    compress:
+    exclude:
+      - '**/*.min.js'
+
+autoprefixer:
+  exclude:
+    - '*.min.css'
+
+
+# algolia:
+#   appId: #Your appId
+#   apiKey: #Your apiKey
+#   adminApiKey: #Your adminApiKey
+#   chunkSize: 5000
+#   indexName: #"shoka"
+#   fields:
+#     - title #必须配置
+#     - path #必须配置
+#     - categories #推荐配置
+#     - content:strip:truncate,0,2000
+#     - gallery
+#     - photos
+#     - tags
+
 
 # themes/shoka/source/images/***
 favicon:
@@ -33,8 +107,8 @@ auto_scroll: true
 
 # Whether to show the loading cat
 loader:
-  start: true # When entering the page
-  switch: true # When switching to another page
+  start: false # When entering the page
+  switch: false # When switching to another page
 
 # click with Firework
 fireworks:
@@ -187,15 +261,15 @@ creative_commons:
 # Valine
 # For more information: https://github.com/amehime/MiniValine
 valine:
-  appId: ApARnfSkw0HMrWiAyJqrYCve-MdYXbMMI #Your_appId
-  appKey: 4halNrDr66n2cthxpXrantIb #Your_appkey
+  appId: wCYJyoklLM4nkSDPb8W6DUYR-MdYXbMMI #TJbr3DVoFMFwnVJzGjEGLDdB-9Nh9j0Va #Your_appId
+  appKey: FXNqHysGFU1lKMvB5E3GURbV #79D9A4fsmGES3tBbTLuI2gyt #Your_appkey
   placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
   avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
   pageSize: 10 # Pagination size
-  lang: en
+  lang: zh-CN
   visitor: true # Article reading statistic
   NoRecordIP: false # Whether to record the commenter IP
-  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  serverURLs: "https://wcyjyokl.api.lncldglobal.com" #LeanCloud 国际版时需配置，括号内为 appid 的前八位，记得删除括号 # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   powerMode: true
   tagMeta:
     visitor: 新朋友
@@ -227,7 +301,7 @@ audio:
   #    - https://music.163.com/#/playlist?id=2031842656
 
 # random image api
-image_server: "https://api.img.6-t.site/api/img"
+image_server: #"https://api.img.6-t.site/api/img"
 
 # Algolia Search
 # For more information: https://www.algolia.com
