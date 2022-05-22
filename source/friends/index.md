@@ -9,8 +9,8 @@ copyright: false
 - 站名： タオの小屋
 - 站长： taoidle
 - 地址： https://www.taoidle.com
-- 标志： ![taoidle](https://cdn.site.taoidle.com/wp-content/uploads/2022/04/1649855220-photo_2021-10-02_22-39-07.jpg){height="100" width="100"}
-- 简介： 学习笔记 & 折腾记录
+- 标志： ![taoidle](/assets/images/1649855220-photo_2021-10-02_22-39-07.jpg){height="100" width="100"}
+- 简介： 秋深し、情けは人の、為ならず
 
 # 申请方法
 - 添加本站后，在本页留言，格式如下

@@ -8,7 +8,7 @@ open_graph:
   #fb_app_id:
 
 # Assets
-statics: / #//cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@v1.0.4-master/ #//cdn.jsdelivr.net/gh/username/RepositoryName@latest/
+statics: //cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@v1.0.4-master/ #//cdn.jsdelivr.net/gh/username/RepositoryName@latest/
 css: css
 js: js
 images: images
@@ -301,7 +301,7 @@ audio:
   #    - https://music.163.com/#/playlist?id=2031842656
 
 # random image api
-image_server: #"https://api.img.6-t.site/api/img"
+image_server: "https://api.img.6-t.site/api/img"
 
 # Algolia Search
 # For more information: https://www.algolia.com
