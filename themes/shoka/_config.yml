@@ -8,11 +8,12 @@ open_graph:
   #fb_app_id:
 
 # Assets
-statics: //cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@1.0.2-master/ #//cdn.jsdelivr.net/gh/username/RepositoryName@latest/
+statics: //cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@latest/ #//cdn.jsdelivr.net/gh/username/RepositoryName@latest/
 css: css
 js: js
 images: images
 assets: assets
+assets/images: assets/images
 
 # themes/shoka/source/images/***
 favicon:
