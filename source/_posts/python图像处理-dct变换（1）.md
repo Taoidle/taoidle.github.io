@@ -43,14 +43,14 @@ cv2.waitKey(0)
 
 ```
 
-![](/assets/images/wp_editor_md_f47ba882139a0929c17e72e8d408a598.jpg) ![](/assets/images/wp_editor_md_4d2787e275882434e47a8ac40c2d711a.jpg) ![](/assets/images/wp_editor_md_927e11e4879955a3bf4fdebb01ff5b73.jpg)
+![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_f47ba882139a0929c17e72e8d408a598.jpg) ![]https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master(/assets/images/wp_editor_md_4d2787e275882434e47a8ac40c2d711a.jpg) ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_927e11e4879955a3bf4fdebb01ff5b73.jpg)
 
 ## CV Tool小工具中的操作
 
 ### 灰度图DCT
 
-读取图像 ![](/assets/images/wp_editor_md_79f735a75273ec5494159dfe4170b128.jpg) 进行灰度化 ![](/assets/images/wp_editor_md_12d55d2288111f59e2fe8f7937987e5c.jpg) 选定DCT去除的信息，进行DCT变换 ![](/assets/images/wp_editor_md_f26670cf8f60a325901e9e8217616207.jpg) 得到效果图 ![](/assets/images/wp_editor_md_3b7437fbd0e276fcc1b281a85fd0a5da.jpg)
+读取图像 ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_79f735a75273ec5494159dfe4170b128.jpg) 进行灰度化 ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_12d55d2288111f59e2fe8f7937987e5c.jpg) 选定DCT去除的信息，进行DCT变换 ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_f26670cf8f60a325901e9e8217616207.jpg) 得到效果图 ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_3b7437fbd0e276fcc1b281a85fd0a5da.jpg)
 
 ### 彩色图像DCT变换
 
-打开图像 ![](/assets/images/wp_editor_md_cd0232d0bcdb5fa3abe9279e639b63ee.jpg) 选定DCT去除的信息，进行DCT变换 ![](/assets/images/wp_editor_md_392cc8c9f36cf5dadbb8fe641951f85e.jpg) 得到效果图 ![](/assets/images/wp_editor_md_44c76d239bee25c7f0dfcaa3e9352451.jpg)
+打开图像 ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_cd0232d0bcdb5fa3abe9279e639b63ee.jpg) 选定DCT去除的信息，进行DCT变换 ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_392cc8c9f36cf5dadbb8fe641951f85e.jpg) 得到效果图 ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_44c76d239bee25c7f0dfcaa3e9352451.jpg)

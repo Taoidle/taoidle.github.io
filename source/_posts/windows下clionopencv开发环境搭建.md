@@ -22,13 +22,13 @@ date: 2020-10-22 12:11:18
 2.  安装MinGW并将MinGW\\bin添加到环境变量
 3.  安装CMake
 4.  解压OpenCV源码
-5.  打开CMake,在第一个框中打开源码目录，第二个框为编译目录，点击Configure ![](/assets/images/wp_editor_md_645ab42b1af5be15646efb3290064a98.jpg)再次点击Configure红色消失 ![](/assets/images/wp_editor_md_e4af1ce913054df34ee86ef4408fde7e.jpg) 点击Generate ![](/assets/images/wp_editor_md_3c90537c4260f5537ea63ea0f55eafc6.jpg)
+5.  打开CMake,在第一个框中打开源码目录，第二个框为编译目录，点击Configure ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_645ab42b1af5be15646efb3290064a98.jpg)再次点击Configure红色消失 ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_e4af1ce913054df34ee86ef4408fde7e.jpg) 点击Generate ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_3c90537c4260f5537ea63ea0f55eafc6.jpg)
 6.  打开CMD进入到MinGW-build目录下，执行mingw32-make
-7.  上一步执行完成后执行mingw32-make install，生成install文件夹 ![](/assets/images/wp_editor_md_a5da3358b4fddbd6fc4dc897bd325052.jpg)
+7.  上一步执行完成后执行mingw32-make install，生成install文件夹 ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_a5da3358b4fddbd6fc4dc897bd325052.jpg)
 
 ### Clion中使用OpenCV
 
-*   Clion设置 ![](/assets/images/wp_editor_md_ed7877bd36d1481e37c61faba10c778b.jpg)
+*   Clion设置 ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_ed7877bd36d1481e37c61faba10c778b.jpg)
 *   CMakeLists.txt文件配置
 
 ```

@@ -8,88 +8,11 @@ open_graph:
   #fb_app_id:
 
 # Assets
-statics: //cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@v1.0.4-master/ #//cdn.jsdelivr.net/gh/username/RepositoryName@latest/
+statics: / #//cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@v1.0.4-master/
 css: css
 js: js
 images: images
-assets: assets
-assets/images: assets/images
 
-markdown:
-  render: # 渲染器设置
-    html: false # 过滤 HTML 标签
-    xhtmlOut: true # 使用 '/' 来闭合单标签 （比如 <br />）。
-    breaks: true # 转换段落里的 '\n' 到 <br>。
-    linkify: true # 将类似 URL 的文本自动转换为链接。
-    typographer: 
-    quotes: '“”‘’'
-  plugins: # markdown-it插件设置
-    - plugin:
-        name: markdown-it-toc-and-anchor
-        enable: true
-        options: # 文章目录以及锚点应用的class名称，shoka主题必须设置成这样
-          tocClassName: 'toc'
-          anchorClassName: 'anchor'
-    - plugin:
-        name: markdown-it-multimd-table
-        enable: true
-        options:
-          multiline: true
-          rowspan: true
-          headerless: true
-    - plugin:
-        name: ./markdown-it-furigana
-        enable: true
-        options:
-          fallbackParens: "()"
-    - plugin:
-        name: ./markdown-it-spoiler
-        enable: true
-        options:
-          title: "你知道得太多了"
-
-minify:
-  html:
-    enable: true
-    exclude: # 排除hexo-feed用到的模板文件
-      - '**/json.ejs'
-      - '**/atom.ejs'
-      - '**/rss.ejs'
-  css:
-    enable: true
-    exclude:
-      - '**/*.min.css'
-  js:
-    enable: true
-    mangle:
-      toplevel: true
-    output:
-    compress:
-    exclude:
-      - '**/*.min.js'
-
-autoprefixer:
-  exclude:
-    - '*.min.css'
-
-
-# algolia:
-#   appId: #Your appId
-#   apiKey: #Your apiKey
-#   adminApiKey: #Your adminApiKey
-#   chunkSize: 5000
-#   indexName: #"shoka"
-#   fields:
-#     - title #必须配置
-#     - path #必须配置
-#     - categories #推荐配置
-#     - content:strip:truncate,0,2000
-#     - gallery
-#     - photos
-#     - tags
-
-
-# themes/shoka/source/images/***
 favicon:
   apple_touch_icon: /apple-touch-icon.png
   #safari_pinned_tab: /logo.svg
@@ -269,7 +192,7 @@ valine:
   lang: zh-CN
   visitor: true # Article reading statistic
   NoRecordIP: false # Whether to record the commenter IP
-  serverURLs: "https://wcyjyokl.api.lncldglobal.com" #LeanCloud 国际版时需配置，括号内为 appid 的前八位，记得删除括号 # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  serverURLs: https://wcyjyokl.api.lncldglobal.com #LeanCloud 国际版时需配置，括号内为 appid 的前八位，记得删除括号 # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   powerMode: true
   tagMeta:
     visitor: 新朋友

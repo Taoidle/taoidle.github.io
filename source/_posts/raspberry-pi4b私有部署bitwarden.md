@@ -82,7 +82,7 @@ sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 cat /etc/nginx/nginx.conf
 ```
 
-![file](/assets/images/1649492956-image-1649492954071.png)
+![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649492956-image-1649492954071.png)
 
 **7.为 NGINX 创建一个新的配置文件**
 
@@ -145,7 +145,7 @@ sudo systemctl restart nginx
 https://你的树莓派ip
 ```
 
-![file](/assets/images/1649494073-image-1649494070786.png)
+![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649494073-image-1649494070786.png)
 
 ### 启用 Bitwarden 管理面板
 
@@ -184,12 +184,12 @@ sudo docker run -d --name bitwarden  -e ADMIN_TOKEN=你的管理员令牌 \
 https://你的树莓派ip/admin
 ```
 
-![file](/assets/images/1649495073-image-1649495070774.png) 输入你的管理员令牌
+![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649495073-image-1649495070774.png) 输入你的管理员令牌
 
 **2.管理您的用户以及配置 Bitwarden 的设置**
 
-![file](/assets/images/1649495182-image-1649495179498.png)
+![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649495182-image-1649495179498.png)
 
 ### 禁用 Bitwarden 新用户创建
 
-![file](/assets/images/1649495329-image-1649495327106.png) ![file](/assets/images/1649495363-image-1649495361101.png) ![file](/assets/images/1649495397-image-1649495394882.png)
+![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649495329-image-1649495327106.png) ![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649495363-image-1649495361101.png) ![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649495397-image-1649495394882.png)
