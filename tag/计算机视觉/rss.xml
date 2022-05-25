@@ -34,6 +34,11 @@
         <category>树莓派4b</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
         <category>Apple</category>
         <category>esp01</category>
         <category>esp01s</category>

@@ -5,6 +5,21 @@
     "home_page_url": "https://www.taoidle.com",
     "items": [
         {
+            "id": "https://www.taoidle.com/2022/05/24/%E4%BD%BF%E7%94%A8cloudflare+jsdelivr%E5%81%9A%E4%B8%80%E4%B8%AA%E9%9A%8F%E6%9C%BA%E5%9B%BEapi/",
+            "url": "https://www.taoidle.com/2022/05/24/%E4%BD%BF%E7%94%A8cloudflare+jsdelivr%E5%81%9A%E4%B8%80%E4%B8%AA%E9%9A%8F%E6%9C%BA%E5%9B%BEapi/",
+            "title": "jsdelivr做一个随机图api",
+            "date_published": "2022-05-24T08:34:24.000Z",
+            "content_html": "<h3 id=\"前言\"><a class=\"anchor\" href=\"#前言\">#</a> 前言</h3>\n<p>博客最近进行迁移，原本使用 wordpress，现迁移至 hexo。从原来的腾讯云轻量应用服务器迁移到 cloudflare page。既然如此，那原本部署在腾讯云上使用 python 搭建的随即图 api 也没必要存在了。做随机图 api 的初衷只是因为想要自己喜欢的图。</p>\n<p>注：博主的图片只有不到 30 张，小样本使用，数量较少。</p>\n<h3 id=\"正文\"><a class=\"anchor\" href=\"#正文\">#</a> 正文</h3>\n<h4 id=\"思路\"><a class=\"anchor\" href=\"#思路\">#</a> 思路</h4>\n<p>比较简单，cloudflare kv 有 1G 空间，把 hash 和图片对应的路径存进 kv 里，然后 worker 从 kv 里随机取一个出来跳转到 jsdelivr 就行了</p>\n<h4 id=\"步骤\"><a class=\"anchor\" href=\"#步骤\">#</a> 步骤</h4>\n<ol>\n<li>\n<p>在 github 上创建一个空仓库用于存放图片，然后将自己喜欢的图片提交到该仓库即可，然后就可以在 jsdelivr 上取到该仓库的文件</p>\n<pre><code class=\"language-console\">https://cdn.jsdelivr.net/gh/github用户名/仓库名@分支\n</code></pre>\n</li>\n<li>\n<p>克隆 <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL1Rhb2lkbGUvUmFuZFBpY1dvcmtlcg==\">RandPicWorker</span> 这个项目，在项目根目录下执行 yarn 打好依赖。然后使用以下命令登录 cloudflare</p>\n<pre><code class=\"language-console\">yarn run wrangler login\n</code></pre>\n</li>\n<li>\n<p>在 cloudflare 上创建一个 kv namespace</p>\n</li>\n<li>\n<p>填写项目里 wrangler.toml 文件缺少的信息</p>\n<p><img data-src=\"https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/Snipaste_2022-05-25_22-30-06.png\" alt=\"\" /></p>\n</li>\n<li>\n<p>执行 package.json scripts 里的 publish 命令</p>\n</li>\n<li>\n<p>随便写个脚本把图片信息丢上去完事 <span class=\"spoiler\" title=\"你知道得太多了\">本来这里是有个 rust 写的程序的，用于将图片转为 webp 然后把 hash 值和路径丢到 worker 上，但是由于目前比较忙，有空再写</span></p>\n</li>\n</ol>\n<h3 id=\"结束语\"><a class=\"anchor\" href=\"#结束语\">#</a> 结束语</h3>\n<p>代码过于简单没啥好说的，好久没写博客了上来水一篇</p>\n",
+            "tags": [
+                "nodejs",
+                "cloudflare",
+                "cloudflare worker",
+                "github",
+                "cdn",
+                "typescript"
+            ]
+        },
+        {
             "id": "https://www.taoidle.com/2022/04/09/raspberry-pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2bitwarden/",
             "url": "https://www.taoidle.com/2022/04/09/raspberry-pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2bitwarden/",
             "title": "Raspberry Pi4b私有部署Bitwarden",

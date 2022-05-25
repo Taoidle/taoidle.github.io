@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Taoidle • Posts by &#34;cloudflare worker&#34; tag</title>
+        <link>https://www.taoidle.com</link>
+        <description>秋深し、情けは人の、為ならず</description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 24 May 2022 16:34:24 +0800</pubDate>
+        <lastBuildDate>Tue, 24 May 2022 16:34:24 +0800</lastBuildDate>
+        <category>opencv</category>
+        <category>pyqt5</category>
+        <category>python</category>
+        <category>vscode</category>
+        <category>图像处理</category>
+        <category>教程</category>
+        <category>android</category>
+        <category>android studio</category>
+        <category>arduino</category>
+        <category>CLion</category>
+        <category>esp8266</category>
+        <category>nodemcu</category>
+        <category>PlatformIO</category>
+        <category>git</category>
+        <category>Linux</category>
+        <category>manjaro</category>
+        <category>nodejs</category>
+        <category>npm</category>
+        <category>原创教程</category>
+        <category>Docker</category>
+        <category>Raspberry Pi</category>
+        <category>Raspberry Pi4b</category>
+        <category>树莓派</category>
+        <category>Bitwarden</category>
+        <category>树莓派4b</category>
+        <category>ubuntu</category>
+        <category>ubuntu20.04</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
+        <category>Apple</category>
+        <category>esp01</category>
+        <category>esp01s</category>
+        <category>Homekit</category>
+        <category>智能家居</category>
+        <category>物联网</category>
+        <category>苹果</category>
+        <category>计算机视觉</category>
+        <category>ARM</category>
+        <category>arm-linux-gcc</category>
+        <category>gcc</category>
+        <item>
+            <guid isPermalink="true">https://www.taoidle.com/2022/05/24/%E4%BD%BF%E7%94%A8cloudflare+jsdelivr%E5%81%9A%E4%B8%80%E4%B8%AA%E9%9A%8F%E6%9C%BA%E5%9B%BEapi/</guid>
+            <title>jsdelivr做一个随机图api</title>
+            <link>https://www.taoidle.com/2022/05/24/%E4%BD%BF%E7%94%A8cloudflare+jsdelivr%E5%81%9A%E4%B8%80%E4%B8%AA%E9%9A%8F%E6%9C%BA%E5%9B%BEapi/</link>
+            <category>nodejs</category>
+            <category>cloudflare</category>
+            <category>cloudflare worker</category>
+            <category>github</category>
+            <category>cdn</category>
+            <category>typescript</category>
+            <pubDate>Tue, 24 May 2022 16:34:24 +0800</pubDate>
+            <description><![CDATA[ &lt;h3 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h3&gt;
+&lt;p&gt;博客最近进行迁移，原本使用 wordpress，现迁移至 hexo。从原来的腾讯云轻量应用服务器迁移到 cloudflare page。既然如此，那原本部署在腾讯云上使用 python 搭建的随即图 api 也没必要存在了。做随机图 api 的初衷只是因为想要自己喜欢的图。&lt;/p&gt;
+&lt;p&gt;注：博主的图片只有不到 30 张，小样本使用，数量较少。&lt;/p&gt;
+&lt;h3 id=&#34;正文&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#正文&#34;&gt;#&lt;/a&gt; 正文&lt;/h3&gt;
+&lt;h4 id=&#34;思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#思路&#34;&gt;#&lt;/a&gt; 思路&lt;/h4&gt;
+&lt;p&gt;比较简单，cloudflare kv 有 1G 空间，把 hash 和图片对应的路径存进 kv 里，然后 worker 从 kv 里随机取一个出来跳转到 jsdelivr 就行了&lt;/p&gt;
+&lt;h4 id=&#34;步骤&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#步骤&#34;&gt;#&lt;/a&gt; 步骤&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在 github 上创建一个空仓库用于存放图片，然后将自己喜欢的图片提交到该仓库即可，然后就可以在 jsdelivr 上取到该仓库的文件&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;https://cdn.jsdelivr.net/gh/github用户名/仓库名@分支
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;克隆 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1Rhb2lkbGUvUmFuZFBpY1dvcmtlcg==&#34;&gt;RandPicWorker&lt;/span&gt; 这个项目，在项目根目录下执行 yarn 打好依赖。然后使用以下命令登录 cloudflare&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;yarn run wrangler login
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在 cloudflare 上创建一个 kv namespace&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;填写项目里 wrangler.toml 文件缺少的信息&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/Snipaste_2022-05-25_22-30-06.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;执行 package.json scripts 里的 publish 命令&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;随便写个脚本把图片信息丢上去完事 &lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;本来这里是有个 rust 写的程序的，用于将图片转为 webp 然后把 hash 值和路径丢到 worker 上，但是由于目前比较忙，有空再写&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;结束语&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#结束语&#34;&gt;#&lt;/a&gt; 结束语&lt;/h3&gt;
+&lt;p&gt;代码过于简单没啥好说的，好久没写博客了上来水一篇&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

@@ -31,6 +31,11 @@
     <category term="树莓派4b" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
+    <category term="cloudflare" />
+    <category term="cloudflare worker" />
+    <category term="github" />
+    <category term="cdn" />
+    <category term="typescript" />
     <category term="Apple" />
     <category term="esp01" />
     <category term="esp01s" />
