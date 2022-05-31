@@ -1,5 +1,5 @@
 ---
-layout: 使用cloudflare+jsdelivr做一个随机图api
+layout: 使用cloudflare和jsdelivr做一个随机图api
 title: jsdelivr做一个随机图api
 date: 2022-05-24 16:34:24
 categories:
