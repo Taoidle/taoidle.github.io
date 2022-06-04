@@ -56,25 +56,25 @@ jobs:
         run: |
           npm run deploy
 
-      - name: Read Version
-        id: version
-        uses: ashley-taylor/read-json-property-action@v1.0
-        with:
-          path: ./package.json
-          property: version
-      - name: archive release
-        uses: thedoctor0/zip-release@main
-        with:
-          type: 'zip'
-          filename: 'source.zip'
-          exclusions: '*.git* /*node_modules/* .editorconfig'
-      - name: Create Github Release
-        id: create_release
-        uses: actions/create-release@latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: v${{steps.version.outputs.value}}
-          release_name: Source V${{steps.version.outputs.value}}
-          draft: false
-          prerelease: false
+      # - name: Read Version
+      #   id: version
+      #   uses: ashley-taylor/read-json-property-action@v1.0
+      #   with:
+      #     path: ./package.json
+      #     property: version
+      # - name: archive release
+      #   uses: thedoctor0/zip-release@main
+      #   with:
+      #     type: 'zip'
+      #     filename: 'source.zip'
+      #     exclusions: '*.git* /*node_modules/* .editorconfig'
+      # - name: Create Github Release
+      #   id: create_release
+      #   uses: actions/create-release@latest
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     tag_name: v${{steps.version.outputs.value}}
+      #     release_name: Source V${{steps.version.outputs.value}}
+      #     draft: false
+      #     prerelease: false
