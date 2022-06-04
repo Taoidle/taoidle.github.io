@@ -12,53 +12,18 @@ tags:
   - typescript
   - nodejs
 ---
-### 前言
+## 前言
 
 博客最近进行迁移，原本使用wordpress，现迁移至hexo。从原来的腾讯云轻量应用服务器迁移到 cloudflare page。既然如此，那原本部署在腾讯云上使用python搭建的随即图api也没必要存在了。做随机图api的初衷只是因为想要自己喜欢的图。
 
 注：博主的图片只有不到30张，小样本使用，数量较少。
 
-### 正文
+## 正文
 
-#### 思路
+### 思路
 
-比较简单，cloudflare kv有1G空间，把hash和图片对应的路径存进kv里，然后worker从kv里随机取一个出来跳转到jsdelivr就行了
+~~比较简单，cloudflare kv有1G空间，把hash和图片对应的路径存进kv里，然后worker从kv里随机取一个出来跳转到jsdelivr就行了~~
 
-#### 步骤
-
-1. 在github上创建一个空仓库用于存放图片，然后将自己喜欢的图片提交到该仓库即可，然后就可以在jsdelivr上取到该仓库的文件
-
-    ```console
-    https://cdn.jsdelivr.net/gh/github用户名/仓库名@分支
-    ```
-  
-2. 克隆 [RandPicWorker](https://github.com/Taoidle/RandPicWorker) 这个项目，在项目根目录下执行yarn打好依赖。然后使用以下命令登录cloudflare
-
-    ```console
-    yarn run wrangler login
-    ```
-
-3. 在cloudflare上创建一个kv namespace
-
-4. 填写项目里wrangler.toml文件缺少的信息
-
-   ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/Snipaste_2022-05-25_22-30-06.png)
-
-5. 执行package.json scripts里的publish命令
-
-6. 随便写个脚本把图片信息丢上去完事 !!本来这里是有个rust写的程序的，用于将图片转为webp然后把hash值和路径丢到worker上，但是由于目前比较忙，有空再写!!
-
-### 结束语
-
-代码过于简单没啥好说的，好久没写博客了上来水一篇
-
-
-
-------------------
-
-## 更新
-
-### 实现思路
 #### 随机图接口
 
 由于cloudflare kv的免费额度限制，write、delete、list 每天只有1000次，而read有10万次， 所以尽可能将kv操作使用read来实现。
@@ -157,3 +122,36 @@ kv中存储了一个index数据，用来查找数据，如下：
 
 
 假设kv中每个表存储1000条数据，kv中已有一个表存储100条数据，更新的数据有2000条，更新时会读取索引值一次，读取已存在的所有表（这里为一次），更新的信息为 已经存在的表1增加了900条数据，创建表2及表2 1000条数据，创建表3 及表3 100条数据，索引值更新。此时会对kv做4次写入，总共是2次读取，4次写入。
+
+
+### 步骤
+
+1. 在github上创建一个空仓库用于存放图片，然后将自己喜欢的图片提交到该仓库即可，然后就可以在jsdelivr上取到该仓库的文件
+
+    ```console
+    https://cdn.jsdelivr.net/gh/github用户名/仓库名@分支
+    ```
+  
+2. 克隆 [RandPicWorker](https://github.com/Taoidle/RandPicWorker) 这个项目，在项目根目录下执行yarn打好依赖。然后使用以下命令登录cloudflare
+
+    ```console
+    yarn run wrangler login
+    ```
+
+3. 在cloudflare上创建一个kv namespace
+
+4. 填写项目里wrangler.toml文件缺少的信息
+
+   ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/Snipaste_2022-05-25_22-30-06.png)
+
+5. 执行package.json scripts里的publish命令
+
+6. 随便写个脚本把图片信息丢上去完事 !!本来这里是有个rust写的程序的，用于将图片转为webp然后把hash值和路径丢到worker上，但是由于目前比较忙，有空再写!!
+
+## 结束语
+
+代码过于简单没啥好说的，好久没写博客了上来水一篇
+
+-----------
+
+端午假期稍微更新了一下
