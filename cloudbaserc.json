@@ -1,5 +1,6 @@
 {
     "envId": "{{env.ENV_ID}}",
+    "region": "ap-guangzhou",
     "framework": {
       "plugins": {
         "name": "blog",
