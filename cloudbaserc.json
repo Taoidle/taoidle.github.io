@@ -2,8 +2,8 @@
     "envId": "{{env.ENV_ID}}",
     "region": "ap-guangzhou",
     "framework": {
+      "name": "Hexo",
       "plugins": {
-        "name": "Hexo",
         "client": {
           "use": "@cloudbase/framework-plugin-website",
           "inputs": {
