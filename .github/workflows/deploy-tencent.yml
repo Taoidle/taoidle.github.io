@@ -19,11 +19,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Checkout Secrets
-        run: echo "${{secrets.SECRETID}} ,  ${{secrets.SECRETKEY}} , ${{secrets.ENV_ID}}"
+        run: echo "${{ secrets.SECRETID }} ,  ${{ secrets.SECRETKEY }} , ${{ secrets.ENV_ID }}"
 
       - name: Deploy static to Tencent CloudBase
         uses: TencentCloudBase/cloudbase-action@v2 
         with:
-          secretId: ${{secrets.SECRETID}}
-          secretKey: ${{secrets.SECRETKEY}}
-          envId: ${{secrets.ENV_ID}}
+          secretId: ${{ secrets.SECRETID }}
+          secretKey: ${{ secrets.SECRETKEY }}
+          envId: ${{ secrets.ENV_ID }}
