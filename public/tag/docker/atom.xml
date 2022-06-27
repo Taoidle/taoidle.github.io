@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.taoidle.com</id>
+    <title>Taoidle • Posts by &#34;docker&#34; tag</title>
+    <link href="https://www.taoidle.com" />
+    <updated>2022-04-09T09:10:15.000Z</updated>
+    <category term="git" />
+    <category term="教程" />
+    <category term="android" />
+    <category term="android studio" />
+    <category term="Linux" />
+    <category term="manjaro" />
+    <category term="nodejs" />
+    <category term="npm" />
+    <category term="opencv" />
+    <category term="python" />
+    <category term="原创教程" />
+    <category term="图像处理" />
+    <category term="Docker" />
+    <category term="Raspberry Pi" />
+    <category term="Raspberry Pi4b" />
+    <category term="树莓派" />
+    <category term="pyqt5" />
+    <category term="Bitwarden" />
+    <category term="树莓派4b" />
+    <category term="ubuntu" />
+    <category term="ubuntu20.04" />
+    <category term="arduino" />
+    <category term="esp8266" />
+    <category term="nodemcu" />
+    <category term="vscode" />
+    <category term="CLion" />
+    <category term="PlatformIO" />
+    <category term="Apple" />
+    <category term="esp01" />
+    <category term="esp01s" />
+    <category term="Homekit" />
+    <category term="智能家居" />
+    <category term="物联网" />
+    <category term="苹果" />
+    <category term="计算机视觉" />
+    <category term="ARM" />
+    <category term="arm-linux-gcc" />
+    <category term="gcc" />
+    <category term="cloudflare" />
+    <category term="cloudflare worker" />
+    <category term="github" />
+    <category term="cdn" />
+    <category term="typescript" />
+    <entry>
+        <id>https://www.taoidle.com/2022/04/09/raspberry-pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2bitwarden/</id>
+        <title>Raspberry Pi4b私有部署Bitwarden</title>
+        <link rel="alternate" href="https://www.taoidle.com/2022/04/09/raspberry-pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2bitwarden/"/>
+        <content type="html">&lt;h2 id=&#34;准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备&#34;&gt;#&lt;/a&gt; 准备&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;烧写好系统镜像的 Raspberry Pi4b&lt;/li&gt;
+&lt;li&gt;良好的网络环境&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;开始&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始&#34;&gt;#&lt;/a&gt; 开始&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;本文使用 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2RhbmktZ2FyY2lhL3ZhdWx0d2FyZGVu&#34;&gt;bitwordken_rs&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;使用 Docker（树莓派上使用 docker 参考 &lt;a href=&#34;https://www.taoidle.com/raspberry-pi4b%e5%ae%89%e8%a3%85docker.html&#34; title=&#34;Raspberry Pi4b安装Docker&#34;&gt;Raspberry Pi4b 安装 Docker&lt;/a&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;下载运行docker镜像&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载运行docker镜像&#34;&gt;#&lt;/a&gt; 下载运行 docker 镜像&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. 使用 Docker 拉取最新版本的 Bitwarden RS&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; pull vaultwarden/server:latest&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;2. 运行 Bitwarden 镜像&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; run -d --name bitwarden  --restart&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;always &lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    -v /bw-data/:/data/ -p &lt;span class=&#34;token number&#34;&gt;127.0&lt;/span&gt;.0.1:8080:80 &lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    -p &lt;span class=&#34;token number&#34;&gt;127.0&lt;/span&gt;.0.1:3012:3012 vaultwarden/server:latest&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这里将网络服务器暴露在端口 8080 上，端口 3012，这是 Bitwarden 的 Web 套接字用来进行通信的端口。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;配置nginx&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置nginx&#34;&gt;#&lt;/a&gt; 配置 NGINX&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. 下载 nginx&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; nginx&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;2. 停止运行 nginx&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; systemctl stop nginx&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;3. 为 nginx 生成一个 SSL 证书，在 Raspberry Pi 上生成证书有两种不同的方式&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自签证书&lt;/li&gt;
+&lt;li&gt;Lets Encrypt 等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;4. 使用以下命令生成自签名证书&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; openssl req -x509 -nodes -days &lt;span class=&#34;token number&#34;&gt;365&lt;/span&gt; -newkey rsa:4096 -keyout /etc/ssl/private/nginx-bitwarden.key -out /etc/ssl/certs/nginx-bitwarden.crt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;5. 创建一个 Diffie-Hellman&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; openssl dhparam -out /etc/ssl/certs/dhparam.pem &lt;span class=&#34;token number&#34;&gt;2048&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;6. 查看 NGINX 的默认配置文件&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;cat&lt;/span&gt; /etc/nginx/nginx.conf&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649492956-image-1649492954071.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7. 为 NGINX 创建一个新的配置文件&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;vim&lt;/span&gt; /etc/nginx/conf.d/bitwarden.conf&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;8. 编写配置&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;server &amp;#123;
+    listen 80;
+    listen [::]:80;
+    server_name localhost;
+    return 301 https://$host$request_uri;
+&amp;#125;
+
+server &amp;#123;
+  listen 443 ssl http2;
+  server_name localhost;
+
+  ssl_certificate      /etc/ssl/certs/nginx-bitwarden.crt;
+  ssl_certificate_key  /etc/ssl/private/nginx-bitwarden.key;
+
+  ssl_dhparam /etc/ssl/certs/dhparam.pem;
+
+  client_max_body_size 128M;
+
+  location / &amp;#123;
+    proxy_pass http://0.0.0.0:8080;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+  &amp;#125;
+
+  location /notifications/hub &amp;#123;
+    proxy_pass http://0.0.0.0:3012;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection &amp;quot;upgrade&amp;quot;;
+  &amp;#125;
+
+  location /notifications/hub/negotiate &amp;#123;
+    proxy_pass http://0.0.0.0:8080;
+  &amp;#125;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;9. 保存退出重启 NGINX&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; systemctl restart nginx&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;h3 id=&#34;创建-bitwarden-账户&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建-bitwarden-账户&#34;&gt;#&lt;/a&gt; 创建 Bitwarden 账户&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;https://你的树莓派ip
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649494073-image-1649494070786.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;启用-bitwarden-管理面板&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#启用-bitwarden-管理面板&#34;&gt;#&lt;/a&gt; 启用 Bitwarden 管理面板&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. 生成管理员令牌&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;openssl rand -base64 &lt;span class=&#34;token number&#34;&gt;48&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;2. 停止当前正在运行的容器&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; stop bitwarden&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;3. 删除现有的 Bitwarden 容器&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;rm&lt;/span&gt; bitwarden&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;4. 需要重新运行 docker 命令&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; run -d --name bitwarden  -e &lt;span class=&#34;token assign-left variable&#34;&gt;ADMIN_TOKEN&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;你的管理员令牌 &lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    --restart&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;always -v /bw-data/:/data/ &lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    -p &lt;span class=&#34;token number&#34;&gt;127.0&lt;/span&gt;.0.1:8080:80 -p &lt;span class=&#34;token number&#34;&gt;127.0&lt;/span&gt;.0.1:3012:3012 &lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    vaultwarden/server:latest&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;访问-bitwarden-管理面板&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#访问-bitwarden-管理面板&#34;&gt;#&lt;/a&gt; 访问 Bitwarden 管理面板&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. 访问管理面板&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://你的树莓派ip/admin
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649495073-image-1649495070774.png&#34; alt=&#34;file&#34; /&gt; 输入你的管理员令牌&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 管理您的用户以及配置 Bitwarden 的设置&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649495182-image-1649495179498.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;禁用-bitwarden-新用户创建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#禁用-bitwarden-新用户创建&#34;&gt;#&lt;/a&gt; 禁用 Bitwarden 新用户创建&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649495329-image-1649495327106.png&#34; alt=&#34;file&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649495363-image-1649495361101.png&#34; alt=&#34;file&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1649495397-image-1649495394882.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="Docker" />
+        <category term="Raspberry Pi4b" />
+        <category term="树莓派" />
+        <category term="Bitwarden" />
+        <category term="树莓派4b" />
+        <updated>2022-04-09T09:10:15.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.taoidle.com/2022/04/09/raspberry-pi4b%E5%AE%89%E8%A3%85docker/</id>
+        <title>Raspberry Pi4b安装Docker</title>
+        <link rel="alternate" href="https://www.taoidle.com/2022/04/09/raspberry-pi4b%E5%AE%89%E8%A3%85docker/"/>
+        <content type="html">&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;更新软件包&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; update&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; upgrade&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过运行以下命令下载并运行官方 Docker 设置脚本&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;curl&lt;/span&gt; -sSL https://get.docker.com  &lt;span class=&#34;token function&#34;&gt;sh&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将 pi 用户添加到 docker 组中&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;usermod&lt;/span&gt; -aG &lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; pi&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="Docker" />
+        <category term="Raspberry Pi" />
+        <category term="Raspberry Pi4b" />
+        <category term="树莓派" />
+        <updated>2022-04-09T07:22:46.000Z</updated>
+    </entry>
+</feed>

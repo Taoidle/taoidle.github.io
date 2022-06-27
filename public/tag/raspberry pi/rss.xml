@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Taoidle • Posts by &#34;raspberry pi&#34; tag</title>
+        <link>https://www.taoidle.com</link>
+        <description>秋深し、情けは人の、為ならず</description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 09 Apr 2022 15:22:46 +0800</pubDate>
+        <lastBuildDate>Sat, 09 Apr 2022 15:22:46 +0800</lastBuildDate>
+        <category>git</category>
+        <category>教程</category>
+        <category>android</category>
+        <category>android studio</category>
+        <category>Linux</category>
+        <category>manjaro</category>
+        <category>nodejs</category>
+        <category>npm</category>
+        <category>opencv</category>
+        <category>python</category>
+        <category>原创教程</category>
+        <category>图像处理</category>
+        <category>Docker</category>
+        <category>Raspberry Pi</category>
+        <category>Raspberry Pi4b</category>
+        <category>树莓派</category>
+        <category>pyqt5</category>
+        <category>Bitwarden</category>
+        <category>树莓派4b</category>
+        <category>ubuntu</category>
+        <category>ubuntu20.04</category>
+        <category>arduino</category>
+        <category>esp8266</category>
+        <category>nodemcu</category>
+        <category>vscode</category>
+        <category>CLion</category>
+        <category>PlatformIO</category>
+        <category>Apple</category>
+        <category>esp01</category>
+        <category>esp01s</category>
+        <category>Homekit</category>
+        <category>智能家居</category>
+        <category>物联网</category>
+        <category>苹果</category>
+        <category>计算机视觉</category>
+        <category>ARM</category>
+        <category>arm-linux-gcc</category>
+        <category>gcc</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
+        <item>
+            <guid isPermalink="true">https://www.taoidle.com/2022/04/09/raspberry-pi4b%E5%AE%89%E8%A3%85docker/</guid>
+            <title>Raspberry Pi4b安装Docker</title>
+            <link>https://www.taoidle.com/2022/04/09/raspberry-pi4b%E5%AE%89%E8%A3%85docker/</link>
+            <category>Docker</category>
+            <category>Raspberry Pi</category>
+            <category>Raspberry Pi4b</category>
+            <category>树莓派</category>
+            <pubDate>Sat, 09 Apr 2022 15:22:46 +0800</pubDate>
+            <description><![CDATA[ &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;更新软件包&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; update&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; upgrade&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过运行以下命令下载并运行官方 Docker 设置脚本&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;curl&lt;/span&gt; -sSL https://get.docker.com  &lt;span class=&#34;token function&#34;&gt;sh&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将 pi 用户添加到 docker 组中&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;usermod&lt;/span&gt; -aG &lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; pi&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

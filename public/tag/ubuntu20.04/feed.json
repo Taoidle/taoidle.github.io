@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Taoidle • All posts by \"ubuntu20.04\" tag",
+    "description": "秋深し、情けは人の、為ならず",
+    "home_page_url": "https://www.taoidle.com",
+    "items": [
+        {
+            "id": "https://www.taoidle.com/2020/06/12/ubuntu20-04%E6%8D%A2%E6%BA%90/",
+            "url": "https://www.taoidle.com/2020/06/12/ubuntu20-04%E6%8D%A2%E6%BA%90/",
+            "title": "ubuntu20.04换源",
+            "date_published": "2020-06-11T17:52:27.000Z",
+            "content_html": "<p>依次执行以下命令</p>\n<figure class=\"highlight shell\"><figcaption data-lang=\"Bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token function\">sudo</span> <span class=\"token function\">apt</span> <span class=\"token function\">install</span> <span class=\"token function\">vim</span>        安装vim编辑器</pre></td></tr><tr><td data-num=\"2\"></td><td><pre></pre></td></tr><tr><td data-num=\"3\"></td><td><pre><span class=\"token function\">sudo</span>  <span class=\"token function\">cp</span>   /etc/apt/sources.list   /etc/apt/sources.list.bak        备份源文件</pre></td></tr><tr><td data-num=\"4\"></td><td><pre></pre></td></tr><tr><td data-num=\"5\"></td><td><pre><span class=\"token function\">sudo</span>  <span class=\"token function\">chmod</span>  <span class=\"token number\">777</span>  /etc/apt/sources.list         修改权限</pre></td></tr><tr><td data-num=\"6\"></td><td><pre></pre></td></tr><tr><td data-num=\"7\"></td><td><pre><span class=\"token function\">sudo</span>  <span class=\"token function\">vim</span>   /etc/apt/sources.list       编辑源文件</pre></td></tr></table></figure><p>在 vim 编辑器中将原来内容替换为</p>\n<figure class=\"highlight shell\"><figcaption data-lang=\"Bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted</pre></td></tr><tr><td data-num=\"2\"></td><td><pre>deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted</pre></td></tr><tr><td data-num=\"3\"></td><td><pre>deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal universe</pre></td></tr><tr><td data-num=\"4\"></td><td><pre>deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates universe</pre></td></tr><tr><td data-num=\"5\"></td><td><pre>deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal multiverse</pre></td></tr><tr><td data-num=\"6\"></td><td><pre>deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates multiverse</pre></td></tr><tr><td data-num=\"7\"></td><td><pre>deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse</pre></td></tr><tr><td data-num=\"8\"></td><td><pre>deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted</pre></td></tr><tr><td data-num=\"9\"></td><td><pre>deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security universe</pre></td></tr><tr><td data-num=\"10\"></td><td><pre>deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security multiverse</pre></td></tr></table></figure><p>这里为清华源，可将链接替换为你喜欢的软件源 然后执行</p>\n<figure class=\"highlight shell\"><figcaption data-lang=\"Bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token function\">sudo</span> <span class=\"token function\">apt</span> list --upgradable </pre></td></tr><tr><td data-num=\"2\"></td><td><pre></pre></td></tr><tr><td data-num=\"3\"></td><td><pre><span class=\"token function\">sudo</span> <span class=\"token function\">apt</span> update</pre></td></tr><tr><td data-num=\"4\"></td><td><pre></pre></td></tr><tr><td data-num=\"5\"></td><td><pre><span class=\"token function\">sudo</span> <span class=\"token function\">apt</span> upgrade</pre></td></tr></table></figure><p>结束语：啊，又水了一篇博文，快乐（不是</p>\n",
+            "tags": [
+                "Linux",
+                "ubuntu",
+                "ubuntu20.04"
+            ]
+        }
+    ]
+}

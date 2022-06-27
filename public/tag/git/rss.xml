@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Taoidle • Posts by &#34;git&#34; tag</title>
+        <link>https://www.taoidle.com</link>
+        <description>秋深し、情けは人の、為ならず</description>
+        <language>zh-CN</language>
+        <pubDate>Wed, 22 Apr 2020 12:00:08 +0800</pubDate>
+        <lastBuildDate>Wed, 22 Apr 2020 12:00:08 +0800</lastBuildDate>
+        <category>git</category>
+        <category>教程</category>
+        <category>android</category>
+        <category>android studio</category>
+        <category>Linux</category>
+        <category>manjaro</category>
+        <category>nodejs</category>
+        <category>npm</category>
+        <category>opencv</category>
+        <category>python</category>
+        <category>原创教程</category>
+        <category>图像处理</category>
+        <category>Docker</category>
+        <category>Raspberry Pi</category>
+        <category>Raspberry Pi4b</category>
+        <category>树莓派</category>
+        <category>pyqt5</category>
+        <category>Bitwarden</category>
+        <category>树莓派4b</category>
+        <category>ubuntu</category>
+        <category>ubuntu20.04</category>
+        <category>arduino</category>
+        <category>esp8266</category>
+        <category>nodemcu</category>
+        <category>vscode</category>
+        <category>CLion</category>
+        <category>PlatformIO</category>
+        <category>Apple</category>
+        <category>esp01</category>
+        <category>esp01s</category>
+        <category>Homekit</category>
+        <category>智能家居</category>
+        <category>物联网</category>
+        <category>苹果</category>
+        <category>计算机视觉</category>
+        <category>ARM</category>
+        <category>arm-linux-gcc</category>
+        <category>gcc</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
+        <item>
+            <guid isPermalink="true">https://www.taoidle.com/2020/04/22/git%E6%95%99%E7%A8%8B-git%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</guid>
+            <title>Git教程 —— Git的基本操作</title>
+            <link>https://www.taoidle.com/2020/04/22/git%E6%95%99%E7%A8%8B-git%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</link>
+            <category>git</category>
+            <category>教程</category>
+            <pubDate>Wed, 22 Apr 2020 12:00:08 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;创建版本库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建版本库&#34;&gt;#&lt;/a&gt; 创建版本库&lt;/h2&gt;
+&lt;p&gt;在前边的例子中，我们已经创建过的版本库，这里我们来回顾一下，首先我们找了一个合适的地方创建了一个空目录，然后我们使用 git init 命令让该目录变成 git 仓库，这里我们看到 git 输出信息 Initalized empty Git repository，这是告诉我们这是一个空仓库。 注意，细心的你可能发现在 git_demo 目录下有一个.git 目录（该文件是隐藏的，需要在查看中勾选隐藏的项目选项） .git 目录是 git 用来管理版本库的，如果乱改该目录下的文件 git 仓库会被破坏。&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;命令：git init&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/4aef82c398791fa.png&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/e9079bfaf294f0e.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;文件提交&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件提交&#34;&gt;#&lt;/a&gt; 文件提交&lt;/h3&gt;
+&lt;p&gt;文件提交是将暂存区中所有的内容添加到分支中，在上面的例子中我们使用命令 git commit -m “create 1.c” 将暂存区的文件提交到分支 master，这里我们使用了参数 -m 参数后引号的内容是此次提交的标注。然后我们用 git status 查看状态，此时工作区内容已经干净了，暂存区的文件已经提交到了分支上，所以 git 告诉我们 working tree clean，并且我们用 git log 命令查看 git 的日志信息，在日志信息中明确记录了我们有过一次提交记录，此记录中注明了”create 1.c”。&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;命令：git commit&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/121c09c74678b10.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;版本回退&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#版本回退&#34;&gt;#&lt;/a&gt; 版本回退&lt;/h3&gt;
+&lt;p&gt;到目前位置，我们的 git 上只提交了一个版本，现在我们对文件进行修改，我们用编辑器在 1.c 中写一个 hello world 程序然后保存退出，然后我们用 git status 查看状态，这里 git 输出信息文件处于 modified 状态，表示文件仅被修改，但没有做其它任何操作。接着我们将文件添加到暂存区并提交，然后再 git status 和 git log 看一下。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/8d2cae96cabc9ca.png&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/b1299c0dbb11d65.png&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/4e592c7c30e6a94.png&#34; alt=&#34;&#34; /&gt; 此时我们可以看到 git log 的输出信息上出现了两次 commit 这就是我们提交的两次版本，第一次我们创建了 1.c 文件然后提交，第二次我们在 1.c 中写入了一个 hello world 程序提交。我们不妨对 1.c 文件做第三次修改，我们封装一个函数专门用来输出 hello world，然后提交。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/2c7fee8816f8b8f.png&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/c83237fb552a084.png&#34; alt=&#34;&#34; /&gt; 这时，我们 master 分支上已经有三次提交记录了，我们看到这里我们的 1.c 有三个版本，分别为”create 1.c” “write hello world demo” “ add func_p”。那么如果我们不想要这个封装好的函数，要从”add func_p” 这个版本直接回到上一个版本”write hello world demo” 应该怎么做呢？别急，我们先看看 git log 给我们输出的信息都是什么。 首先我们看到日志的第一行&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;commit 8abb13d8fd51b4bd6f6b9aaedac4add3ed368de8&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这是 commit id 即版本号，当然你这串数字肯定和我的不一样，这一串数字是哈希值。 然后我们看第二行 Author ,Author 是提交者的信息即我们安装 Git 后最先设置的 Username &lt;span class=&#34;exturl&#34; data-url=&#34;bWFpbHRvOmVtYWlsQGV4YW1wbGUuY29t&#34;&gt;email@example.com&lt;/span&gt; 接着我们看第三行 Date , 很明显了，这一行就是提交的时间 最后我们看到了 add func_p 这就是我们在提交的时候标注的信息 当然，聪明的你一定想说那关键信息不就是版本号和提交标注吗？你直接给我输出这两个不就可以了吗，输出这么大堆东西看着头都大了。这肯定是可以的，我们在 git log 后加个参数 --pretty=oneline 试一下 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/49012411684ba30.png&#34; alt=&#34;&#34; /&gt; 你看，加上参数之后 git 就只给我们输出版本号和标注了。了解了这些之后，我们回归正题，如何将版本退回到”wirte hello world demo” 在我们前面的学习中我们知道 git 里有个指针 HEAD 指向当前版本，我想你肯定猜到了，我们只需要让该指针指向上一个版本就可以了。那我们来学一个新命令 git reset --hard HEAD^ 这个命令是将 HEAD 指针指向上一个版本，那如果是指向上上个版本就是 git reset --hard HEAD^^。我们先来试一下，在命令行中输入这个命令 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/fb52be0f128a23d.png&#34; alt=&#34;&#34; /&gt; 这是 git 输出信息 HEAD 指针已经指向了 write hello world demo 这个版本，为了验证是不是真的退回了上一个版本，我们 cat 1.c 一下看看 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/b05ed2e618d23cf.png&#34; alt=&#34;&#34; /&gt; 从输出结果我们看到已经成功退回上一版，这时候你就有一个疑问了，要是以后版本多了比如出现了上千的版本那一直 HEAD^&lt;sup&gt;(若干个&lt;/sup&gt;) 岂不是非常麻烦，这不必担心，如果是退回非常多个版本比如 20 个，那其实并不需要打 20 个 ^，我们可以这么写 HEAD~20，而且还有另一个办法，在前面我们说到了 commit id ，那我们是不是也可以通过 commit id 来退回版本呢？答案是肯定的，我们试试用 commit id 来退回到最初的版本。我们先 git log 看一下，我们看到 git log 的输出信息只剩下两个版本了，刚刚退回前的”add func_p” 版本已经不见了。我们找到”create 1.c” 版本，将 commit 后边的 id 号复制后填写到 git reset --hard id。在图中你看到我并没有填写整一串 id，这是因为 git 会自动帮我们找，所以我们填写前边几位就行了，当然也不能只填写一两位，在版本多了情况下 git 可能会找到多个版本，这时就无法确定是哪一个了。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/f65d43654ec665e.png&#34; alt=&#34;&#34; /&gt; 这个时候我们再来看一下 git log 发现只剩下一个版本了，但是这个时候你后悔了，你想回到”add func_p” 版本，那怎么办呢？还有办法吗？ &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/92048a292d8d286.png&#34; alt=&#34;&#34; /&gt; 当然办法还是有的，在你还没有关闭命令行的情况下你只需要往前翻，找到之前”add func_p” 的 commit id 就可以了，就像下边这样。我们找到了”add func_p” 的 commit id 并且跳了回去，此时我们不仅直接跳回了”add func_p” 版，而且顺带把中间版本也找回来了。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/e58c5e029225fe6.png&#34; alt=&#34;&#34; /&gt; 那如果说你在下班前退回了某个版本，然后关了笔记本电脑，回到家的时候你后悔了那怎么办？还有办法吗？在 git 中当然有办法了，git 给我们提供了一个命令叫 git reflog&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;命令: &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; reflog&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这个命令记录了你每次命令。我们先退回到最初版，然后用 git reflog 看看信息。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/665e04f99e70483.png&#34; alt=&#34;&#34; /&gt; 在退回最初版后我们在 git reflog 中依然能够找到”add func_p” 版本的 commit id：8abb13d，那我们就 git reset --hard id 回到”add func_p” 版本：git reset --hard 8abb13d 然后 git log 看一下，成功回到”add func_p” 版本。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/203af278603416a.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;撤销修改&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#撤销修改&#34;&gt;#&lt;/a&gt; 撤销修改&lt;/h3&gt;
+&lt;p&gt;你在写完 1.c 后给这个 hello world 程序加了一行注释，正准备 add 的时候你觉得这行注释完全没有必要存在，这个时候你想撤销刚刚的修改应该怎么做呢？我们只需要对 1.c checkout ，怎么写这行命令呢？我们在命令行输入&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;命令：git checkout -- &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;.c&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;注意，这里要用两个 - 如果少了一个 - 的话表示的是切换到一个叫 1.c 的分支。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/e6beb1dae77c36e.png&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/d1459e26da56b7f.png&#34; alt=&#34;&#34; /&gt; 我们看到这里刚刚添加的注释已经被撤销了。那如果说这个文件已经 add 到了暂存区，但是还没 commit，这个时候你想撤销之前添加的注释，首先我们应该把暂存区的修改退回到工作区，然后在撤销刚刚对 1.c 的修改。具体怎么做，我们用命令 git reset HEAD 1.c 将 1.c 从暂存区中重新放回工作区，然后再 git checkout -- 1.c 撤销工作区中 1.c 的修改。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/aff330497bacdaf.png&#34; alt=&#34;&#34; /&gt; 在图中我们看到 git reset HEAD 1.c 之后暂存区中的 1.c 已经重新放回了工作区，而工作区的 1.c 是改动过的。这时我们在对 1.c 进行 git checkout -- 1.c 操作，撤销对 1.c 的修改，我们看看结果。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/7f6563dd39ec7e0.png&#34; alt=&#34;&#34; /&gt; 我们看到 1.c 中的注释已经成功撤销了。&lt;/p&gt;
+&lt;h3 id=&#34;删除文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#删除文件&#34;&gt;#&lt;/a&gt; 删除文件&lt;/h3&gt;
+&lt;p&gt;某一天，你手滑把 1.c 给删了，那 git 是知道你把文件删了的，此时工作区和版本库是不一致，我们使用 git status 命令，git 会告诉你 1.c 被删除了 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/a6a0ba72ae4863b.png&#34; alt=&#34;&#34; /&gt; 这时你想恢复文件，因为在版本库中 1.c 文件还是存在的，你只需要执行命令&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;命令：git checkout -- &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;.c&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;将版本库中版本恢复到工作区就可以了。是不是这样呢？我们执行一下命令，执行 git checkout -- 1.c 命令后 1.c 文件确实恢复了。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/a8ea5564ea97dd6.png&#34; alt=&#34;&#34; /&gt; 如果说你不是手滑删错了而是确实想把 1.c 文件删掉，那你在工作区删除 1.c 后你需要执行命令&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;命令：git &lt;span class=&#34;token function&#34;&gt;rm&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;.c&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;然后 commit 才能将 1.c 从版本库中删除。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.taoidle.com/2020/03/16/git%E6%95%99%E7%A8%8B-%E7%89%88%E6%9C%AC%E5%BA%93%E3%80%81%E5%B7%A5%E4%BD%9C%E5%8C%BA%E5%92%8C%E6%9A%82%E5%AD%98%E5%8C%BA/</guid>
+            <title>Git教程 —— 版本库、工作区和暂存区</title>
+            <link>https://www.taoidle.com/2020/03/16/git%E6%95%99%E7%A8%8B-%E7%89%88%E6%9C%AC%E5%BA%93%E3%80%81%E5%B7%A5%E4%BD%9C%E5%8C%BA%E5%92%8C%E6%9A%82%E5%AD%98%E5%8C%BA/</link>
+            <category>git</category>
+            <category>教程</category>
+            <pubDate>Mon, 16 Mar 2020 10:17:41 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;git的基本工作流程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git的基本工作流程&#34;&gt;#&lt;/a&gt; Git 的基本工作流程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;创建 Git 工作目录和版本库&lt;/li&gt;
+&lt;li&gt;添加修改删除文件&lt;/li&gt;
+&lt;li&gt;git add 命令将文件修改添加到暂存区&lt;/li&gt;
+&lt;li&gt;git commit 命令将暂存区所有内容提交到当前分支（创建版本库时 git 自动创建一个 master 分支）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;版本库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#版本库&#34;&gt;#&lt;/a&gt; 版本库&lt;/h2&gt;
+&lt;p&gt;版本库又名仓库，英文名 repository，可简单理解为一个文件目录，目录里所有的文件都受 Git 管理。Git 会记录该目录下文件的修改删除，这些记录在将来需要恢复某个记录文件时起到至关重要的作用。&lt;/p&gt;
+&lt;h2 id=&#34;文件添加&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文件添加&#34;&gt;#&lt;/a&gt; 文件添加&lt;/h2&gt;
+&lt;p&gt;文件添加指的是将文件添加到暂存区，这里我们回顾一下前面的例子，在前边的例子中，我们使用了 git add 1.c 命令将我们的文件 1.c 添加到了暂存区，然后我们使用了 git status 命令来查看项目状态，这里 git 给我们输出的信息在分支 master 中没有任何提交记录，但是 1.c 文已经添加到了暂存区。 命令：git add filename &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/edb84957b223d6a.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/034069cb3a181ff.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;暂存区&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#暂存区&#34;&gt;#&lt;/a&gt; 暂存区&lt;/h2&gt;
+&lt;p&gt;英文名 stage 或 index，一般在.git 目录下的 index 文件中，所以暂存区有时也被称为索引（index）。&lt;/p&gt;
+&lt;h2 id=&#34;工作区&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#工作区&#34;&gt;#&lt;/a&gt; 工作区&lt;/h2&gt;
+&lt;p&gt;就是你在电脑里能看到的目录。&lt;/p&gt;
+&lt;h2 id=&#34;一个简单的示例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一个简单的示例&#34;&gt;#&lt;/a&gt; 一个简单的示例&lt;/h2&gt;
+&lt;p&gt;我们通过一个简单的示例来理解上面几个概念。 首先，我们打开 Git Bash，在桌面上创建一个目录文件叫 git_demo，然后进入 git_demo 目录。这个时候 git_demo 就是我们的工作目录。此时我们的 Git 自动帮我们创建了第一个分支 master 以及一个指向 master 的指针 HEAD。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/e9a350a6a586253.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/3702b46d7173cbf.jpeg&#34; alt=&#34;&#34; /&gt; 接着，我们输入 git init 命令，在 git_demo 目录下创建版本库，此时你会发现在 git_demo 目录下多了一个隐藏文件夹 .git , 该文件夹就是我们的版本库。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/63d96c143a063ca.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1c84c81e4ca26e5.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/572ecd978d78681.jpeg&#34; alt=&#34;&#34; /&gt; 然后，我们使用 touch 1.c 命令在工作区里创建一个.c 文件，并用 git add 1.c 将文件添加到暂存区。我们使用命令 git status 查看文件状态，git log 查看 git 日志，看到文件尚未被提交，在 git 日志中 master 分支没有任何提交记录，得知我们添加的 1.c 文件仍在暂存区。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/e437e7368ffb667.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/d6ebcb7047443eb.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/bf1a70e8ce730db.jpeg&#34; alt=&#34;&#34; /&gt; 最后，我们使用 git commit 命令将暂存区内容提交到分支 master 中。这里 git commit -m “create 1.c” 中”” 中内容为此次提交的说明。我们用 git status 和 git log 看一下提交之后文件处于什么状态。通过 git status 我们看到当我们一旦提交后没有做任何修改，那么工作区就是干净的。在 git log 中我们的 master 分支上出现了第一次提交记录，该提交记录的说明是 create 1.c。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/8f1c4bdc7d73fe6.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1f5f2e6a346d0e0.jpeg&#34; alt=&#34;&#34; /&gt; 到这里，我们的版本库暂存区和工作区的内容就讲完了，但是我们不妨继续做实验加深对 git 的理解。接下来我们对 1.c 进行修改，比如我们写个 hello world 程序，然后我们用 git add 1.c 把它添加到暂存区，然后我们继续对 1.c 程序进行修改，比如写一行注释，最后我们 git commit 一下把东西提交。 此时我们使用 git status 查看状态发现我们对 1.c 的第二次修改并没有被提交，而且使用 git diff HEAD -- 1.c 命令查看文件不同时 git 明确的给我们指出来这多了一行 //hello world，这是为什么呢？这里我们需要清楚一个概念，在 git 的管理中，git 对于版本的控制实质上是对修改进行追踪。什么意思呢？你对文件的增删改对 git 来说都只是修改，git 并不会追踪文件的本身。我们回到刚刚的实验，最初我们在 1.c 中写了一个 hello world 程序，然后我们把 1.c 添加到了暂存区，这里实际上并不是把 1.c 文件添加到了暂存区，而是将 1.c 文件的修改提交到了暂存区，然后我们后面对 1.c 写了一行注释，这个改动并没有被添加，所以 commit 后版本库和工作区是不一致的。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/46086c6030d0a2f.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1846795b60e6210.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/ac72b20e5bce2da.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://www.taoidle.com/2020/02/24/git%E6%95%99%E7%A8%8B-git%E7%AE%80%E4%BB%8B/</guid>
+            <title>Git教程 —— Git简介</title>
+            <link>https://www.taoidle.com/2020/02/24/git%E6%95%99%E7%A8%8B-git%E7%AE%80%E4%BB%8B/</link>
+            <category>git</category>
+            <category>教程</category>
+            <pubDate>Mon, 24 Feb 2020 15:54:12 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;一-git简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-git简介&#34;&gt;#&lt;/a&gt; &lt;strong&gt;一、Git 简介&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1、Git 是什么&lt;/strong&gt; Git (读音为 /gɪt/。) 是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。 [1] Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。（百度百科） &lt;strong&gt;（1）集中式版本控制系统&lt;/strong&gt; 集中式版本控制系统的版本库集中存放在中央服务器的，干活的时候首先从中央服务器中获取最新的版本，然后干完活后在推送给中央服务器，本地没有版本库的修改记录。所以集中式版本控制器在没有联网的情况下是不能工作的。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1587996764-%E5%9B%BE%E7%89%871.png&#34; alt=&#34;&#34; /&gt; &lt;strong&gt;（2）分布式版本控制系统&lt;/strong&gt; 分布式版本控制系统中没有中央服务器，在自己的电脑上是有版本库的，在你工作时不需要联网。但是分布式版本控制系统中需要有一台电脑充当中央服务器，以便于不同电脑修改的交换。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1587996849-%E5%9B%BE%E7%89%872.png&#34; alt=&#34;&#34; /&gt; &lt;strong&gt;2、为什么要使用版本控制系统？&lt;/strong&gt; 编写文档、代码等文件的你一定有过这样的经历，对每次重要的修改都保存了一份新的文件 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1587997204-%E5%9B%BE%E7%89%873.png&#34; alt=&#34;&#34; /&gt; 这种做法相当简陋而且缺点非常明显，如果是多人协作的时候文档的命名不一定能反映出修改的内容，而且对存储空间的利用相当的不合理。这对生产需求来说是相当致命的，所以我们有了版本控制管理器。 版本控制器记录每次文件的改动，使用起来类似于如下效果&lt;/p&gt;
+&lt;p&gt;版本&lt;/p&gt;
+&lt;p&gt;文件名&lt;/p&gt;
+&lt;p&gt;用户&lt;/p&gt;
+&lt;p&gt;修改日期&lt;/p&gt;
+&lt;p&gt;说明&lt;/p&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;p&gt;linux.doc&lt;/p&gt;
+&lt;p&gt;老王&lt;/p&gt;
+&lt;p&gt;2020.1.5 8.54&lt;/p&gt;
+&lt;p&gt;linux 教程最初版&lt;/p&gt;
+&lt;p&gt;2&lt;/p&gt;
+&lt;p&gt;linux.doc&lt;/p&gt;
+&lt;p&gt;老王&lt;/p&gt;
+&lt;p&gt;2020.1.6 14.43&lt;/p&gt;
+&lt;p&gt;增加了文件权限相关内容&lt;/p&gt;
+&lt;p&gt;3&lt;/p&gt;
+&lt;p&gt;linux.doc&lt;/p&gt;
+&lt;p&gt;张三&lt;/p&gt;
+&lt;p&gt;2020.1.7 11.27&lt;/p&gt;
+&lt;p&gt;删除了硬件基础中老旧的硬件型号&lt;/p&gt;
+&lt;p&gt;4&lt;/p&gt;
+&lt;p&gt;linux.doc&lt;/p&gt;
+&lt;p&gt;李四&lt;/p&gt;
+&lt;p&gt;2020.1.8 18.36&lt;/p&gt;
+&lt;p&gt;对硬件基础中主板相关部分增加了新型号&lt;/p&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;p&gt;linux.doc&lt;/p&gt;
+&lt;p&gt;老王&lt;/p&gt;
+&lt;p&gt;2020.1.9 16.09&lt;/p&gt;
+&lt;p&gt;增加了常用命令内容&lt;/p&gt;
+&lt;p&gt;这样你既可以方便的管理一个文件的多个版本，也可以跟同事协同工作，是不是非常方便？于是你开始使用 Git 进行版本管理，开启了新世界的大门。 &lt;strong&gt;3、安装 Git&lt;/strong&gt; &lt;strong&gt;（1）Linux 安装 Git&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Debian/Ubuntu: &lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt-get&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Fedora/Red Hat/CentOS: &lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; yum &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; git-core&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;其它版本 linux 从 Git 官网下载源码后解压，然后通过 ./config , make , sudo make install 安装，这里不在赘述。 **  (2) Windows 安装 Git** 从&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXQtc2NtLmNvbS8=&#34;&gt; Git 官网&lt;/span&gt;下载安装包进行安装，安装之后找到 Git Bash　打开后弹出命令行窗口即安装成功。 **  (3) MacOS 安装 Git** 1、安装 homebrew，brew 安装 Git。下边给出安装命令，在终端中输入&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;homebrew：/usr/bin/ruby -e &lt;span class=&#34;token string&#34;&gt;&#34;&lt;span class=&#34;token variable&#34;&gt;&lt;span class=&#34;token variable&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;curl&lt;/span&gt; -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install&lt;span class=&#34;token variable&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git: brew &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;2、在 APP Store 中下载 Xcode，Xcode 自带 git 在完成安装之后我们要对 git 进行进一步的设置，打开 Git Bash，在命令行中输入以下命令：&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; config --global user.name “username” username为你的用户名&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; config --global user.email “email@example.com” email@example.com为你的邮箱地址&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;注意：global 参数是全局设置，表示该电脑上所有的 git 仓库都使用此用户名和邮箱地址&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
