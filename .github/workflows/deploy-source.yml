@@ -61,11 +61,9 @@ jobs:
         id: deployStatic
         uses: TencentCloudBase/cloudbase-action@v2.0.1  
         with: 
-          secretId: ${{secrets.Secret_ID}}
-          secretKey: ${{secrets.Secret_Key}}
+          secretId: ${{secrets.SECRET_ID}}
+          secretKey: ${{secrets.SECRET_KEY}}
           envId: ${{secrets.ENV_ID}}
-          # Github 项目静态文件的路径
-          staticSrcPath: public
 
       # - name: Read Version
       #   id: version
