@@ -3,7 +3,7 @@
     "region": "ap-guangzhou",
     "framework": {
       "plugins": {
-        "name": "blog",
+        "name": "Hexo",
         "client": {
           "use": "@cloudbase/framework-plugin-website",
           "inputs": {
