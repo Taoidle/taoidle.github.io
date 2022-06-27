@@ -18,10 +18,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      # 使用云开发 Github Action 部署
       - name: Deploy static to Tencent CloudBase
         uses: TencentCloudBase/cloudbase-action@v2 
-        with: 
-          secretId: ${{secrets.SECRET_ID}}
-          secretKey: ${{secrets.SECRET_KEY}}
+        with:
+          secretId: ${{secrets.SECRETID}}
+          secretKey: ${{secrets.SECRETKEY}}
           envId: ${{secrets.ENV_ID}}
