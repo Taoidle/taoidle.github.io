@@ -7,7 +7,7 @@
           "use": "@cloudbase/framework-plugin-website",
           "inputs": {
             "installCommand": "npm install --prefer-offline --no-audit --progress=false",
-            "buildCommand": "hexo g",
+            "buildCommand": "npm run build",
             "outputPath": "public",
             "cloudPath": "/",
             "ignore": [".git", ".github", "node_modules", "cloudbaserc.js"]
