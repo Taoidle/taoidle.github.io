@@ -20,9 +20,9 @@ jobs:
 
       - name: Checkout Secrets
         env:
-        SECRETID: ${{ secrets.SECRETID }}
-        SECRETKEY: ${{ secrets.SECRETKEY }}
-        ENV_ID: ${{ secrets.ENV_ID }}
+          SECRETID: ${{ secrets.SECRETID }}
+          SECRETKEY: ${{ secrets.SECRETKEY }}
+          ENV_ID: ${{ secrets.ENV_ID }}
         run: |
           echo $SECRETID
           echo $SECRETKEY
