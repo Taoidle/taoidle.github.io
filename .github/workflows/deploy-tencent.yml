@@ -1,0 +1,28 @@
+name: HEXO_DEPLOY_TENCENT
+
+on:
+  push:
+    branches:
+      - source
+
+jobs:
+  build:
+    name: deploy-tencent
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node_version: [16.x]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # 使用云开发 Github Action 部署
+      - name: Deploy static to Tencent CloudBase
+        id: deployStatic
+        uses: TencentCloudBase/cloudbase-action@v2.0.1  
+        with: 
+          secretId: ${{secrets.SECRET_ID}}
+          secretKey: ${{secrets.SECRET_KEY}}
+          envId: ${{secrets.ENV_ID}}
