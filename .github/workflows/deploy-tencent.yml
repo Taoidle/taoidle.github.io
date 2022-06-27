@@ -20,8 +20,7 @@ jobs:
 
       # 使用云开发 Github Action 部署
       - name: Deploy static to Tencent CloudBase
-        id: deployStatic
-        uses: TencentCloudBase/cloudbase-action@v2.0.1  
+        uses: TencentCloudBase/cloudbase-action@v2 
         with: 
           secretId: ${{secrets.SECRET_ID}}
           secretKey: ${{secrets.SECRET_KEY}}
