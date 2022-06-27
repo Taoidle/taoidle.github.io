@@ -7,33 +7,38 @@
         <language>zh-CN</language>
         <pubDate>Thu, 02 Jul 2020 21:29:20 +0800</pubDate>
         <lastBuildDate>Thu, 02 Jul 2020 21:29:20 +0800</lastBuildDate>
-        <category>git</category>
+        <category>opencv</category>
+        <category>pyqt5</category>
+        <category>python</category>
+        <category>vscode</category>
+        <category>图像处理</category>
         <category>教程</category>
         <category>android</category>
         <category>android studio</category>
+        <category>arduino</category>
+        <category>CLion</category>
+        <category>esp8266</category>
+        <category>nodemcu</category>
+        <category>PlatformIO</category>
+        <category>git</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
         <category>npm</category>
-        <category>opencv</category>
-        <category>python</category>
         <category>原创教程</category>
-        <category>图像处理</category>
         <category>Docker</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
         <category>树莓派</category>
-        <category>pyqt5</category>
         <category>Bitwarden</category>
         <category>树莓派4b</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
-        <category>arduino</category>
-        <category>esp8266</category>
-        <category>nodemcu</category>
-        <category>vscode</category>
-        <category>CLion</category>
-        <category>PlatformIO</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
         <category>Apple</category>
         <category>esp01</category>
         <category>esp01s</category>
@@ -45,11 +50,6 @@
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
-        <category>cloudflare</category>
-        <category>cloudflare worker</category>
-        <category>github</category>
-        <category>cdn</category>
-        <category>typescript</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/07/02/manjaro-npm%E6%8D%A2%E6%BA%90/</guid>
             <title>manjaro npm换源</title>

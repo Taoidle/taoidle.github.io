@@ -7,33 +7,38 @@
         <language>zh-CN</language>
         <pubDate>Tue, 21 Apr 2020 23:25:36 +0800</pubDate>
         <lastBuildDate>Tue, 21 Apr 2020 23:25:36 +0800</lastBuildDate>
-        <category>git</category>
+        <category>opencv</category>
+        <category>pyqt5</category>
+        <category>python</category>
+        <category>vscode</category>
+        <category>图像处理</category>
         <category>教程</category>
         <category>android</category>
         <category>android studio</category>
+        <category>arduino</category>
+        <category>CLion</category>
+        <category>esp8266</category>
+        <category>nodemcu</category>
+        <category>PlatformIO</category>
+        <category>git</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
         <category>npm</category>
-        <category>opencv</category>
-        <category>python</category>
         <category>原创教程</category>
-        <category>图像处理</category>
         <category>Docker</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
         <category>树莓派</category>
-        <category>pyqt5</category>
         <category>Bitwarden</category>
         <category>树莓派4b</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
-        <category>arduino</category>
-        <category>esp8266</category>
-        <category>nodemcu</category>
-        <category>vscode</category>
-        <category>CLion</category>
-        <category>PlatformIO</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
         <category>Apple</category>
         <category>esp01</category>
         <category>esp01s</category>
@@ -45,18 +50,13 @@
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
-        <category>cloudflare</category>
-        <category>cloudflare worker</category>
-        <category>github</category>
-        <category>cdn</category>
-        <category>typescript</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/04/21/%E5%85%B3%E4%BA%8Ecv-tool%E5%B0%8F%E5%B7%A5%E5%85%B7/</guid>
             <title>关于CV Tool小工具</title>
             <link>https://www.taoidle.com/2020/04/21/%E5%85%B3%E4%BA%8Ecv-tool%E5%B0%8F%E5%B7%A5%E5%85%B7/</link>
             <category>opencv</category>
-            <category>python</category>
             <category>pyqt5</category>
+            <category>python</category>
             <category>计算机视觉</category>
             <pubDate>Tue, 21 Apr 2020 23:25:36 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;关于cv-tool&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于cv-tool&#34;&gt;#&lt;/a&gt; 关于 CV Tool&lt;/h2&gt;

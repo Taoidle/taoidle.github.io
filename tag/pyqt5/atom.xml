@@ -4,33 +4,38 @@
     <title>Taoidle • Posts by &#34;pyqt5&#34; tag</title>
     <link href="https://www.taoidle.com" />
     <updated>2020-05-02T16:06:38.000Z</updated>
-    <category term="git" />
+    <category term="opencv" />
+    <category term="pyqt5" />
+    <category term="python" />
+    <category term="vscode" />
+    <category term="图像处理" />
     <category term="教程" />
     <category term="android" />
     <category term="android studio" />
+    <category term="arduino" />
+    <category term="CLion" />
+    <category term="esp8266" />
+    <category term="nodemcu" />
+    <category term="PlatformIO" />
+    <category term="git" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
     <category term="npm" />
-    <category term="opencv" />
-    <category term="python" />
     <category term="原创教程" />
-    <category term="图像处理" />
     <category term="Docker" />
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
     <category term="树莓派" />
-    <category term="pyqt5" />
     <category term="Bitwarden" />
     <category term="树莓派4b" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
-    <category term="arduino" />
-    <category term="esp8266" />
-    <category term="nodemcu" />
-    <category term="vscode" />
-    <category term="CLion" />
-    <category term="PlatformIO" />
+    <category term="cloudflare" />
+    <category term="cloudflare worker" />
+    <category term="github" />
+    <category term="cdn" />
+    <category term="typescript" />
     <category term="Apple" />
     <category term="esp01" />
     <category term="esp01s" />
@@ -42,11 +47,6 @@
     <category term="ARM" />
     <category term="arm-linux-gcc" />
     <category term="gcc" />
-    <category term="cloudflare" />
-    <category term="cloudflare worker" />
-    <category term="github" />
-    <category term="cdn" />
-    <category term="typescript" />
     <entry>
         <id>https://www.taoidle.com/2020/05/03/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-dct%E5%8F%98%E6%8D%A2%EF%BC%881%EF%BC%89/</id>
         <title>Python图像处理 —— DCT变换</title>
@@ -61,11 +61,11 @@
 &lt;h3 id=&#34;彩色图像dct变换&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#彩色图像dct变换&#34;&gt;#&lt;/a&gt; 彩色图像 DCT 变换&lt;/h3&gt;
 &lt;p&gt;打开图像 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_cd0232d0bcdb5fa3abe9279e639b63ee.jpg&#34; alt=&#34;&#34; /&gt; 选定 DCT 去除的信息，进行 DCT 变换 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_392cc8c9f36cf5dadbb8fe641951f85e.jpg&#34; alt=&#34;&#34; /&gt; 得到效果图 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_44c76d239bee25c7f0dfcaa3e9352451.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="教程" />
         <category term="opencv" />
+        <category term="pyqt5" />
         <category term="python" />
         <category term="图像处理" />
-        <category term="pyqt5" />
+        <category term="教程" />
         <updated>2020-05-02T16:06:38.000Z</updated>
     </entry>
     <entry>
@@ -89,8 +89,8 @@
 &lt;p&gt;开打图像 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_e511343b09cc081918455191d329be43.jpg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_8a64d3c5f7e42c22f145188efe2dd4d0.jpg&#34; alt=&#34;&#34; /&gt; 观察图像直方图 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_4956b5644d05df7dc42b1162af8868db.jpg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_ebfc8d39d885a5a334f7e9f3ce18cec8.jpg&#34; alt=&#34;&#34; /&gt; 图像边缘检测 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_a6573ae844443aaab4ef86004a375d17.jpg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_8b20c24dd48de19270a5f357ee87b98d.jpg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_dfbd626bdfbcc6335077925eff52d090.jpg&#34; alt=&#34;&#34; /&gt; 图像信息嵌入 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_d8c562da0b6ebde95f1d8743a573e18e.jpg&#34; alt=&#34;&#34; /&gt; 图像信息提取 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_7313b0e3c6a563e4dfc43acee6e44bd2.jpg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_cab210e0c8713d42f348dbc0d16548db.jpg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_9ffff702eea373601860ff1c8884f309.jpg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_84a023c42a22b7523a734d5733710baf.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
         <category term="opencv" />
-        <category term="python" />
         <category term="pyqt5" />
+        <category term="python" />
         <category term="计算机视觉" />
         <updated>2020-04-21T15:25:36.000Z</updated>
     </entry>

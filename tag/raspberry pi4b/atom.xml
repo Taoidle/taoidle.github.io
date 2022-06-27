@@ -4,33 +4,38 @@
     <title>Taoidle • Posts by &#34;raspberry pi4b&#34; tag</title>
     <link href="https://www.taoidle.com" />
     <updated>2022-04-09T09:10:15.000Z</updated>
-    <category term="git" />
+    <category term="opencv" />
+    <category term="pyqt5" />
+    <category term="python" />
+    <category term="vscode" />
+    <category term="图像处理" />
     <category term="教程" />
     <category term="android" />
     <category term="android studio" />
+    <category term="arduino" />
+    <category term="CLion" />
+    <category term="esp8266" />
+    <category term="nodemcu" />
+    <category term="PlatformIO" />
+    <category term="git" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
     <category term="npm" />
-    <category term="opencv" />
-    <category term="python" />
     <category term="原创教程" />
-    <category term="图像处理" />
     <category term="Docker" />
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
     <category term="树莓派" />
-    <category term="pyqt5" />
     <category term="Bitwarden" />
     <category term="树莓派4b" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
-    <category term="arduino" />
-    <category term="esp8266" />
-    <category term="nodemcu" />
-    <category term="vscode" />
-    <category term="CLion" />
-    <category term="PlatformIO" />
+    <category term="cloudflare" />
+    <category term="cloudflare worker" />
+    <category term="github" />
+    <category term="cdn" />
+    <category term="typescript" />
     <category term="Apple" />
     <category term="esp01" />
     <category term="esp01s" />
@@ -42,11 +47,6 @@
     <category term="ARM" />
     <category term="arm-linux-gcc" />
     <category term="gcc" />
-    <category term="cloudflare" />
-    <category term="cloudflare worker" />
-    <category term="github" />
-    <category term="cdn" />
-    <category term="typescript" />
     <entry>
         <id>https://www.taoidle.com/2022/04/09/raspberry-pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2bitwarden/</id>
         <title>Raspberry Pi4b私有部署Bitwarden</title>

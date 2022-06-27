@@ -7,33 +7,38 @@
         <language>zh-CN</language>
         <pubDate>Fri, 12 Jun 2020 01:30:58 +0800</pubDate>
         <lastBuildDate>Fri, 12 Jun 2020 01:30:58 +0800</lastBuildDate>
-        <category>git</category>
+        <category>opencv</category>
+        <category>pyqt5</category>
+        <category>python</category>
+        <category>vscode</category>
+        <category>图像处理</category>
         <category>教程</category>
         <category>android</category>
         <category>android studio</category>
+        <category>arduino</category>
+        <category>CLion</category>
+        <category>esp8266</category>
+        <category>nodemcu</category>
+        <category>PlatformIO</category>
+        <category>git</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
         <category>npm</category>
-        <category>opencv</category>
-        <category>python</category>
         <category>原创教程</category>
-        <category>图像处理</category>
         <category>Docker</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
         <category>树莓派</category>
-        <category>pyqt5</category>
         <category>Bitwarden</category>
         <category>树莓派4b</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
-        <category>arduino</category>
-        <category>esp8266</category>
-        <category>nodemcu</category>
-        <category>vscode</category>
-        <category>CLion</category>
-        <category>PlatformIO</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
         <category>Apple</category>
         <category>esp01</category>
         <category>esp01s</category>
@@ -45,11 +50,6 @@
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
-        <category>cloudflare</category>
-        <category>cloudflare worker</category>
-        <category>github</category>
-        <category>cdn</category>
-        <category>typescript</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/06/12/%E5%85%B3%E4%BA%8Eubuntu20-04%E5%AE%89%E8%A3%85arm-linux-gcc%E5%8F%91%E7%94%9F%E7%9A%84%E9%94%99%E8%AF%AF/</guid>
             <title>关于Ubuntu20.04安装arm-linux-gcc发生的错误</title>

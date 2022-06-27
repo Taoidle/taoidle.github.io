@@ -4,33 +4,38 @@
     <title>Taoidle • Posts by &#34;git教程&#34; category</title>
     <link href="https://www.taoidle.com" />
     <updated>2020-04-22T04:00:08.000Z</updated>
-    <category term="git" />
+    <category term="opencv" />
+    <category term="pyqt5" />
+    <category term="python" />
+    <category term="vscode" />
+    <category term="图像处理" />
     <category term="教程" />
     <category term="android" />
     <category term="android studio" />
+    <category term="arduino" />
+    <category term="CLion" />
+    <category term="esp8266" />
+    <category term="nodemcu" />
+    <category term="PlatformIO" />
+    <category term="git" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
     <category term="npm" />
-    <category term="opencv" />
-    <category term="python" />
     <category term="原创教程" />
-    <category term="图像处理" />
     <category term="Docker" />
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
     <category term="树莓派" />
-    <category term="pyqt5" />
     <category term="Bitwarden" />
     <category term="树莓派4b" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
-    <category term="arduino" />
-    <category term="esp8266" />
-    <category term="nodemcu" />
-    <category term="vscode" />
-    <category term="CLion" />
-    <category term="PlatformIO" />
+    <category term="cloudflare" />
+    <category term="cloudflare worker" />
+    <category term="github" />
+    <category term="cdn" />
+    <category term="typescript" />
     <category term="Apple" />
     <category term="esp01" />
     <category term="esp01s" />
@@ -42,11 +47,6 @@
     <category term="ARM" />
     <category term="arm-linux-gcc" />
     <category term="gcc" />
-    <category term="cloudflare" />
-    <category term="cloudflare worker" />
-    <category term="github" />
-    <category term="cdn" />
-    <category term="typescript" />
     <entry>
         <id>https://www.taoidle.com/2020/04/22/git%E6%95%99%E7%A8%8B-git%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</id>
         <title>Git教程 —— Git的基本操作</title>
@@ -69,8 +69,8 @@
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;命令：git checkout -- &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;.c&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;将版本库中版本恢复到工作区就可以了。是不是这样呢？我们执行一下命令，执行 git checkout -- 1.c 命令后 1.c 文件确实恢复了。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/a8ea5564ea97dd6.png&#34; alt=&#34;&#34; /&gt; 如果说你不是手滑删错了而是确实想把 1.c 文件删掉，那你在工作区删除 1.c 后你需要执行命令&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;命令：git &lt;span class=&#34;token function&#34;&gt;rm&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;.c&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;然后 commit 才能将 1.c 从版本库中删除。&lt;/p&gt;
 </content>
-        <category term="git" />
         <category term="教程" />
+        <category term="git" />
         <updated>2020-04-22T04:00:08.000Z</updated>
     </entry>
     <entry>
@@ -95,8 +95,8 @@
 &lt;h2 id=&#34;一个简单的示例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一个简单的示例&#34;&gt;#&lt;/a&gt; 一个简单的示例&lt;/h2&gt;
 &lt;p&gt;我们通过一个简单的示例来理解上面几个概念。 首先，我们打开 Git Bash，在桌面上创建一个目录文件叫 git_demo，然后进入 git_demo 目录。这个时候 git_demo 就是我们的工作目录。此时我们的 Git 自动帮我们创建了第一个分支 master 以及一个指向 master 的指针 HEAD。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/e9a350a6a586253.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/3702b46d7173cbf.jpeg&#34; alt=&#34;&#34; /&gt; 接着，我们输入 git init 命令，在 git_demo 目录下创建版本库，此时你会发现在 git_demo 目录下多了一个隐藏文件夹 .git , 该文件夹就是我们的版本库。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/63d96c143a063ca.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1c84c81e4ca26e5.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/572ecd978d78681.jpeg&#34; alt=&#34;&#34; /&gt; 然后，我们使用 touch 1.c 命令在工作区里创建一个.c 文件，并用 git add 1.c 将文件添加到暂存区。我们使用命令 git status 查看文件状态，git log 查看 git 日志，看到文件尚未被提交，在 git 日志中 master 分支没有任何提交记录，得知我们添加的 1.c 文件仍在暂存区。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/e437e7368ffb667.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/d6ebcb7047443eb.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/bf1a70e8ce730db.jpeg&#34; alt=&#34;&#34; /&gt; 最后，我们使用 git commit 命令将暂存区内容提交到分支 master 中。这里 git commit -m “create 1.c” 中”” 中内容为此次提交的说明。我们用 git status 和 git log 看一下提交之后文件处于什么状态。通过 git status 我们看到当我们一旦提交后没有做任何修改，那么工作区就是干净的。在 git log 中我们的 master 分支上出现了第一次提交记录，该提交记录的说明是 create 1.c。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/8f1c4bdc7d73fe6.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1f5f2e6a346d0e0.jpeg&#34; alt=&#34;&#34; /&gt; 到这里，我们的版本库暂存区和工作区的内容就讲完了，但是我们不妨继续做实验加深对 git 的理解。接下来我们对 1.c 进行修改，比如我们写个 hello world 程序，然后我们用 git add 1.c 把它添加到暂存区，然后我们继续对 1.c 程序进行修改，比如写一行注释，最后我们 git commit 一下把东西提交。 此时我们使用 git status 查看状态发现我们对 1.c 的第二次修改并没有被提交，而且使用 git diff HEAD -- 1.c 命令查看文件不同时 git 明确的给我们指出来这多了一行 //hello world，这是为什么呢？这里我们需要清楚一个概念，在 git 的管理中，git 对于版本的控制实质上是对修改进行追踪。什么意思呢？你对文件的增删改对 git 来说都只是修改，git 并不会追踪文件的本身。我们回到刚刚的实验，最初我们在 1.c 中写了一个 hello world 程序，然后我们把 1.c 添加到了暂存区，这里实际上并不是把 1.c 文件添加到了暂存区，而是将 1.c 文件的修改提交到了暂存区，然后我们后面对 1.c 写了一行注释，这个改动并没有被添加，所以 commit 后版本库和工作区是不一致的。 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/46086c6030d0a2f.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1846795b60e6210.jpeg&#34; alt=&#34;&#34; /&gt; &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/ac72b20e5bce2da.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="git" />
         <category term="教程" />
+        <category term="git" />
         <updated>2020-03-16T02:17:41.000Z</updated>
     </entry>
     <entry>
@@ -140,8 +140,8 @@
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;homebrew：/usr/bin/ruby -e &lt;span class=&#34;token string&#34;&gt;&#34;&lt;span class=&#34;token variable&#34;&gt;&lt;span class=&#34;token variable&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;curl&lt;/span&gt; -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install&lt;span class=&#34;token variable&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git: brew &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;2、在 APP Store 中下载 Xcode，Xcode 自带 git 在完成安装之后我们要对 git 进行进一步的设置，打开 Git Bash，在命令行中输入以下命令：&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; config --global user.name “username” username为你的用户名&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; config --global user.email “email@example.com” email@example.com为你的邮箱地址&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;注意：global 参数是全局设置，表示该电脑上所有的 git 仓库都使用此用户名和邮箱地址&lt;/p&gt;
 </content>
-        <category term="git" />
         <category term="教程" />
+        <category term="git" />
         <updated>2020-02-24T07:54:12.000Z</updated>
     </entry>
 </feed>
