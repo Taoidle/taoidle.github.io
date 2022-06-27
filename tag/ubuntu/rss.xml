@@ -7,38 +7,33 @@
         <language>zh-CN</language>
         <pubDate>Fri, 12 Jun 2020 01:52:27 +0800</pubDate>
         <lastBuildDate>Fri, 12 Jun 2020 01:52:27 +0800</lastBuildDate>
-        <category>opencv</category>
-        <category>pyqt5</category>
-        <category>python</category>
-        <category>vscode</category>
-        <category>图像处理</category>
+        <category>git</category>
         <category>教程</category>
         <category>android</category>
         <category>android studio</category>
-        <category>arduino</category>
-        <category>CLion</category>
-        <category>esp8266</category>
-        <category>nodemcu</category>
-        <category>PlatformIO</category>
-        <category>git</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
         <category>npm</category>
+        <category>opencv</category>
+        <category>python</category>
         <category>原创教程</category>
+        <category>图像处理</category>
         <category>Docker</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
         <category>树莓派</category>
+        <category>pyqt5</category>
         <category>Bitwarden</category>
         <category>树莓派4b</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
-        <category>cloudflare</category>
-        <category>cloudflare worker</category>
-        <category>github</category>
-        <category>cdn</category>
-        <category>typescript</category>
+        <category>arduino</category>
+        <category>esp8266</category>
+        <category>nodemcu</category>
+        <category>vscode</category>
+        <category>CLion</category>
+        <category>PlatformIO</category>
         <category>Apple</category>
         <category>esp01</category>
         <category>esp01s</category>
@@ -50,6 +45,11 @@
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/06/12/ubuntu20-04%E6%8D%A2%E6%BA%90/</guid>
             <title>ubuntu20.04换源</title>

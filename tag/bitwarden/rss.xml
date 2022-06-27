@@ -7,38 +7,33 @@
         <language>zh-CN</language>
         <pubDate>Sat, 09 Apr 2022 17:10:15 +0800</pubDate>
         <lastBuildDate>Sat, 09 Apr 2022 17:10:15 +0800</lastBuildDate>
-        <category>opencv</category>
-        <category>pyqt5</category>
-        <category>python</category>
-        <category>vscode</category>
-        <category>图像处理</category>
+        <category>git</category>
         <category>教程</category>
         <category>android</category>
         <category>android studio</category>
-        <category>arduino</category>
-        <category>CLion</category>
-        <category>esp8266</category>
-        <category>nodemcu</category>
-        <category>PlatformIO</category>
-        <category>git</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
         <category>npm</category>
+        <category>opencv</category>
+        <category>python</category>
         <category>原创教程</category>
+        <category>图像处理</category>
         <category>Docker</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
         <category>树莓派</category>
+        <category>pyqt5</category>
         <category>Bitwarden</category>
         <category>树莓派4b</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
-        <category>cloudflare</category>
-        <category>cloudflare worker</category>
-        <category>github</category>
-        <category>cdn</category>
-        <category>typescript</category>
+        <category>arduino</category>
+        <category>esp8266</category>
+        <category>nodemcu</category>
+        <category>vscode</category>
+        <category>CLion</category>
+        <category>PlatformIO</category>
         <category>Apple</category>
         <category>esp01</category>
         <category>esp01s</category>
@@ -50,6 +45,11 @@
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2022/04/09/raspberry-pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2bitwarden/</guid>
             <title>Raspberry Pi4b私有部署Bitwarden</title>
