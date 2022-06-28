@@ -129,7 +129,7 @@ kv中存储了一个index数据，用来查找数据，如下：
 1. 在github上创建一个空仓库用于存放图片，然后将自己喜欢的图片提交到该仓库即可，然后就可以在jsdelivr上取到该仓库的文件
 
     ```console
-    https://cdn.jsdelivr.net/gh/github用户名/仓库名@分支
+    https://cdn.assets.taoidle.com/gh/github用户名/仓库名@分支
     ```
   
 2. 克隆 [RandPicWorker](https://github.com/Taoidle/RandPicWorker) 这个项目，在项目根目录下执行yarn打好依赖。然后使用以下命令登录cloudflare
@@ -142,7 +142,7 @@ kv中存储了一个index数据，用来查找数据，如下：
 
 4. 填写项目里wrangler.toml文件缺少的信息
 
-   ![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/Snipaste_2022-05-25_22-30-06.png)
+   ![](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/Snipaste_2022-05-25_22-30-06.png)
 
 5. 执行package.json scripts里的publish命令
 

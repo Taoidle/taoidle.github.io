@@ -32,7 +32,7 @@ JB家的东西实在是太好用了，丝毫不是因为我大半年没更新想
 
 1.在Clion Plugins里搜索安装PlatformIO for CLion，安装完成后重启CLion
 
-![](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1623260501-image-1623260500170.png)
+![](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1623260501-image-1623260500170.png)
 
 2.安装PlatformIO Core (CLI)
 
@@ -68,11 +68,11 @@ JB家的东西实在是太好用了，丝毫不是因为我大半年没更新想
 
 3.CLion创建PlatformIO NodeMcu项目
 
-![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1623263906-image-1623263905423.png)
+![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1623263906-image-1623263905423.png)
 
-![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1623264001-image-1623263999430.png)
+![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1623264001-image-1623263999430.png)
 
-![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1623264411-image-1623264410352.png)
+![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1623264411-image-1623264410352.png)
 
 到此项目创建完成
 
@@ -80,7 +80,7 @@ JB家的东西实在是太好用了，丝毫不是因为我大半年没更新想
 
 *   修改CMakeLists.txt，将main.cpp添加到项目
     
-    ![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1623264624-image-1623264622615.png)
+    ![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1623264624-image-1623264622615.png)
     
 *   引入第三方库，如 U8g2
     
@@ -95,25 +95,25 @@ JB家的东西实在是太好用了，丝毫不是因为我大半年没更新想
     
 *   修改CMakeLists.txt，将U8g2库添加到项目中
     
-    ![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1623266913-image-1623266912048.png)
+    ![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1623266913-image-1623266912048.png)
     
 *   修改项目编译配置
     
-    ![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1623267020-image-1623267019679.png)
+    ![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1623267020-image-1623267019679.png)
     
     把 build删除
     
-    ![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1623267165-image-1623267164884.png)
+    ![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1623267165-image-1623267164884.png)
     
 *   修改串口监视器
     
-    ![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1623267367-image-1623267366364.png)
+    ![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1623267367-image-1623267366364.png)
     
-    ![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1623267453-image-1623267452000.png)
+    ![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1623267453-image-1623267452000.png)
     
 
 5.编写代码并编译上传到 NodeMCU
 
-![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1623267695-image-1623267693765.png)
+![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1623267695-image-1623267693765.png)
 
-![file](https://cdn.jsdelivr.net/gh/taoidle/taoidle.github.io@master/assets/images/1623267853-image-1623267850897.png)
+![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1623267853-image-1623267850897.png)
