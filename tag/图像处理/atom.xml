@@ -47,6 +47,11 @@
     <category term="ARM" />
     <category term="arm-linux-gcc" />
     <category term="gcc" />
+    <category term="tencent cloud" />
+    <category term="scf" />
+    <category term="leancloud" />
+    <category term="upyun" />
+    <category term="javascript" />
     <entry>
         <id>https://www.taoidle.com/2020/10/22/windows%E4%B8%8Bclionopencv%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
         <title>Windows下Clion+OpenCV开发环境搭建</title>

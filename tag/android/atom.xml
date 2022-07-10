@@ -47,6 +47,11 @@
     <category term="ARM" />
     <category term="arm-linux-gcc" />
     <category term="gcc" />
+    <category term="tencent cloud" />
+    <category term="scf" />
+    <category term="leancloud" />
+    <category term="upyun" />
+    <category term="javascript" />
     <entry>
         <id>https://www.taoidle.com/2020/05/10/android-studio%E8%8E%B7%E5%8F%96sha1/</id>
         <title>Android Studio获取SHA1</title>

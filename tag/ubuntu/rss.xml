@@ -50,6 +50,11 @@
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
+        <category>tencent cloud</category>
+        <category>scf</category>
+        <category>leancloud</category>
+        <category>upyun</category>
+        <category>javascript</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/06/12/ubuntu20-04%E6%8D%A2%E6%BA%90/</guid>
             <title>ubuntu20.04换源</title>

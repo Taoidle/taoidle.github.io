@@ -47,6 +47,11 @@
     <category term="ARM" />
     <category term="arm-linux-gcc" />
     <category term="gcc" />
+    <category term="tencent cloud" />
+    <category term="scf" />
+    <category term="leancloud" />
+    <category term="upyun" />
+    <category term="javascript" />
     <entry>
         <id>https://www.taoidle.com/2020/07/02/manjaro-npm%E6%8D%A2%E6%BA%90/</id>
         <title>manjaro npm换源</title>

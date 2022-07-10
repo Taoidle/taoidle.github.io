@@ -47,6 +47,11 @@
     <category term="ARM" />
     <category term="arm-linux-gcc" />
     <category term="gcc" />
+    <category term="tencent cloud" />
+    <category term="scf" />
+    <category term="leancloud" />
+    <category term="upyun" />
+    <category term="javascript" />
     <entry>
         <id>https://www.taoidle.com/2022/04/09/raspberry-pi4b%E5%AE%89%E8%A3%85docker/</id>
         <title>Raspberry Pi4b安装Docker</title>
