@@ -20,6 +20,9 @@
         <category>esp8266</category>
         <category>nodemcu</category>
         <category>PlatformIO</category>
+        <category>esp32</category>
+        <category>esp32-s3-devkitc</category>
+        <category>platformio</category>
         <category>git</category>
         <category>Linux</category>
         <category>manjaro</category>

@@ -17,6 +17,9 @@
     <category term="esp8266" />
     <category term="nodemcu" />
     <category term="PlatformIO" />
+    <category term="esp32" />
+    <category term="esp32-s3-devkitc" />
+    <category term="platformio" />
     <category term="git" />
     <category term="Linux" />
     <category term="manjaro" />
