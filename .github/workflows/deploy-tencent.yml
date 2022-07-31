@@ -28,9 +28,9 @@ jobs:
           echo $SECRETKEY
           echo $ENV_ID
 
-      - name: Deploy static to Tencent CloudBase
-        uses: TencentCloudBase/cloudbase-action@v2 
-        with:
-          secretId: ${{ secrets.SECRETID }}
-          secretKey: ${{ secrets.SECRETKEY }}
-          envId: ${{ secrets.ENV_ID }}
+      # - name: Deploy static to Tencent CloudBase
+      #   uses: TencentCloudBase/cloudbase-action@v2 
+      #   with:
+      #     secretId: ${{ secrets.SECRETID }}
+      #     secretKey: ${{ secrets.SECRETKEY }}
+      #     envId: ${{ secrets.ENV_ID }}
