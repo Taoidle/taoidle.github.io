@@ -66,7 +66,7 @@ tags:
 
 官方示例如下，在官方示例中引脚为默认，在实际场景中往往需要自定义引脚。
 
-```c++
+```cpp
 /*
  * Connect the SD card to the following pins:
  *
@@ -293,14 +293,13 @@ void loop(){
 需要注意的是，这里SPI SD卡必须接5V，官方示例中接入为3.3V，在实际中不行，会报错。
 
 
-```
+`
 sdcard_mount(): f_mount failed: (3) The physical drive cannot work
-Card Mount Failed
-```
+`
 
 正确做法应该将SPI SD接入5V后，自己初始化SPI引脚后传入SD卡初始化
 
-```c++
+```cpp
 #include <SPI.h>
 #include <FS.h>
 #include <SD.h>
@@ -354,9 +353,13 @@ void loop() {
 
 ```
 
+### 遥杆模块
+
+
+
 ### FreeRTOS
 
-...
+
 
 ### GUIslice
 
