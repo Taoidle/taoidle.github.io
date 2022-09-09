@@ -54,6 +54,7 @@ jobs:
 
       - name: Configuration COS Environment
         run:
+          sudo pip install tencentcloud-sdk-python==3.0.557
           sudo pip install coscmd
           sudo pip install tccli==3.0.557.1
 
