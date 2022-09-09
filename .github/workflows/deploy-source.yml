@@ -80,6 +80,7 @@ jobs:
       - name: Upload Cos
         run: |
           coscmd upload -rfs --delete ./public/ /
+          tccli cdn PurgePathCache --cli-unfold-argument --Paths https://www.taoidle.com/ --FlushType flush
 
       # - name: Read Version
       #   id: version
