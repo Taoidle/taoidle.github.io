@@ -59,14 +59,14 @@ jobs:
 
       - name: Configuration COS
         env:
-          SECRET_ID: ${{secrets.SECRET_ID}}
-          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          SECRET_ID: ${{secrets.SECRETID}}
+          SECRET_KEY: ${{ secrets.SECRETKEY }}
           BUCKET: ${{ secrets.BUCKET }}
           REGION: ${{ secrets.REGION }}     
         run: |
-          coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
-          tccli configure set secretId $SECRET_ID
-          tccli configure set secretKey $SECRET_KEY
+          coscmd config -a $SECRETID -s $SECRETKEY -b $BUCKET -r $REGION
+          tccli configure set secretId $SECRETID
+          tccli configure set secretKey $SECRETKEY
           tccli configure set region $REGION
 
 
