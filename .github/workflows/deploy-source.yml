@@ -52,9 +52,33 @@ jobs:
         run: |
           npm install
 
+      - name: Configuration COS Environment
+        run:
+          sudo pip install coscmd
+          sudo pip install tccli
+
+      - name: Configuration COS
+        env:
+          SECRET_ID: ${{secrets.SECRET_ID}}
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          BUCKET: ${{ secrets.BUCKET }}
+          REGION: ${{ secrets.REGION }}     
+        run: |
+          coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+          tccli configure set secretId $SECRET_ID
+          tccli configure set secretKey $SECRET_KEY
+          tccli configure set region $REGION
+
+
       - name: Deploy hexo
         run: |
+          npm run clean
+          npm run build
           npm run deploy
+
+      - name: Upload Cos
+        run: |
+          coscmd upload -rfs --delete ./public/ /
 
       # - name: Read Version
       #   id: version
