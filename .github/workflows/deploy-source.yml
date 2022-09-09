@@ -54,6 +54,8 @@ jobs:
 
       - name: Configuration COS Environment
         run:
+          sudo pip install requests==2.27.0
+          sudo pip install six==1.16.0
           sudo pip install coscmd
           sudo pip install tccli
 
