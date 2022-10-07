@@ -9,7 +9,7 @@ tags:
 ---
 ### KDE
 
-- KDE重启
+- KDE Desktop Restart
 
     `kquitapp5 plasmashell && kstart plasmashell`
 
