@@ -15,6 +15,10 @@ tags:
 
 ### KVM
 
+1. Install KVM
+
+    ``` pacman -S qemu libvirt ovmf virt-manager virt-viewer dnsmasq vdebridge-utils openbsd-netcat ```
+
 ### PlatformIO
 
 1. Install PlatformIO
