@@ -15,7 +15,28 @@ tags:
 
 ### KVM
 
-    
+### PlatformIO
+
+1. Install PlatformIO
+
+    ```
+    curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py -o get-platformio.py
+    python3 get-platformio.py
+    ```
+
+2. Set System Environment
+
+    ```
+    sudo vim /etc/profile
+    ```
+
+    Insert ```append_path '$HOME/.platformio/penv/bin'```
+
+    Save and exit
+
+    ```
+    source /etc/profile
+    ```
 
 ### Minicom
 
