@@ -17,20 +17,56 @@ tags:
 
 1. Install KVM
 
-    ``` pacman -S qemu libvirt ovmf virt-manager virt-viewer dnsmasq vdebridge-utils openbsd-netcat ```
+    ```shell
+     pacman -S qemu libvirt ovmf virt-manager virt-viewer dnsmasq vdebridge-utils openbsd-netcat 
+     ```
 
+2. Start KVM
+
+    ```shell
+    sudo systemctl enable libvirtd.service
+    sudo systemctl start libvirtd.service
+    ```
+
+3. Use with non root user
+
+    ```shell
+    sudo vim /etc/libvirt/libvirtd.conf
+    ```
+
+    found and delete '#'
+
+    ```shell
+    #unix_sock_group = "libvirt"
+    #unix_sock_rw_perms = "0770"
+    ```
+
+4. Add new group and restart libvirt service
+
+    ```shell
+    newgrp libvirt
+    sudo usermod -aG libvirt $USER
+    sudo systemctl restart libvirtd.service
+    ```
+
+5. Enable Nested Virtualization
+
+    ```shell
+    echo "options kvm-intel nested=1" | sudo tee /etc/modprobe.d/kvm-intel.conf
+    cat /sys/module/kvm_intel/parameters/nested
+    ```
 ### PlatformIO
 
 1. Install PlatformIO
 
-    ```
+    ```shell
     curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py -o get-platformio.py
     python3 get-platformio.py
     ```
 
 2. Set System Environment
 
-    ```
+    ```shell
     sudo vim /etc/profile
     ```
 
@@ -38,7 +74,7 @@ tags:
 
     Save and exit
 
-    ```
+    ```shell
     source /etc/profile
     ```
 
