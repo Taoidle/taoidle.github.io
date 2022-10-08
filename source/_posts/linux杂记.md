@@ -1,6 +1,6 @@
 ---
-layout: Linux杂记
-title: Linux杂记
+layout: Linux Miscellaneous
+title: Linux Miscellaneous
 date: 2022-10-8 02:20:53
 categories:
   - - 折腾记录
