@@ -58,12 +58,28 @@ tags:
 
 ### Doker
 
+- Use with non root user
+
+    ```shell
+    sudo usermod -aG docker $USER
+    newgrp docker
+    ```
+- Use on Raspberrypi
+
+    ```shell
+    curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
+    sudo groupadd docker
+    sudo gpasswd -a $USER docker
+    newgrp docker
+    ```
+
 - Portainer
 
     ```shell
     docker volume create portainer_data
     docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
     ```
+
 ### PlatformIO
 
 1. Install PlatformIO
@@ -89,12 +105,12 @@ tags:
 
 ### Minicom
 
-```bash
+```shell
 yay -S minicom
 sudo minicom -s
 ```
 
-```
+```shell
 +-----[configuration]------+
 | Filenames and paths      |
 | File transfer protocols  |
@@ -112,7 +128,7 @@ select "Serial port setup"
 
 check device : ``` sudo dmesg | grep tty ``` or ``` ls -l /dev/tty* ```
 
-```
+```shell
 +-----------------------------------------------------------------------+
 | A -    Serial Device      : /dev/ttyUSB0                              |
 | B - Lockfile Location     : /var/run                                  |
