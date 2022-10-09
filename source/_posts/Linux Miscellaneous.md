@@ -124,7 +124,9 @@ sudo minicom -s
 +--------------------------+
 ```
 
-select "Serial port setup"
+select "Serial port setup" then "Save setup as dfl" or "Save setup as.."
+
+if use "Save setup as..", connect drives like ``` sudo minicom configurename```
 
 check device : ``` sudo dmesg | grep tty ``` or ``` ls -l /dev/tty* ```
 
