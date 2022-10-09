@@ -1,7 +1,7 @@
 ---
 layout: Linux Miscellaneous
 title: Linux Miscellaneous
-date: 2022-10-8 02:20:53
+date: 2022-10-9 02:20:53
 categories:
   - - 折腾记录
 tags: 
