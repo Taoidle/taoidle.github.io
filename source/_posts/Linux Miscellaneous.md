@@ -154,3 +154,5 @@ check device : ``` sudo dmesg | grep tty ``` or ``` ls -l /dev/tty* ```
 select "Save setup as dfl" and "Exit from Minicom"
 
 use ``` sudo minicom ``` connect the serial device
+
+Tips: When use minicom, use Ctrl + A Z to help, Ctrl + A X exit minicom
