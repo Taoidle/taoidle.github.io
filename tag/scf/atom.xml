@@ -52,9 +52,9 @@
     <category term="arm-linux-gcc" />
     <category term="gcc" />
     <category term="tencent cloud" />
-    <category term="scf" />
     <category term="leancloud" />
     <category term="upyun" />
+    <category term="scf" />
     <category term="javascript" />
     <entry>
         <id>https://www.taoidle.com/2022/07/10/%E8%85%BE%E8%AE%AF%E4%BA%91%E5%87%BD%E6%95%B0%E9%9A%8F%E6%9C%BA%E5%9B%BEapi%E5%AE%9E%E7%8E%B0/</id>
@@ -124,9 +124,9 @@
         <category term="nodejs" />
         <category term="cdn" />
         <category term="tencent cloud" />
-        <category term="scf" />
         <category term="leancloud" />
         <category term="upyun" />
+        <category term="scf" />
         <category term="javascript" />
         <updated>2022-07-10T11:11:32.000Z</updated>
     </entry>

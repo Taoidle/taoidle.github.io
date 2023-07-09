@@ -5,6 +5,21 @@
     "home_page_url": "https://www.taoidle.com",
     "items": [
         {
+            "id": "https://www.taoidle.com/2022/11/02/%E5%8D%9A%E5%AE%A2%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%9C%8D%E5%8A%A1/",
+            "url": "https://www.taoidle.com/2022/11/02/%E5%8D%9A%E5%AE%A2%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%9C%8D%E5%8A%A1/",
+            "title": "博客及相关服务",
+            "date_published": "2022-11-02T06:21:50.000Z",
+            "content_html": "<h2 id=\"前言\"><a class=\"anchor\" href=\"#前言\">#</a> 前言</h2>\n<p>本文对我博客架构及相关服务的记录和补充。</p>\n<h2 id=\"正文\"><a class=\"anchor\" href=\"#正文\">#</a> 正文</h2>\n<p><s>众所周知</s>，我早期为 Wordpress 用户，用 <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL21hc2hpcm96eC9zYWt1cmE=\">Sakura</span> 主题，后期使用了基于 Sakara 重构的 <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL21pcmFpLW1hbW9yaS9TYWt1cmFpcm8=\">Sakurairo</span>；同期，由 sakura 的随机封面功能，网上没看到比较符合我 xp 的，所以自己搓了个随即图服务。在 Wordpress 时期，我的博客和随即图服务在同一台服务器上，然后套了个 cdn。</p>\n<p>迁移到 hexo 主要原因是<s> Wordpress 太慢了</s> <span class=\"spoiler bulr\" title=\"你知道得太多了\">学生优惠无了</span>。</p>\n<p>于是现在变成了这样：</p>\n<p><img data-src=\"https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/about_blog&amp;services(1).png\" alt=\"\" /></p>\n<p>本地写完 push 到 github 仓库 source 分支，触发 github action 进行构建，构建完分别 deploy 到 github 仓库的 master 分支和腾讯云存储桶。</p>\n<p>在访问的时，先通过阿里云 dns 做分流，国内流量走到腾讯云上，国外流量走到 github page。</p>\n<p>图片资源同理，通过阿里云 dns 做分流，国内走又拍云（通过又拍云联盟白嫖免费额度）。</p>\n<p>至于原本的图片 API 则拆成两个，国内使用<a href=\"https://www.taoidle.com/2022/07/10/%E8%85%BE%E8%AE%AF%E4%BA%91%E5%87%BD%E6%95%B0%E9%9A%8F%E6%9C%BA%E5%9B%BEapi%E5%AE%9E%E7%8E%B0\">腾讯云 SCF</a>，国外使用<a href=\"https://www.taoidle.com/2022/05/24/%E4%BD%BF%E7%94%A8cloudflare%E5%92%8Cjsdelivr%E5%81%9A%E4%B8%80%E4%B8%AA%E9%9A%8F%E6%9C%BA%E5%9B%BEapi/\"> cloudflare worker</a>。图片 API 变成了这样：</p>\n<p><img data-src=\"https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/about_blog&amp;services(2).png\" alt=\"\" /></p>\n",
+            "tags": [
+                "cloudflare",
+                "github",
+                "cdn",
+                "tencent cloud",
+                "leancloud",
+                "upyun"
+            ]
+        },
+        {
             "id": "https://www.taoidle.com/2022/10/09/Linux%20Miscellaneous/",
             "url": "https://www.taoidle.com/2022/10/09/Linux%20Miscellaneous/",
             "title": "Linux Miscellaneous",
@@ -37,9 +52,9 @@
                 "nodejs",
                 "cdn",
                 "tencent cloud",
-                "scf",
                 "leancloud",
                 "upyun",
+                "scf",
                 "javascript"
             ]
         },

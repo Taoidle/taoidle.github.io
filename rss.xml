@@ -5,8 +5,8 @@
         <link>https://www.taoidle.com</link>
         <description>秋深し、情けは人の、為ならず</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 09 Oct 2022 02:20:53 +0800</pubDate>
-        <lastBuildDate>Sun, 09 Oct 2022 02:20:53 +0800</lastBuildDate>
+        <pubDate>Wed, 02 Nov 2022 14:21:50 +0800</pubDate>
+        <lastBuildDate>Wed, 02 Nov 2022 14:21:50 +0800</lastBuildDate>
         <category>opencv</category>
         <category>pyqt5</category>
         <category>python</category>
@@ -55,10 +55,35 @@
         <category>arm-linux-gcc</category>
         <category>gcc</category>
         <category>tencent cloud</category>
-        <category>scf</category>
         <category>leancloud</category>
         <category>upyun</category>
+        <category>scf</category>
         <category>javascript</category>
+        <item>
+            <guid isPermalink="true">https://www.taoidle.com/2022/11/02/%E5%8D%9A%E5%AE%A2%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%9C%8D%E5%8A%A1/</guid>
+            <title>博客及相关服务</title>
+            <link>https://www.taoidle.com/2022/11/02/%E5%8D%9A%E5%AE%A2%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%9C%8D%E5%8A%A1/</link>
+            <category>cloudflare</category>
+            <category>github</category>
+            <category>cdn</category>
+            <category>tencent cloud</category>
+            <category>leancloud</category>
+            <category>upyun</category>
+            <pubDate>Wed, 02 Nov 2022 14:21:50 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;本文对我博客架构及相关服务的记录和补充。&lt;/p&gt;
+&lt;h2 id=&#34;正文&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#正文&#34;&gt;#&lt;/a&gt; 正文&lt;/h2&gt;
+&lt;p&gt;&lt;s&gt;众所周知&lt;/s&gt;，我早期为 Wordpress 用户，用 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL21hc2hpcm96eC9zYWt1cmE=&#34;&gt;Sakura&lt;/span&gt; 主题，后期使用了基于 Sakara 重构的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL21pcmFpLW1hbW9yaS9TYWt1cmFpcm8=&#34;&gt;Sakurairo&lt;/span&gt;；同期，由 sakura 的随机封面功能，网上没看到比较符合我 xp 的，所以自己搓了个随即图服务。在 Wordpress 时期，我的博客和随即图服务在同一台服务器上，然后套了个 cdn。&lt;/p&gt;
+&lt;p&gt;迁移到 hexo 主要原因是&lt;s&gt; Wordpress 太慢了&lt;/s&gt; &lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;学生优惠无了&lt;/span&gt;。&lt;/p&gt;
+&lt;p&gt;于是现在变成了这样：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/about_blog&amp;amp;services(1).png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;本地写完 push 到 github 仓库 source 分支，触发 github action 进行构建，构建完分别 deploy 到 github 仓库的 master 分支和腾讯云存储桶。&lt;/p&gt;
+&lt;p&gt;在访问的时，先通过阿里云 dns 做分流，国内流量走到腾讯云上，国外流量走到 github page。&lt;/p&gt;
+&lt;p&gt;图片资源同理，通过阿里云 dns 做分流，国内走又拍云（通过又拍云联盟白嫖免费额度）。&lt;/p&gt;
+&lt;p&gt;至于原本的图片 API 则拆成两个，国内使用&lt;a href=&#34;https://www.taoidle.com/2022/07/10/%E8%85%BE%E8%AE%AF%E4%BA%91%E5%87%BD%E6%95%B0%E9%9A%8F%E6%9C%BA%E5%9B%BEapi%E5%AE%9E%E7%8E%B0&#34;&gt;腾讯云 SCF&lt;/a&gt;，国外使用&lt;a href=&#34;https://www.taoidle.com/2022/05/24/%E4%BD%BF%E7%94%A8cloudflare%E5%92%8Cjsdelivr%E5%81%9A%E4%B8%80%E4%B8%AA%E9%9A%8F%E6%9C%BA%E5%9B%BEapi/&#34;&gt; cloudflare worker&lt;/a&gt;。图片 API 变成了这样：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/about_blog&amp;amp;services(2).png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2022/10/09/Linux%20Miscellaneous/</guid>
             <title>Linux Miscellaneous</title>
@@ -203,9 +228,9 @@ TFT_eSPI 这个库使用起来非常方便，根据自己所使用的屏幕具�
             <category>nodejs</category>
             <category>cdn</category>
             <category>tencent cloud</category>
-            <category>scf</category>
             <category>leancloud</category>
             <category>upyun</category>
+            <category>scf</category>
             <category>javascript</category>
             <pubDate>Sun, 10 Jul 2022 19:11:32 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;

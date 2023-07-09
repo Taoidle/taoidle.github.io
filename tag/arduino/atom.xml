@@ -52,9 +52,9 @@
     <category term="arm-linux-gcc" />
     <category term="gcc" />
     <category term="tencent cloud" />
-    <category term="scf" />
     <category term="leancloud" />
     <category term="upyun" />
+    <category term="scf" />
     <category term="javascript" />
     <entry>
         <id>https://www.taoidle.com/2022/07/30/esp32-s3%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</id>

@@ -55,9 +55,9 @@
         <category>arm-linux-gcc</category>
         <category>gcc</category>
         <category>tencent cloud</category>
-        <category>scf</category>
         <category>leancloud</category>
         <category>upyun</category>
+        <category>scf</category>
         <category>javascript</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2022/04/09/raspberry-pi4b%E5%AE%89%E8%A3%85docker/</guid>
