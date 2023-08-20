@@ -14,7 +14,7 @@ tags:
 
 ### Install
 
-```Shell
+```shell
 brew install --cask docker
 brew install docker docker-compose
 ```
@@ -23,13 +23,13 @@ brew install docker docker-compose
 
 Input:
 
-```Shell
+```shell
 docker pull hello-world
 ```
 
 Output:
 
-```Shell
+```shell
 latest: Pulling from library/hello-world
 70f5ac315c5a: Pull complete 
 Digest: sha256:dcba6daec718f547568c562956fa47e1b03673dd010fe6ee58ca806767031d1c
@@ -39,13 +39,13 @@ docker.io/library/hello-world:latest
 
 Input:
 
-```Shell
+```shell
 docker run hello-world
 ```
 
 Output:
 
-```Shell
+```shell
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
 
