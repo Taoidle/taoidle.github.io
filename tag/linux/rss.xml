@@ -14,6 +14,11 @@
         <category>图像处理</category>
         <category>教程</category>
         <category>linux</category>
+        <category>Arm</category>
+        <category>Apple</category>
+        <category>苹果</category>
+        <category>Docker</category>
+        <category>MacOS</category>
         <category>android</category>
         <category>android studio</category>
         <category>arduino</category>
@@ -30,7 +35,6 @@
         <category>nodejs</category>
         <category>npm</category>
         <category>原创教程</category>
-        <category>Docker</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
         <category>树莓派</category>
@@ -43,13 +47,11 @@
         <category>github</category>
         <category>cdn</category>
         <category>typescript</category>
-        <category>Apple</category>
         <category>esp01</category>
         <category>esp01s</category>
         <category>Homekit</category>
         <category>智能家居</category>
         <category>物联网</category>
-        <category>苹果</category>
         <category>计算机视觉</category>
         <category>ARM</category>
         <category>arm-linux-gcc</category>

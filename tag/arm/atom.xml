@@ -3,7 +3,7 @@
     <id>https://www.taoidle.com</id>
     <title>Taoidle • Posts by &#34;arm&#34; tag</title>
     <link href="https://www.taoidle.com" />
-    <updated>2020-06-11T17:30:58.000Z</updated>
+    <updated>2022-08-07T01:20:53.000Z</updated>
     <category term="opencv" />
     <category term="pyqt5" />
     <category term="python" />
@@ -11,6 +11,11 @@
     <category term="图像处理" />
     <category term="教程" />
     <category term="linux" />
+    <category term="Arm" />
+    <category term="Apple" />
+    <category term="苹果" />
+    <category term="Docker" />
+    <category term="MacOS" />
     <category term="android" />
     <category term="android studio" />
     <category term="arduino" />
@@ -27,7 +32,6 @@
     <category term="nodejs" />
     <category term="npm" />
     <category term="原创教程" />
-    <category term="Docker" />
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
     <category term="树莓派" />
@@ -40,13 +44,11 @@
     <category term="github" />
     <category term="cdn" />
     <category term="typescript" />
-    <category term="Apple" />
     <category term="esp01" />
     <category term="esp01s" />
     <category term="Homekit" />
     <category term="智能家居" />
     <category term="物联网" />
-    <category term="苹果" />
     <category term="计算机视觉" />
     <category term="ARM" />
     <category term="arm-linux-gcc" />
@@ -56,6 +58,58 @@
     <category term="upyun" />
     <category term="scf" />
     <category term="javascript" />
+    <entry>
+        <id>https://www.taoidle.com/2022/08/07/MacOS%20Apple%20silicon%20Install%20Docker/</id>
+        <title>MacOS Apple silicon Install Docker</title>
+        <link rel="alternate" href="https://www.taoidle.com/2022/08/07/MacOS%20Apple%20silicon%20Install%20Docker/"/>
+        <content type="html">&lt;h3 id=&#34;install&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#install&#34;&gt;#&lt;/a&gt; Install&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;brew install --cask docker
+brew install docker docker-compose
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;test&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#test&#34;&gt;#&lt;/a&gt; Test&lt;/h3&gt;
+&lt;p&gt;Input:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;docker pull hello-world
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Output:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;latest: Pulling from library/hello-world
+70f5ac315c5a: Pull complete 
+Digest: sha256:dcba6daec718f547568c562956fa47e1b03673dd010fe6ee58ca806767031d1c
+Status: Downloaded newer image for hello-world:latest
+docker.io/library/hello-world:latest
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Input:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;docker run hello-world
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Output:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the &amp;quot;hello-world&amp;quot; image from the Docker Hub.
+    (arm64v8)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+        <category term="Arm" />
+        <category term="Apple" />
+        <category term="苹果" />
+        <category term="Docker" />
+        <category term="MacOS" />
+        <updated>2022-08-07T01:20:53.000Z</updated>
+    </entry>
     <entry>
         <id>https://www.taoidle.com/2020/06/12/%E5%85%B3%E4%BA%8Eubuntu20-04%E5%AE%89%E8%A3%85arm-linux-gcc%E5%8F%91%E7%94%9F%E7%9A%84%E9%94%99%E8%AF%AF/</id>
         <title>关于Ubuntu20.04安装arm-linux-gcc发生的错误</title>

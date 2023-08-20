@@ -30,6 +30,20 @@
             ]
         },
         {
+            "id": "https://www.taoidle.com/2022/08/07/MacOS%20Apple%20silicon%20Install%20Docker/",
+            "url": "https://www.taoidle.com/2022/08/07/MacOS%20Apple%20silicon%20Install%20Docker/",
+            "title": "MacOS Apple silicon Install Docker",
+            "date_published": "2022-08-07T01:20:53.000Z",
+            "content_html": "<h3 id=\"install\"><a class=\"anchor\" href=\"#install\">#</a> Install</h3>\n<pre><code class=\"language-Shell\">brew install --cask docker\nbrew install docker docker-compose\n</code></pre>\n<h3 id=\"test\"><a class=\"anchor\" href=\"#test\">#</a> Test</h3>\n<p>Input:</p>\n<pre><code class=\"language-Shell\">docker pull hello-world\n</code></pre>\n<p>Output:</p>\n<pre><code class=\"language-Shell\">latest: Pulling from library/hello-world\n70f5ac315c5a: Pull complete \nDigest: sha256:dcba6daec718f547568c562956fa47e1b03673dd010fe6ee58ca806767031d1c\nStatus: Downloaded newer image for hello-world:latest\ndocker.io/library/hello-world:latest\n</code></pre>\n<p>Input:</p>\n<pre><code class=\"language-Shell\">docker run hello-world\n</code></pre>\n<p>Output:</p>\n<pre><code class=\"language-Shell\">Hello from Docker!\nThis message shows that your installation appears to be working correctly.\n\nTo generate this message, Docker took the following steps:\n 1. The Docker client contacted the Docker daemon.\n 2. The Docker daemon pulled the &quot;hello-world&quot; image from the Docker Hub.\n    (arm64v8)\n 3. The Docker daemon created a new container from that image which runs the\n    executable that produces the output you are currently reading.\n 4. The Docker daemon streamed that output to the Docker client, which sent it\n    to your terminal.\n\nTo try something more ambitious, you can run an Ubuntu container with:\n $ docker run -it ubuntu bash\n\nShare images, automate workflows, and more with a free Docker ID:\n https://hub.docker.com/\n\nFor more examples and ideas, visit:\n https://docs.docker.com/get-started/\n</code></pre>\n",
+            "tags": [
+                "Arm",
+                "Apple",
+                "苹果",
+                "Docker",
+                "MacOS"
+            ]
+        },
+        {
             "id": "https://www.taoidle.com/2022/07/30/esp32-s3%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/",
             "url": "https://www.taoidle.com/2022/07/30/esp32-s3%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/",
             "title": "ESP32-S3 折腾记录",
