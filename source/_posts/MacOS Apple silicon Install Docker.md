@@ -1,5 +1,5 @@
 ---
-layout:MacOS Apple silicon Install Docker
+layout: MacOS Apple silicon Install Docker
 title: MacOS Apple silicon Install Docker
 date: 2022-08-07 09:20:53
 categories:
