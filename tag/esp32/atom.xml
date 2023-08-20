@@ -10,12 +10,13 @@
     <category term="vscode" />
     <category term="图像处理" />
     <category term="教程" />
-    <category term="linux" />
     <category term="Arm" />
     <category term="Apple" />
     <category term="苹果" />
-    <category term="Docker" />
     <category term="MacOS" />
+    <category term="Brew" />
+    <category term="linux" />
+    <category term="Docker" />
     <category term="android" />
     <category term="android studio" />
     <category term="arduino" />

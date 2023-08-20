@@ -1,0 +1,22 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Taoidle • All posts by \"brew\" tag",
+    "description": "秋深し、情けは人の、為ならず",
+    "home_page_url": "https://www.taoidle.com",
+    "items": [
+        {
+            "id": "https://www.taoidle.com/2023/08/17/Brew%20Error%20Miscellaneous/",
+            "url": "https://www.taoidle.com/2023/08/17/Brew%20Error%20Miscellaneous/",
+            "title": "Brew Error Miscellaneous",
+            "date_published": "2023-08-17T00:10:53.000Z",
+            "content_html": "<h3 id=\"brew-services-error\"><a class=\"anchor\" href=\"#brew-services-error\">#</a> Brew Services Error</h3>\n<figure class=\"highlight shell\"><figcaption data-lang=\"Bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>Error: uninitialized constant Homebrew::Service::System</pre></td></tr><tr><td data-num=\"2\"></td><td><pre>/opt/homebrew/Library/Taps/homebrew/homebrew-services/cmd/services.rb:61:in <span class=\"token variable\"><span class=\"token variable\">`</span>services'</pre></td></tr><tr><td data-num=\"3\"></td><td><pre>/opt/homebrew/Library/Homebrew/brew.rb:94:in <span class=\"token variable\">`</span></span><span class=\"token operator\">&lt;</span>main<span class=\"token operator\">></span>'</pre></td></tr></table></figure><p>issue: an unmaintained mirror</p>\n<p>fix:</p>\n<figure class=\"highlight shell\"><figcaption data-lang=\"Bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token function\">git</span> -C <span class=\"token string\">\"<span class=\"token variable\"><span class=\"token variable\">$(</span>brew --repo homebrew/services<span class=\"token variable\">)</span></span>\"</span> remote set-url origin https://github.com/Homebrew/homebrew-services.git</pre></td></tr><tr><td data-num=\"2\"></td><td><pre>brew update</pre></td></tr></table></figure>",
+            "tags": [
+                "Arm",
+                "Apple",
+                "苹果",
+                "MacOS",
+                "Brew"
+            ]
+        }
+    ]
+}
