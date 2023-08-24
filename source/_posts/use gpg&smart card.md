@@ -1,5 +1,5 @@
 ---
-layout: gpg&smart card
+layout: use gpg&smart card
 title: use gpg&smart card
 date: 2022-06-23 21:17:40
 categories:
@@ -14,7 +14,6 @@ tags:
 
 ```shell
 gpg --import <key_path>
-
 ```
 ![](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/gpg_import(1).png)
 
