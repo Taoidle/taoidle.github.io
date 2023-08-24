@@ -28,6 +28,9 @@
     <category term="esp32-s3-devkitc" />
     <category term="platformio" />
     <category term="git" />
+    <category term="gpg" />
+    <category term="yubikey" />
+    <category term="canokeys" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
