@@ -28,9 +28,6 @@
     <category term="esp32-s3-devkitc" />
     <category term="platformio" />
     <category term="git" />
-    <category term="gpg" />
-    <category term="yubikey" />
-    <category term="canokeys" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
@@ -43,6 +40,9 @@
     <category term="树莓派4b" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
+    <category term="gpg" />
+    <category term="yubikey" />
+    <category term="canokeys" />
     <category term="cloudflare" />
     <category term="cloudflare worker" />
     <category term="github" />

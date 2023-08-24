@@ -31,9 +31,6 @@
         <category>esp32-s3-devkitc</category>
         <category>platformio</category>
         <category>git</category>
-        <category>gpg</category>
-        <category>yubikey</category>
-        <category>canokeys</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
@@ -46,6 +43,9 @@
         <category>树莓派4b</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
+        <category>gpg</category>
+        <category>yubikey</category>
+        <category>canokeys</category>
         <category>cloudflare</category>
         <category>cloudflare worker</category>
         <category>github</category>
