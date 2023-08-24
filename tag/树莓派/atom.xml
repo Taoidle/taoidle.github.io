@@ -17,6 +17,8 @@
     <category term="Brew" />
     <category term="linux" />
     <category term="Docker" />
+    <category term="wsl" />
+    <category term="systemd" />
     <category term="android" />
     <category term="android studio" />
     <category term="arduino" />

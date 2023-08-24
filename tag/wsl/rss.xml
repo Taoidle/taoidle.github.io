@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Taoidle • Posts by &#34;wsl&#34; tag</title>
+        <link>https://www.taoidle.com</link>
+        <description>秋深し、情けは人の、為ならず</description>
+        <language>zh-CN</language>
+        <pubDate>Sun, 08 Jan 2023 13:01:23 +0800</pubDate>
+        <lastBuildDate>Sun, 08 Jan 2023 13:01:23 +0800</lastBuildDate>
+        <category>opencv</category>
+        <category>pyqt5</category>
+        <category>python</category>
+        <category>vscode</category>
+        <category>图像处理</category>
+        <category>教程</category>
+        <category>Arm</category>
+        <category>Apple</category>
+        <category>苹果</category>
+        <category>MacOS</category>
+        <category>Brew</category>
+        <category>linux</category>
+        <category>Docker</category>
+        <category>wsl</category>
+        <category>systemd</category>
+        <category>android</category>
+        <category>android studio</category>
+        <category>arduino</category>
+        <category>CLion</category>
+        <category>esp8266</category>
+        <category>nodemcu</category>
+        <category>PlatformIO</category>
+        <category>esp32</category>
+        <category>esp32-s3-devkitc</category>
+        <category>platformio</category>
+        <category>git</category>
+        <category>Linux</category>
+        <category>manjaro</category>
+        <category>nodejs</category>
+        <category>npm</category>
+        <category>原创教程</category>
+        <category>Raspberry Pi</category>
+        <category>Raspberry Pi4b</category>
+        <category>树莓派</category>
+        <category>Bitwarden</category>
+        <category>树莓派4b</category>
+        <category>ubuntu</category>
+        <category>ubuntu20.04</category>
+        <category>gpg</category>
+        <category>yubikey</category>
+        <category>canokeys</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
+        <category>esp01</category>
+        <category>esp01s</category>
+        <category>Homekit</category>
+        <category>智能家居</category>
+        <category>物联网</category>
+        <category>计算机视觉</category>
+        <category>ARM</category>
+        <category>arm-linux-gcc</category>
+        <category>gcc</category>
+        <category>tencent cloud</category>
+        <category>leancloud</category>
+        <category>upyun</category>
+        <category>scf</category>
+        <category>javascript</category>
+        <item>
+            <guid isPermalink="true">https://www.taoidle.com/2023/01/08/WSL%20%EF%BC%9ASystem%20has%20not%20been%20booted%20with%20systemd%20as%20init%20system%20(PID%201)/</guid>
+            <title>WSL ：System has not been booted with systemd as init system (PID 1)</title>
+            <link>https://www.taoidle.com/2023/01/08/WSL%20%EF%BC%9ASystem%20has%20not%20been%20booted%20with%20systemd%20as%20init%20system%20(PID%201)/</link>
+            <category>wsl</category>
+            <category>systemd</category>
+            <pubDate>Sun, 08 Jan 2023 13:01:23 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;systemd-error&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#systemd-error&#34;&gt;#&lt;/a&gt; Systemd Error&lt;/h2&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;System has not been booted with systemd as init system &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;PID &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;. Can&#39;t operate.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Failed to connect to bus: Host is down&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;issue&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#issue&#34;&gt;#&lt;/a&gt; Issue&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Release of WSL doesn&#39;t support Systemd.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Systemd is now officially supported in Ubuntu on many WSL systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fix&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#fix&#34;&gt;#&lt;/a&gt; Fix&lt;/h2&gt;
+&lt;p&gt;Start Ubuntu (or other Systemd) distribution under WSL&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;vim&lt;/span&gt; /etc/wsl.conf&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Add the following:&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;boot&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token assign-left variable&#34;&gt;systemd&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;true&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Open Powershell:&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;wsl --shutdown&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;or&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;wsl --terminate &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;Distro&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;WSL List only distributions that are currently running:&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;wsl --list --running&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Start:&lt;/p&gt;
+&lt;p&gt;Run the specified distribution.&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;wsl --distribution &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;Distro&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

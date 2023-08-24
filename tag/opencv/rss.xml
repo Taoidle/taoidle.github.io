@@ -20,6 +20,8 @@
         <category>Brew</category>
         <category>linux</category>
         <category>Docker</category>
+        <category>wsl</category>
+        <category>systemd</category>
         <category>android</category>
         <category>android studio</category>
         <category>arduino</category>

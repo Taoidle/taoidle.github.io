@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Taoidle • All posts by \"systemd\" tag",
+    "description": "秋深し、情けは人の、為ならず",
+    "home_page_url": "https://www.taoidle.com",
+    "items": [
+        {
+            "id": "https://www.taoidle.com/2023/01/08/WSL%20%EF%BC%9ASystem%20has%20not%20been%20booted%20with%20systemd%20as%20init%20system%20(PID%201)/",
+            "url": "https://www.taoidle.com/2023/01/08/WSL%20%EF%BC%9ASystem%20has%20not%20been%20booted%20with%20systemd%20as%20init%20system%20(PID%201)/",
+            "title": "WSL ：System has not been booted with systemd as init system (PID 1)",
+            "date_published": "2023-01-08T05:01:23.000Z",
+            "content_html": "<h2 id=\"systemd-error\"><a class=\"anchor\" href=\"#systemd-error\">#</a> Systemd Error</h2>\n<figure class=\"highlight shell\"><figcaption data-lang=\"Bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>System has not been booted with systemd as init system <span class=\"token punctuation\">(</span>PID <span class=\"token number\">1</span><span class=\"token punctuation\">)</span>. Can't operate.</pre></td></tr><tr><td data-num=\"2\"></td><td><pre>Failed to connect to bus: Host is down</pre></td></tr></table></figure><h2 id=\"issue\"><a class=\"anchor\" href=\"#issue\">#</a> Issue</h2>\n<ul>\n<li>\n<p>Release of WSL doesn't support Systemd.</p>\n</li>\n<li>\n<p>Systemd is now officially supported in Ubuntu on many WSL systems.</p>\n</li>\n</ul>\n<h2 id=\"fix\"><a class=\"anchor\" href=\"#fix\">#</a> Fix</h2>\n<p>Start Ubuntu (or other Systemd) distribution under WSL</p>\n<figure class=\"highlight shell\"><figcaption data-lang=\"Bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token function\">sudo</span> <span class=\"token function\">vim</span> /etc/wsl.conf</pre></td></tr></table></figure><p>Add the following:</p>\n<figure class=\"highlight shell\"><figcaption data-lang=\"Bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token punctuation\">[</span>boot<span class=\"token punctuation\">]</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre><span class=\"token assign-left variable\">systemd</span><span class=\"token operator\">=</span>true</pre></td></tr></table></figure><p>Open Powershell:</p>\n<figure class=\"highlight shell\"><figcaption data-lang=\"Bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>wsl --shutdown</pre></td></tr></table></figure><p>or</p>\n<figure class=\"highlight shell\"><figcaption data-lang=\"Bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>wsl --terminate <span class=\"token operator\">&lt;</span>Distro<span class=\"token operator\">></span></pre></td></tr></table></figure><p>WSL List only distributions that are currently running:</p>\n<figure class=\"highlight shell\"><figcaption data-lang=\"Bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>wsl --list --running</pre></td></tr></table></figure><p>Start:</p>\n<p>Run the specified distribution.</p>\n<figure class=\"highlight shell\"><figcaption data-lang=\"Bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>wsl --distribution <span class=\"token operator\">&lt;</span>Distro<span class=\"token operator\">></span></pre></td></tr></table></figure>",
+            "tags": [
+                "wsl",
+                "systemd"
+            ]
+        }
+    ]
+}
