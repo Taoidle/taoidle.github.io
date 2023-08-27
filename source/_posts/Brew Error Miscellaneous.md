@@ -12,7 +12,7 @@ tags:
   - Brew
 ---
 
-### Brew Services Error
+## Brew Services Error
 
 ```shell
 Error: uninitialized constant Homebrew::Service::System
@@ -20,9 +20,10 @@ Error: uninitialized constant Homebrew::Service::System
 /opt/homebrew/Library/Homebrew/brew.rb:94:in `<main>'
 ```
 
-issue: an unmaintained mirror
+## Issue
+- an unmaintained mirror
 
-fix:
+## Fix
 
 ```shell
 git -C "$(brew --repo homebrew/services)" remote set-url origin https://github.com/Homebrew/homebrew-services.git
