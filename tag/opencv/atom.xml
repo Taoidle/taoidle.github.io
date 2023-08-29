@@ -10,17 +10,13 @@
     <category term="vscode" />
     <category term="图像处理" />
     <category term="教程" />
+    <category term="android" />
+    <category term="android studio" />
     <category term="Arm" />
     <category term="Apple" />
     <category term="苹果" />
     <category term="MacOS" />
     <category term="Brew" />
-    <category term="linux" />
-    <category term="Docker" />
-    <category term="wsl" />
-    <category term="systemd" />
-    <category term="android" />
-    <category term="android studio" />
     <category term="arduino" />
     <category term="CLion" />
     <category term="esp8266" />
@@ -30,16 +26,20 @@
     <category term="esp32-s3-devkitc" />
     <category term="platformio" />
     <category term="git" />
-    <category term="Linux" />
-    <category term="manjaro" />
-    <category term="nodejs" />
-    <category term="npm" />
+    <category term="linux" />
+    <category term="Docker" />
     <category term="原创教程" />
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
     <category term="树莓派" />
     <category term="Bitwarden" />
     <category term="树莓派4b" />
+    <category term="wsl" />
+    <category term="systemd" />
+    <category term="Linux" />
+    <category term="manjaro" />
+    <category term="nodejs" />
+    <category term="npm" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
     <category term="gpg" />
@@ -65,9 +65,9 @@
     <category term="scf" />
     <category term="javascript" />
     <entry>
-        <id>https://www.taoidle.com/2020/10/22/windows%E4%B8%8Bclionopencv%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+        <id>https://www.taoidle.com/2020/10/22/Windows%E4%B8%8BClion+OpenCV%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
         <title>Windows下Clion+OpenCV开发环境搭建</title>
-        <link rel="alternate" href="https://www.taoidle.com/2020/10/22/windows%E4%B8%8Bclionopencv%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+        <link rel="alternate" href="https://www.taoidle.com/2020/10/22/Windows%E4%B8%8BClion+OpenCV%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
         <content type="html">&lt;h3 id=&#34;准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备&#34;&gt;#&lt;/a&gt; 准备&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamV0YnJhaW5zLmNvbS9jbGlvbi8=&#34;&gt;Clion&lt;/span&gt;&lt;/li&gt;
@@ -77,17 +77,40 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;步骤&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#步骤&#34;&gt;#&lt;/a&gt; 步骤&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;安装 Clion&lt;/li&gt;
-&lt;li&gt;安装 MinGW 并将 MinGW\bin 添加到环境变量&lt;/li&gt;
-&lt;li&gt;安装 CMake&lt;/li&gt;
-&lt;li&gt;解压 OpenCV 源码&lt;/li&gt;
-&lt;li&gt;打开 CMake, 在第一个框中打开源码目录，第二个框为编译目录，点击 Configure &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_645ab42b1af5be15646efb3290064a98.jpg&#34; alt=&#34;&#34; /&gt;再次点击 Configure 红色消失 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_e4af1ce913054df34ee86ef4408fde7e.jpg&#34; alt=&#34;&#34; /&gt; 点击 Generate &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_3c90537c4260f5537ea63ea0f55eafc6.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;打开 CMD 进入到 MinGW-build 目录下，执行 mingw32-make&lt;/li&gt;
-&lt;li&gt;上一步执行完成后执行 mingw32-make install，生成 install 文件夹 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_a5da3358b4fddbd6fc4dc897bd325052.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装 Clion&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装 MinGW 并将 MinGW\bin 添加到环境变量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装 CMake&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解压 OpenCV 源码&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开 CMake, 在第一个框中打开源码目录，第二个框为编译目录，点击 Configure&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_645ab42b1af5be15646efb3290064a98.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;再次点击 Configure 红色消失&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_e4af1ce913054df34ee86ef4408fde7e.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;点击 Generate&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_3c90537c4260f5537ea63ea0f55eafc6.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开 CMD 进入到 MinGW-build 目录下，执行 mingw32-make&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;上一步执行完成后执行 mingw32-make install，生成 install 文件夹&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_a5da3358b4fddbd6fc4dc897bd325052.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;clion中使用opencv&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#clion中使用opencv&#34;&gt;#&lt;/a&gt; Clion 中使用 OpenCV&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Clion 设置 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_ed7877bd36d1481e37c61faba10c778b.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Clion 设置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_ed7877bd36d1481e37c61faba10c778b.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;CMakeLists.txt 文件配置&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;cmake_minimum_required(VERSION 3.17)
@@ -107,9 +130,9 @@ target_link_libraries(test $&amp;#123;OpenCV_LIBS&amp;#125;)
         <updated>2020-10-22T04:11:18.000Z</updated>
     </entry>
     <entry>
-        <id>https://www.taoidle.com/2020/09/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E3%80%81%E7%95%B8%E5%8F%98%E7%9F%AB%E6%AD%A3/</id>
+        <id>https://www.taoidle.com/2020/09/02/Python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%20%E2%80%94%E2%80%94%20%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E3%80%81%E7%95%B8%E5%8F%98%E7%9F%AB%E6%AD%A3/</id>
         <title>Python图像处理 —— 相机标定、畸变矫正</title>
-        <link rel="alternate" href="https://www.taoidle.com/2020/09/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E3%80%81%E7%95%B8%E5%8F%98%E7%9F%AB%E6%AD%A3/"/>
+        <link rel="alternate" href="https://www.taoidle.com/2020/09/02/Python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%20%E2%80%94%E2%80%94%20%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E3%80%81%E7%95%B8%E5%8F%98%E7%9F%AB%E6%AD%A3/"/>
         <content type="html">&lt;h2 id=&#34;实验数据&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实验数据&#34;&gt;#&lt;/a&gt; 实验数据&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;标定图（黑白棋盘图）若干（不少于 10 张拍摄不同角度的图片，焦距不变）&lt;/li&gt;
@@ -142,9 +165,9 @@ target_link_libraries(test $&amp;#123;OpenCV_LIBS&amp;#125;)
         <updated>2020-09-02T09:12:15.000Z</updated>
     </entry>
     <entry>
-        <id>https://www.taoidle.com/2020/07/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%A9%BA%E5%9F%9F%E4%BF%A1%E6%81%AF%E9%9A%90%E8%97%8F%EF%BC%88lsb%E6%9B%BF%E6%8D%A2%EF%BC%89/</id>
+        <id>https://www.taoidle.com/2020/07/02/Python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%20%E2%80%94%E2%80%94%20%E7%A9%BA%E5%9F%9F%E4%BF%A1%E6%81%AF%E9%9A%90%E8%97%8F%EF%BC%88LSB%E6%9B%BF%E6%8D%A2%EF%BC%89/</id>
         <title>Python图像处理 —— 空域信息隐藏（LSB替换）</title>
-        <link rel="alternate" href="https://www.taoidle.com/2020/07/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%A9%BA%E5%9F%9F%E4%BF%A1%E6%81%AF%E9%9A%90%E8%97%8F%EF%BC%88lsb%E6%9B%BF%E6%8D%A2%EF%BC%89/"/>
+        <link rel="alternate" href="https://www.taoidle.com/2020/07/02/Python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%20%E2%80%94%E2%80%94%20%E7%A9%BA%E5%9F%9F%E4%BF%A1%E6%81%AF%E9%9A%90%E8%97%8F%EF%BC%88LSB%E6%9B%BF%E6%8D%A2%EF%BC%89/"/>
         <content type="html">&lt;h2 id=&#34;算法描述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算法描述&#34;&gt;#&lt;/a&gt; 算法描述&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;LSB 即最低有效位，全称为 Leastsignificant Bit，LSB 隐写技术即就是通过修改 RGB 颜色分量的最低位二进制，进行信息的储存。&lt;/li&gt;
@@ -175,18 +198,32 @@ target_link_libraries(test $&amp;#123;OpenCV_LIBS&amp;#125;)
         <updated>2020-07-02T06:40:04.000Z</updated>
     </entry>
     <entry>
-        <id>https://www.taoidle.com/2020/05/03/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-dct%E5%8F%98%E6%8D%A2%EF%BC%881%EF%BC%89/</id>
+        <id>https://www.taoidle.com/2020/05/03/Python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%20%E2%80%94%E2%80%94%20DCT%E5%8F%98%E6%8D%A2/</id>
         <title>Python图像处理 —— DCT变换</title>
-        <link rel="alternate" href="https://www.taoidle.com/2020/05/03/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-dct%E5%8F%98%E6%8D%A2%EF%BC%881%EF%BC%89/"/>
+        <link rel="alternate" href="https://www.taoidle.com/2020/05/03/Python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%20%E2%80%94%E2%80%94%20DCT%E5%8F%98%E6%8D%A2/"/>
         <content type="html">&lt;h1 id=&#34;图像的dct变换&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图像的dct变换&#34;&gt;#&lt;/a&gt; 图像的 DCT 变换&lt;/h1&gt;
 &lt;h2 id=&#34;python实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#python实现&#34;&gt;#&lt;/a&gt; python 实现&lt;/h2&gt;
 &lt;p&gt;这里去除了图像的低频部分，进行 dct 变换后得到图像的骨架&lt;/p&gt;
-&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; cv2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; numpy &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; np&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 读取图像&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;img &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;imread&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;../res/img/baboon.bmp&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 灰度化&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;img &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;cvtColor&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;img&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;COLOR_BGR2GRAY&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 显示原图&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;imshow&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;img&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; img&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 获取图像宽高&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;height&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; width &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; img&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;shape&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 对图像进行 dct 变换&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;img_dct &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;dct&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;array&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;img&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;float32&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 去除部分低频信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;img_dct&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 进行反 dct 变换&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;img_idct &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;array&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;idct&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;img_dct&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uint8&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 显示图像&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;imshow&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;img_dct&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;array&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;img_dct&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uint8&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;reshape&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;width&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; height&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;imshow&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;img_idct&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; img_idct&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;reshape&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;width&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; height&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;waitKey&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_f47ba882139a0929c17e72e8d408a598.jpg&#34; alt=&#34;&#34; /&gt; ![]&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uYXNzZXRzLnRhb2lkbGUuY29tL2doL3Rhb2lkbGUvdGFvaWRsZS5naXRodWIuaW9AbWFzdGVyKC9hc3NldHMvaW1hZ2VzL3dwX2VkaXRvcl9tZF80ZDI3ODdlMjc1ODgyNDM0ZTQ3YThhYzQwYzJkNzExYS5qcGcp&#34;&gt;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master(/assets/images/wp_editor_md_4d2787e275882434e47a8ac40c2d711a.jpg)&lt;/span&gt; &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_927e11e4879955a3bf4fdebb01ff5b73.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; cv2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; numpy &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; np&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 读取图像&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;img &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;imread&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;../res/img/baboon.bmp&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 灰度化&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;img &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;cvtColor&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;img&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;COLOR_BGR2GRAY&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 显示原图&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;imshow&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;img&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; img&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 获取图像宽高&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;height&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; width &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; img&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;shape&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 对图像进行 dct 变换&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;img_dct &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;dct&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;array&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;img&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;float32&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 去除部分低频信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;img_dct&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 进行反 dct 变换&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;img_idct &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;array&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;idct&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;img_dct&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uint8&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 显示图像&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;imshow&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;img_dct&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;array&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;img_dct&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;uint8&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;reshape&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;width&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; height&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;imshow&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;img_idct&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; img_idct&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;reshape&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;width&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; height&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cv2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;waitKey&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_f47ba882139a0929c17e72e8d408a598.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_4d2787e275882434e47a8ac40c2d711a.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_927e11e4879955a3bf4fdebb01ff5b73.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;cv-tool小工具中的操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cv-tool小工具中的操作&#34;&gt;#&lt;/a&gt; CV Tool 小工具中的操作&lt;/h2&gt;
 &lt;h3 id=&#34;灰度图dct&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#灰度图dct&#34;&gt;#&lt;/a&gt; 灰度图 DCT&lt;/h3&gt;
-&lt;p&gt;读取图像 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_79f735a75273ec5494159dfe4170b128.jpg&#34; alt=&#34;&#34; /&gt; 进行灰度化 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_12d55d2288111f59e2fe8f7937987e5c.jpg&#34; alt=&#34;&#34; /&gt; 选定 DCT 去除的信息，进行 DCT 变换 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_f26670cf8f60a325901e9e8217616207.jpg&#34; alt=&#34;&#34; /&gt; 得到效果图 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_3b7437fbd0e276fcc1b281a85fd0a5da.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;读取图像&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_79f735a75273ec5494159dfe4170b128.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;进行灰度化&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_12d55d2288111f59e2fe8f7937987e5c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;选定 DCT 去除的信息，进行 DCT 变换&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_f26670cf8f60a325901e9e8217616207.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;得到效果图&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_3b7437fbd0e276fcc1b281a85fd0a5da.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;彩色图像dct变换&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#彩色图像dct变换&#34;&gt;#&lt;/a&gt; 彩色图像 DCT 变换&lt;/h3&gt;
-&lt;p&gt;打开图像 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_cd0232d0bcdb5fa3abe9279e639b63ee.jpg&#34; alt=&#34;&#34; /&gt; 选定 DCT 去除的信息，进行 DCT 变换 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_392cc8c9f36cf5dadbb8fe641951f85e.jpg&#34; alt=&#34;&#34; /&gt; 得到效果图 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_44c76d239bee25c7f0dfcaa3e9352451.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;打开图像&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_cd0232d0bcdb5fa3abe9279e639b63ee.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;选定 DCT 去除的信息，进行 DCT 变换&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_392cc8c9f36cf5dadbb8fe641951f85e.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;得到效果图&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_44c76d239bee25c7f0dfcaa3e9352451.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
         <category term="opencv" />
         <category term="pyqt5" />
@@ -196,9 +233,9 @@ target_link_libraries(test $&amp;#123;OpenCV_LIBS&amp;#125;)
         <updated>2020-05-02T16:06:38.000Z</updated>
     </entry>
     <entry>
-        <id>https://www.taoidle.com/2020/04/21/%E5%85%B3%E4%BA%8Ecv-tool%E5%B0%8F%E5%B7%A5%E5%85%B7/</id>
+        <id>https://www.taoidle.com/2020/04/21/%E5%85%B3%E4%BA%8ECV%20Tool%E5%B0%8F%E5%B7%A5%E5%85%B7/</id>
         <title>关于CV Tool小工具</title>
-        <link rel="alternate" href="https://www.taoidle.com/2020/04/21/%E5%85%B3%E4%BA%8Ecv-tool%E5%B0%8F%E5%B7%A5%E5%85%B7/"/>
+        <link rel="alternate" href="https://www.taoidle.com/2020/04/21/%E5%85%B3%E4%BA%8ECV%20Tool%E5%B0%8F%E5%B7%A5%E5%85%B7/"/>
         <content type="html">&lt;h2 id=&#34;关于cv-tool&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于cv-tool&#34;&gt;#&lt;/a&gt; 关于 CV Tool&lt;/h2&gt;
 &lt;p&gt;当前版本最新版本为 0.5.1.b4 软件仍处于测试阶段，图像功能基本完成，视频功能尚未完成 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1Rhb2lkbGUvQ1ZfVG9vbA==&#34;&gt;源码链接&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;运行环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运行环境&#34;&gt;#&lt;/a&gt; 运行环境&lt;/h2&gt;

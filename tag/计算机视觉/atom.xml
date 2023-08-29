@@ -10,17 +10,13 @@
     <category term="vscode" />
     <category term="图像处理" />
     <category term="教程" />
+    <category term="android" />
+    <category term="android studio" />
     <category term="Arm" />
     <category term="Apple" />
     <category term="苹果" />
     <category term="MacOS" />
     <category term="Brew" />
-    <category term="linux" />
-    <category term="Docker" />
-    <category term="wsl" />
-    <category term="systemd" />
-    <category term="android" />
-    <category term="android studio" />
     <category term="arduino" />
     <category term="CLion" />
     <category term="esp8266" />
@@ -30,16 +26,20 @@
     <category term="esp32-s3-devkitc" />
     <category term="platformio" />
     <category term="git" />
-    <category term="Linux" />
-    <category term="manjaro" />
-    <category term="nodejs" />
-    <category term="npm" />
+    <category term="linux" />
+    <category term="Docker" />
     <category term="原创教程" />
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
     <category term="树莓派" />
     <category term="Bitwarden" />
     <category term="树莓派4b" />
+    <category term="wsl" />
+    <category term="systemd" />
+    <category term="Linux" />
+    <category term="manjaro" />
+    <category term="nodejs" />
+    <category term="npm" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
     <category term="gpg" />
@@ -65,9 +65,9 @@
     <category term="scf" />
     <category term="javascript" />
     <entry>
-        <id>https://www.taoidle.com/2020/04/21/%E5%85%B3%E4%BA%8Ecv-tool%E5%B0%8F%E5%B7%A5%E5%85%B7/</id>
+        <id>https://www.taoidle.com/2020/04/21/%E5%85%B3%E4%BA%8ECV%20Tool%E5%B0%8F%E5%B7%A5%E5%85%B7/</id>
         <title>关于CV Tool小工具</title>
-        <link rel="alternate" href="https://www.taoidle.com/2020/04/21/%E5%85%B3%E4%BA%8Ecv-tool%E5%B0%8F%E5%B7%A5%E5%85%B7/"/>
+        <link rel="alternate" href="https://www.taoidle.com/2020/04/21/%E5%85%B3%E4%BA%8ECV%20Tool%E5%B0%8F%E5%B7%A5%E5%85%B7/"/>
         <content type="html">&lt;h2 id=&#34;关于cv-tool&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于cv-tool&#34;&gt;#&lt;/a&gt; 关于 CV Tool&lt;/h2&gt;
 &lt;p&gt;当前版本最新版本为 0.5.1.b4 软件仍处于测试阶段，图像功能基本完成，视频功能尚未完成 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1Rhb2lkbGUvQ1ZfVG9vbA==&#34;&gt;源码链接&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;运行环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运行环境&#34;&gt;#&lt;/a&gt; 运行环境&lt;/h2&gt;

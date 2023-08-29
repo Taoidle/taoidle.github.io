@@ -10,17 +10,13 @@
     <category term="vscode" />
     <category term="图像处理" />
     <category term="教程" />
+    <category term="android" />
+    <category term="android studio" />
     <category term="Arm" />
     <category term="Apple" />
     <category term="苹果" />
     <category term="MacOS" />
     <category term="Brew" />
-    <category term="linux" />
-    <category term="Docker" />
-    <category term="wsl" />
-    <category term="systemd" />
-    <category term="android" />
-    <category term="android studio" />
     <category term="arduino" />
     <category term="CLion" />
     <category term="esp8266" />
@@ -30,16 +26,20 @@
     <category term="esp32-s3-devkitc" />
     <category term="platformio" />
     <category term="git" />
-    <category term="Linux" />
-    <category term="manjaro" />
-    <category term="nodejs" />
-    <category term="npm" />
+    <category term="linux" />
+    <category term="Docker" />
     <category term="原创教程" />
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
     <category term="树莓派" />
     <category term="Bitwarden" />
     <category term="树莓派4b" />
+    <category term="wsl" />
+    <category term="systemd" />
+    <category term="Linux" />
+    <category term="manjaro" />
+    <category term="nodejs" />
+    <category term="npm" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
     <category term="gpg" />
@@ -65,9 +65,9 @@
     <category term="scf" />
     <category term="javascript" />
     <entry>
-        <id>https://www.taoidle.com/2022/04/09/raspberry-pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2bitwarden/</id>
+        <id>https://www.taoidle.com/2022/04/09/Raspberry%20Pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2Bitwarden/</id>
         <title>Raspberry Pi4b私有部署Bitwarden</title>
-        <link rel="alternate" href="https://www.taoidle.com/2022/04/09/raspberry-pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2bitwarden/"/>
+        <link rel="alternate" href="https://www.taoidle.com/2022/04/09/Raspberry%20Pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2Bitwarden/"/>
         <content type="html">&lt;h2 id=&#34;准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备&#34;&gt;#&lt;/a&gt; 准备&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;烧写好系统镜像的 Raspberry Pi4b&lt;/li&gt;
@@ -154,7 +154,9 @@ server &amp;#123;
 &lt;p&gt;&lt;strong&gt;2. 管理您的用户以及配置 Bitwarden 的设置&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495182-image-1649495179498.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;禁用-bitwarden-新用户创建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#禁用-bitwarden-新用户创建&#34;&gt;#&lt;/a&gt; 禁用 Bitwarden 新用户创建&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495329-image-1649495327106.png&#34; alt=&#34;file&#34; /&gt; &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495363-image-1649495361101.png&#34; alt=&#34;file&#34; /&gt; &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495397-image-1649495394882.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495329-image-1649495327106.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495363-image-1649495361101.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495397-image-1649495394882.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
 </content>
         <category term="Docker" />
         <category term="Raspberry Pi4b" />

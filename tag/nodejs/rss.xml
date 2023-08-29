@@ -13,17 +13,13 @@
         <category>vscode</category>
         <category>图像处理</category>
         <category>教程</category>
+        <category>android</category>
+        <category>android studio</category>
         <category>Arm</category>
         <category>Apple</category>
         <category>苹果</category>
         <category>MacOS</category>
         <category>Brew</category>
-        <category>linux</category>
-        <category>Docker</category>
-        <category>wsl</category>
-        <category>systemd</category>
-        <category>android</category>
-        <category>android studio</category>
         <category>arduino</category>
         <category>CLion</category>
         <category>esp8266</category>
@@ -33,16 +29,20 @@
         <category>esp32-s3-devkitc</category>
         <category>platformio</category>
         <category>git</category>
-        <category>Linux</category>
-        <category>manjaro</category>
-        <category>nodejs</category>
-        <category>npm</category>
+        <category>linux</category>
+        <category>Docker</category>
         <category>原创教程</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
         <category>树莓派</category>
         <category>Bitwarden</category>
         <category>树莓派4b</category>
+        <category>wsl</category>
+        <category>systemd</category>
+        <category>Linux</category>
+        <category>manjaro</category>
+        <category>nodejs</category>
+        <category>npm</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
         <category>gpg</category>
@@ -211,9 +211,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.taoidle.com/2020/07/02/manjaro-npm%E6%8D%A2%E6%BA%90/</guid>
+            <guid isPermalink="true">https://www.taoidle.com/2020/07/02/manjaro%20npm%E6%8D%A2%E6%BA%90/</guid>
             <title>manjaro npm换源</title>
-            <link>https://www.taoidle.com/2020/07/02/manjaro-npm%E6%8D%A2%E6%BA%90/</link>
+            <link>https://www.taoidle.com/2020/07/02/manjaro%20npm%E6%8D%A2%E6%BA%90/</link>
             <category>Linux</category>
             <category>manjaro</category>
             <category>nodejs</category>

@@ -13,17 +13,13 @@
         <category>vscode</category>
         <category>图像处理</category>
         <category>教程</category>
+        <category>android</category>
+        <category>android studio</category>
         <category>Arm</category>
         <category>Apple</category>
         <category>苹果</category>
         <category>MacOS</category>
         <category>Brew</category>
-        <category>linux</category>
-        <category>Docker</category>
-        <category>wsl</category>
-        <category>systemd</category>
-        <category>android</category>
-        <category>android studio</category>
         <category>arduino</category>
         <category>CLion</category>
         <category>esp8266</category>
@@ -33,16 +29,20 @@
         <category>esp32-s3-devkitc</category>
         <category>platformio</category>
         <category>git</category>
-        <category>Linux</category>
-        <category>manjaro</category>
-        <category>nodejs</category>
-        <category>npm</category>
+        <category>linux</category>
+        <category>Docker</category>
         <category>原创教程</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
         <category>树莓派</category>
         <category>Bitwarden</category>
         <category>树莓派4b</category>
+        <category>wsl</category>
+        <category>systemd</category>
+        <category>Linux</category>
+        <category>manjaro</category>
+        <category>nodejs</category>
+        <category>npm</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
         <category>gpg</category>
@@ -68,9 +68,9 @@
         <category>scf</category>
         <category>javascript</category>
         <item>
-            <guid isPermalink="true">https://www.taoidle.com/2022/07/30/esp32-s3%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</guid>
+            <guid isPermalink="true">https://www.taoidle.com/2022/07/30/ESP32-S3%20%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</guid>
             <title>ESP32-S3 折腾记录</title>
-            <link>https://www.taoidle.com/2022/07/30/esp32-s3%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</link>
+            <link>https://www.taoidle.com/2022/07/30/ESP32-S3%20%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</link>
             <category>arduino</category>
             <category>esp32</category>
             <category>esp32-s3-devkitc</category>

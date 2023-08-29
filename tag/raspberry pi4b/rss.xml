@@ -13,17 +13,13 @@
         <category>vscode</category>
         <category>图像处理</category>
         <category>教程</category>
+        <category>android</category>
+        <category>android studio</category>
         <category>Arm</category>
         <category>Apple</category>
         <category>苹果</category>
         <category>MacOS</category>
         <category>Brew</category>
-        <category>linux</category>
-        <category>Docker</category>
-        <category>wsl</category>
-        <category>systemd</category>
-        <category>android</category>
-        <category>android studio</category>
         <category>arduino</category>
         <category>CLion</category>
         <category>esp8266</category>
@@ -33,16 +29,20 @@
         <category>esp32-s3-devkitc</category>
         <category>platformio</category>
         <category>git</category>
-        <category>Linux</category>
-        <category>manjaro</category>
-        <category>nodejs</category>
-        <category>npm</category>
+        <category>linux</category>
+        <category>Docker</category>
         <category>原创教程</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
         <category>树莓派</category>
         <category>Bitwarden</category>
         <category>树莓派4b</category>
+        <category>wsl</category>
+        <category>systemd</category>
+        <category>Linux</category>
+        <category>manjaro</category>
+        <category>nodejs</category>
+        <category>npm</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
         <category>gpg</category>
@@ -68,9 +68,9 @@
         <category>scf</category>
         <category>javascript</category>
         <item>
-            <guid isPermalink="true">https://www.taoidle.com/2022/04/09/raspberry-pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2bitwarden/</guid>
+            <guid isPermalink="true">https://www.taoidle.com/2022/04/09/Raspberry%20Pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2Bitwarden/</guid>
             <title>Raspberry Pi4b私有部署Bitwarden</title>
-            <link>https://www.taoidle.com/2022/04/09/raspberry-pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2bitwarden/</link>
+            <link>https://www.taoidle.com/2022/04/09/Raspberry%20Pi4b%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2Bitwarden/</link>
             <category>Docker</category>
             <category>Raspberry Pi4b</category>
             <category>树莓派</category>
@@ -163,13 +163,15 @@ server &amp;#123;
 &lt;p&gt;&lt;strong&gt;2. 管理您的用户以及配置 Bitwarden 的设置&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495182-image-1649495179498.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;禁用-bitwarden-新用户创建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#禁用-bitwarden-新用户创建&#34;&gt;#&lt;/a&gt; 禁用 Bitwarden 新用户创建&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495329-image-1649495327106.png&#34; alt=&#34;file&#34; /&gt; &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495363-image-1649495361101.png&#34; alt=&#34;file&#34; /&gt; &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495397-image-1649495394882.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495329-image-1649495327106.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495363-image-1649495361101.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495397-image-1649495394882.png&#34; alt=&#34;file&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.taoidle.com/2022/04/09/raspberry-pi4b%E5%AE%89%E8%A3%85docker/</guid>
+            <guid isPermalink="true">https://www.taoidle.com/2022/04/09/Raspberry%20Pi4b%E5%AE%89%E8%A3%85Docker/</guid>
             <title>Raspberry Pi4b安装Docker</title>
-            <link>https://www.taoidle.com/2022/04/09/raspberry-pi4b%E5%AE%89%E8%A3%85docker/</link>
+            <link>https://www.taoidle.com/2022/04/09/Raspberry%20Pi4b%E5%AE%89%E8%A3%85Docker/</link>
             <category>Docker</category>
             <category>Raspberry Pi</category>
             <category>Raspberry Pi4b</category>

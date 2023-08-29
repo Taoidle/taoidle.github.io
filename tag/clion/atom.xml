@@ -10,17 +10,13 @@
     <category term="vscode" />
     <category term="图像处理" />
     <category term="教程" />
+    <category term="android" />
+    <category term="android studio" />
     <category term="Arm" />
     <category term="Apple" />
     <category term="苹果" />
     <category term="MacOS" />
     <category term="Brew" />
-    <category term="linux" />
-    <category term="Docker" />
-    <category term="wsl" />
-    <category term="systemd" />
-    <category term="android" />
-    <category term="android studio" />
     <category term="arduino" />
     <category term="CLion" />
     <category term="esp8266" />
@@ -30,16 +26,20 @@
     <category term="esp32-s3-devkitc" />
     <category term="platformio" />
     <category term="git" />
-    <category term="Linux" />
-    <category term="manjaro" />
-    <category term="nodejs" />
-    <category term="npm" />
+    <category term="linux" />
+    <category term="Docker" />
     <category term="原创教程" />
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
     <category term="树莓派" />
     <category term="Bitwarden" />
     <category term="树莓派4b" />
+    <category term="wsl" />
+    <category term="systemd" />
+    <category term="Linux" />
+    <category term="manjaro" />
+    <category term="nodejs" />
+    <category term="npm" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
     <category term="gpg" />
@@ -65,9 +65,9 @@
     <category term="scf" />
     <category term="javascript" />
     <entry>
-        <id>https://www.taoidle.com/2021/06/10/clionplatformio%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91nodemcu/</id>
+        <id>https://www.taoidle.com/2021/06/10/CLion+PlatformIO%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91NodeMcu/</id>
         <title>CLion+PlatformIO环境搭建开发NodeMcu</title>
-        <link rel="alternate" href="https://www.taoidle.com/2021/06/10/clionplatformio%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91nodemcu/"/>
+        <link rel="alternate" href="https://www.taoidle.com/2021/06/10/CLion+PlatformIO%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91NodeMcu/"/>
         <content type="html">&lt;h3 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h3&gt;
 &lt;p&gt;JB 家的东西实在是太好用了，丝毫不是因为我大半年没更新想水博客&lt;/p&gt;
 &lt;h3 id=&#34;准备环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备环境&#34;&gt;#&lt;/a&gt; 准备环境&lt;/h3&gt;

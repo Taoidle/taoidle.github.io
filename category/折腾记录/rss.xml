@@ -13,17 +13,13 @@
         <category>vscode</category>
         <category>图像处理</category>
         <category>教程</category>
+        <category>android</category>
+        <category>android studio</category>
         <category>Arm</category>
         <category>Apple</category>
         <category>苹果</category>
         <category>MacOS</category>
         <category>Brew</category>
-        <category>linux</category>
-        <category>Docker</category>
-        <category>wsl</category>
-        <category>systemd</category>
-        <category>android</category>
-        <category>android studio</category>
         <category>arduino</category>
         <category>CLion</category>
         <category>esp8266</category>
@@ -33,16 +29,20 @@
         <category>esp32-s3-devkitc</category>
         <category>platformio</category>
         <category>git</category>
-        <category>Linux</category>
-        <category>manjaro</category>
-        <category>nodejs</category>
-        <category>npm</category>
+        <category>linux</category>
+        <category>Docker</category>
         <category>原创教程</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
         <category>树莓派</category>
         <category>Bitwarden</category>
         <category>树莓派4b</category>
+        <category>wsl</category>
+        <category>systemd</category>
+        <category>Linux</category>
+        <category>manjaro</category>
+        <category>nodejs</category>
+        <category>npm</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
         <category>gpg</category>
@@ -220,9 +220,9 @@
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Hello from Docker&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;This message shows that your installation appears to be working correctly.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;To generate this message, Docker took the following steps:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;. The Docker client contacted the Docker daemon.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;. The Docker daemon pulled the &lt;span class=&#34;token string&#34;&gt;&#34;hello-world&#34;&lt;/span&gt; image from the Docker Hub.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arm64v8&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;. The Docker daemon created a new container from that image &lt;span class=&#34;token function&#34;&gt;which&lt;/span&gt; runs the&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    executable that produces the output you are currently reading.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;. The Docker daemon streamed that output to the Docker client, &lt;span class=&#34;token function&#34;&gt;which&lt;/span&gt; sent it&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    to your terminal.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;To try something &lt;span class=&#34;token function&#34;&gt;more&lt;/span&gt; ambitious, you can run an Ubuntu container with:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; $ &lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; run -it ubuntu &lt;span class=&#34;token function&#34;&gt;bash&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Share images, automate workflows, and &lt;span class=&#34;token function&#34;&gt;more&lt;/span&gt; with a &lt;span class=&#34;token function&#34;&gt;free&lt;/span&gt; Docker ID:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; https://hub.docker.com/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;For &lt;span class=&#34;token function&#34;&gt;more&lt;/span&gt; examples and ideas, visit:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; https://docs.docker.com/get-started/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.taoidle.com/2022/07/30/esp32-s3%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</guid>
+            <guid isPermalink="true">https://www.taoidle.com/2022/07/30/ESP32-S3%20%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</guid>
             <title>ESP32-S3 折腾记录</title>
-            <link>https://www.taoidle.com/2022/07/30/esp32-s3%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</link>
+            <link>https://www.taoidle.com/2022/07/30/ESP32-S3%20%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</link>
             <category>arduino</category>
             <category>esp32</category>
             <category>esp32-s3-devkitc</category>
@@ -464,9 +464,9 @@ TFT_eSPI 这个库使用起来非常方便，根据自己所使用的屏幕具�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.taoidle.com/2020/10/22/windows%E4%B8%8Bclionopencv%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
+            <guid isPermalink="true">https://www.taoidle.com/2020/10/22/Windows%E4%B8%8BClion+OpenCV%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
             <title>Windows下Clion+OpenCV开发环境搭建</title>
-            <link>https://www.taoidle.com/2020/10/22/windows%E4%B8%8Bclionopencv%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+            <link>https://www.taoidle.com/2020/10/22/Windows%E4%B8%8BClion+OpenCV%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
             <category>opencv</category>
             <category>图像处理</category>
             <pubDate>Thu, 22 Oct 2020 12:11:18 +0800</pubDate>
@@ -479,17 +479,40 @@ TFT_eSPI 这个库使用起来非常方便，根据自己所使用的屏幕具�
 &lt;/ul&gt;
 &lt;h3 id=&#34;步骤&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#步骤&#34;&gt;#&lt;/a&gt; 步骤&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;安装 Clion&lt;/li&gt;
-&lt;li&gt;安装 MinGW 并将 MinGW\bin 添加到环境变量&lt;/li&gt;
-&lt;li&gt;安装 CMake&lt;/li&gt;
-&lt;li&gt;解压 OpenCV 源码&lt;/li&gt;
-&lt;li&gt;打开 CMake, 在第一个框中打开源码目录，第二个框为编译目录，点击 Configure &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_645ab42b1af5be15646efb3290064a98.jpg&#34; alt=&#34;&#34; /&gt;再次点击 Configure 红色消失 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_e4af1ce913054df34ee86ef4408fde7e.jpg&#34; alt=&#34;&#34; /&gt; 点击 Generate &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_3c90537c4260f5537ea63ea0f55eafc6.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;打开 CMD 进入到 MinGW-build 目录下，执行 mingw32-make&lt;/li&gt;
-&lt;li&gt;上一步执行完成后执行 mingw32-make install，生成 install 文件夹 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_a5da3358b4fddbd6fc4dc897bd325052.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装 Clion&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装 MinGW 并将 MinGW\bin 添加到环境变量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装 CMake&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解压 OpenCV 源码&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开 CMake, 在第一个框中打开源码目录，第二个框为编译目录，点击 Configure&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_645ab42b1af5be15646efb3290064a98.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;再次点击 Configure 红色消失&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_e4af1ce913054df34ee86ef4408fde7e.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;点击 Generate&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_3c90537c4260f5537ea63ea0f55eafc6.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开 CMD 进入到 MinGW-build 目录下，执行 mingw32-make&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;上一步执行完成后执行 mingw32-make install，生成 install 文件夹&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_a5da3358b4fddbd6fc4dc897bd325052.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;clion中使用opencv&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#clion中使用opencv&#34;&gt;#&lt;/a&gt; Clion 中使用 OpenCV&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Clion 设置 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_ed7877bd36d1481e37c61faba10c778b.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Clion 设置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_ed7877bd36d1481e37c61faba10c778b.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;CMakeLists.txt 文件配置&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;cmake_minimum_required(VERSION 3.17)
@@ -506,9 +529,9 @@ target_link_libraries(test $&amp;#123;OpenCV_LIBS&amp;#125;)
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.taoidle.com/2020/07/02/manjaro-npm%E6%8D%A2%E6%BA%90/</guid>
+            <guid isPermalink="true">https://www.taoidle.com/2020/07/02/manjaro%20npm%E6%8D%A2%E6%BA%90/</guid>
             <title>manjaro npm换源</title>
-            <link>https://www.taoidle.com/2020/07/02/manjaro-npm%E6%8D%A2%E6%BA%90/</link>
+            <link>https://www.taoidle.com/2020/07/02/manjaro%20npm%E6%8D%A2%E6%BA%90/</link>
             <category>Linux</category>
             <category>manjaro</category>
             <category>nodejs</category>
@@ -530,9 +553,9 @@ target_link_libraries(test $&amp;#123;OpenCV_LIBS&amp;#125;)
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.taoidle.com/2020/06/12/ubuntu20-04%E6%8D%A2%E6%BA%90/</guid>
+            <guid isPermalink="true">https://www.taoidle.com/2020/06/12/ubuntu20.04%E6%8D%A2%E6%BA%90/</guid>
             <title>ubuntu20.04换源</title>
-            <link>https://www.taoidle.com/2020/06/12/ubuntu20-04%E6%8D%A2%E6%BA%90/</link>
+            <link>https://www.taoidle.com/2020/06/12/ubuntu20.04%E6%8D%A2%E6%BA%90/</link>
             <category>Linux</category>
             <category>ubuntu</category>
             <category>ubuntu20.04</category>
@@ -544,21 +567,22 @@ target_link_libraries(test $&amp;#123;OpenCV_LIBS&amp;#125;)
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.taoidle.com/2020/06/12/%E5%85%B3%E4%BA%8Eubuntu20-04%E5%AE%89%E8%A3%85arm-linux-gcc%E5%8F%91%E7%94%9F%E7%9A%84%E9%94%99%E8%AF%AF/</guid>
+            <guid isPermalink="true">https://www.taoidle.com/2020/06/12/%E5%85%B3%E4%BA%8EUbuntu20.04%E5%AE%89%E8%A3%85arm-linux-gcc%E5%8F%91%E7%94%9F%E7%9A%84%E9%94%99%E8%AF%AF/</guid>
             <title>关于Ubuntu20.04安装arm-linux-gcc发生的错误</title>
-            <link>https://www.taoidle.com/2020/06/12/%E5%85%B3%E4%BA%8Eubuntu20-04%E5%AE%89%E8%A3%85arm-linux-gcc%E5%8F%91%E7%94%9F%E7%9A%84%E9%94%99%E8%AF%AF/</link>
+            <link>https://www.taoidle.com/2020/06/12/%E5%85%B3%E4%BA%8EUbuntu20.04%E5%AE%89%E8%A3%85arm-linux-gcc%E5%8F%91%E7%94%9F%E7%9A%84%E9%94%99%E8%AF%AF/</link>
             <category>ubuntu</category>
             <category>ARM</category>
             <category>arm-linux-gcc</category>
             <category>gcc</category>
             <pubDate>Fri, 12 Jun 2020 01:30:58 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;ubuntu20.04 安装 arm-linux-gcc 发生错误:libpng3 : Depends: libpng12-0 (&amp;gt;= 1.2.5.0-2) but it is not installed &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_ffc711dadcd44f60ffc78cf327cc4886.jpg&#34; alt=&#34;&#34; /&gt; 解决方法：&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;ubuntu20.04 安装 arm-linux-gcc 发生错误:libpng3 : Depends: libpng12-0 (&amp;gt;= 1.2.5.0-2) but it is not installed&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_ffc711dadcd44f60ffc78cf327cc4886.jpg&#34; alt=&#34;&#34; /&gt; 解决方法：&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; add-apt-repository ppa:linuxuprising/libpng12&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; update&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; list --upgradable&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; --fix-broken &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; gcc-arm-linux-gnueabi&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://www.taoidle.com/2020/05/10/android-studio%E8%8E%B7%E5%8F%96sha1/</guid>
+            <guid isPermalink="true">https://www.taoidle.com/2020/05/10/Android%20Studio%E8%8E%B7%E5%8F%96SHA1/</guid>
             <title>Android Studio获取SHA1</title>
-            <link>https://www.taoidle.com/2020/05/10/android-studio%E8%8E%B7%E5%8F%96sha1/</link>
+            <link>https://www.taoidle.com/2020/05/10/Android%20Studio%E8%8E%B7%E5%8F%96SHA1/</link>
             <category>android</category>
             <category>android studio</category>
             <pubDate>Sun, 10 May 2020 16:11:21 +0800</pubDate>
@@ -573,7 +597,9 @@ target_link_libraries(test $&amp;#123;OpenCV_LIBS&amp;#125;)
 &lt;li&gt;创建密钥库文件&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;在 Android Studio 中打开 Terminal，这里以创建一个 debug.keystore 为例，输入命令&lt;/p&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;keytool -genkey -v -keystore debug.keystore -alias androiddebugkey -keyalg RSA -validity &lt;span class=&#34;token number&#34;&gt;10000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;填写注册信息（可随意填写），设置密码，密码需记住后续获取 SHA1 需要用到密码 &lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_dda6a1e249ae12028b5cb20d65b16d4c.jpg&#34; alt=&#34;&#34; /&gt; 查看 debug.keystore 是否生成，得到 SHA1 值（红框部分）&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;keytool -genkey -v -keystore debug.keystore -alias androiddebugkey -keyalg RSA -validity &lt;span class=&#34;token number&#34;&gt;10000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;填写注册信息（可随意填写），设置密码，密码需记住后续获取 SHA1 需要用到密码&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_dda6a1e249ae12028b5cb20d65b16d4c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;查看 debug.keystore 是否生成，得到 SHA1 值（红框部分）&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;keytool -list -v -keystore debug.keystore&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_523dfce26e74a850d2cd1eda3171290a.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>

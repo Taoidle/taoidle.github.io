@@ -10,17 +10,13 @@
     <category term="vscode" />
     <category term="图像处理" />
     <category term="教程" />
+    <category term="android" />
+    <category term="android studio" />
     <category term="Arm" />
     <category term="Apple" />
     <category term="苹果" />
     <category term="MacOS" />
     <category term="Brew" />
-    <category term="linux" />
-    <category term="Docker" />
-    <category term="wsl" />
-    <category term="systemd" />
-    <category term="android" />
-    <category term="android studio" />
     <category term="arduino" />
     <category term="CLion" />
     <category term="esp8266" />
@@ -30,16 +26,20 @@
     <category term="esp32-s3-devkitc" />
     <category term="platformio" />
     <category term="git" />
-    <category term="Linux" />
-    <category term="manjaro" />
-    <category term="nodejs" />
-    <category term="npm" />
+    <category term="linux" />
+    <category term="Docker" />
     <category term="原创教程" />
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
     <category term="树莓派" />
     <category term="Bitwarden" />
     <category term="树莓派4b" />
+    <category term="wsl" />
+    <category term="systemd" />
+    <category term="Linux" />
+    <category term="manjaro" />
+    <category term="nodejs" />
+    <category term="npm" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
     <category term="gpg" />
@@ -65,9 +65,9 @@
     <category term="scf" />
     <category term="javascript" />
     <entry>
-        <id>https://www.taoidle.com/2020/09/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E3%80%81%E7%95%B8%E5%8F%98%E7%9F%AB%E6%AD%A3/</id>
+        <id>https://www.taoidle.com/2020/09/02/Python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%20%E2%80%94%E2%80%94%20%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E3%80%81%E7%95%B8%E5%8F%98%E7%9F%AB%E6%AD%A3/</id>
         <title>Python图像处理 —— 相机标定、畸变矫正</title>
-        <link rel="alternate" href="https://www.taoidle.com/2020/09/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E3%80%81%E7%95%B8%E5%8F%98%E7%9F%AB%E6%AD%A3/"/>
+        <link rel="alternate" href="https://www.taoidle.com/2020/09/02/Python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%20%E2%80%94%E2%80%94%20%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E3%80%81%E7%95%B8%E5%8F%98%E7%9F%AB%E6%AD%A3/"/>
         <content type="html">&lt;h2 id=&#34;实验数据&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实验数据&#34;&gt;#&lt;/a&gt; 实验数据&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;标定图（黑白棋盘图）若干（不少于 10 张拍摄不同角度的图片，焦距不变）&lt;/li&gt;
@@ -100,9 +100,9 @@
         <updated>2020-09-02T09:12:15.000Z</updated>
     </entry>
     <entry>
-        <id>https://www.taoidle.com/2020/07/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%A9%BA%E5%9F%9F%E4%BF%A1%E6%81%AF%E9%9A%90%E8%97%8F%EF%BC%88lsb%E6%9B%BF%E6%8D%A2%EF%BC%89/</id>
+        <id>https://www.taoidle.com/2020/07/02/Python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%20%E2%80%94%E2%80%94%20%E7%A9%BA%E5%9F%9F%E4%BF%A1%E6%81%AF%E9%9A%90%E8%97%8F%EF%BC%88LSB%E6%9B%BF%E6%8D%A2%EF%BC%89/</id>
         <title>Python图像处理 —— 空域信息隐藏（LSB替换）</title>
-        <link rel="alternate" href="https://www.taoidle.com/2020/07/02/python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-%E7%A9%BA%E5%9F%9F%E4%BF%A1%E6%81%AF%E9%9A%90%E8%97%8F%EF%BC%88lsb%E6%9B%BF%E6%8D%A2%EF%BC%89/"/>
+        <link rel="alternate" href="https://www.taoidle.com/2020/07/02/Python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%20%E2%80%94%E2%80%94%20%E7%A9%BA%E5%9F%9F%E4%BF%A1%E6%81%AF%E9%9A%90%E8%97%8F%EF%BC%88LSB%E6%9B%BF%E6%8D%A2%EF%BC%89/"/>
         <content type="html">&lt;h2 id=&#34;算法描述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算法描述&#34;&gt;#&lt;/a&gt; 算法描述&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;LSB 即最低有效位，全称为 Leastsignificant Bit，LSB 隐写技术即就是通过修改 RGB 颜色分量的最低位二进制，进行信息的储存。&lt;/li&gt;

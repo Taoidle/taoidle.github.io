@@ -10,17 +10,13 @@
     <category term="vscode" />
     <category term="图像处理" />
     <category term="教程" />
+    <category term="android" />
+    <category term="android studio" />
     <category term="Arm" />
     <category term="Apple" />
     <category term="苹果" />
     <category term="MacOS" />
     <category term="Brew" />
-    <category term="linux" />
-    <category term="Docker" />
-    <category term="wsl" />
-    <category term="systemd" />
-    <category term="android" />
-    <category term="android studio" />
     <category term="arduino" />
     <category term="CLion" />
     <category term="esp8266" />
@@ -30,16 +26,20 @@
     <category term="esp32-s3-devkitc" />
     <category term="platformio" />
     <category term="git" />
-    <category term="Linux" />
-    <category term="manjaro" />
-    <category term="nodejs" />
-    <category term="npm" />
+    <category term="linux" />
+    <category term="Docker" />
     <category term="原创教程" />
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
     <category term="树莓派" />
     <category term="Bitwarden" />
     <category term="树莓派4b" />
+    <category term="wsl" />
+    <category term="systemd" />
+    <category term="Linux" />
+    <category term="manjaro" />
+    <category term="nodejs" />
+    <category term="npm" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
     <category term="gpg" />
@@ -65,9 +65,9 @@
     <category term="scf" />
     <category term="javascript" />
     <entry>
-        <id>https://www.taoidle.com/2022/07/30/esp32-s3%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</id>
+        <id>https://www.taoidle.com/2022/07/30/ESP32-S3%20%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</id>
         <title>ESP32-S3 折腾记录</title>
-        <link rel="alternate" href="https://www.taoidle.com/2022/07/30/esp32-s3%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/"/>
+        <link rel="alternate" href="https://www.taoidle.com/2022/07/30/ESP32-S3%20%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/"/>
         <content type="html">&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
 &lt;p&gt;开发板：ESP32-S3-DEVKIT-C&lt;/p&gt;
 &lt;p&gt;开发环境：Clion + Platformio&lt;/p&gt;
