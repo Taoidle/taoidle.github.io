@@ -1,4 +1,5 @@
 ---
+layout: Raspberry Pi4b私有部署Bitwarden
 title: Raspberry Pi4b私有部署Bitwarden
 tags:
   - Bitwarden
@@ -6,10 +7,8 @@ tags:
   - Raspberry Pi4b
   - 树莓派
   - 树莓派4b
-id: '403'
 categories:
   - - 嵌入式开发
-comments: false
 date: 2022-04-09 17:10:15
 ---
 
@@ -192,4 +191,8 @@ https://你的树莓派ip/admin
 
 ### 禁用 Bitwarden 新用户创建
 
-![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495329-image-1649495327106.png) ![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495363-image-1649495361101.png) ![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495397-image-1649495394882.png)
+![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495329-image-1649495327106.png) 
+
+![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495363-image-1649495361101.png) 
+
+![file](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/1649495397-image-1649495394882.png)

@@ -1,4 +1,5 @@
 ---
+layout: Python图像处理 —— 相机标定、畸变矫正
 title: Python图像处理 —— 相机标定、畸变矫正
 tags:
   - opencv
@@ -6,7 +7,6 @@ tags:
   - 原创教程
   - 图像处理
   - 教程
-id: '342'
 categories:
   - - 计算机视觉
 date: 2020-09-02 17:12:15

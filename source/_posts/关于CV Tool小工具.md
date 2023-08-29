@@ -1,14 +1,13 @@
 ---
+layout: 关于CV Tool小工具
 title: 关于CV Tool小工具
 tags:
   - opencv
   - pyqt5
   - python
   - 计算机视觉
-id: '132'
 categories:
   - - 计算机视觉
-comments: false
 date: 2020-04-21 23:25:36
 ---
 

@@ -1,4 +1,5 @@
 ---
+layout: CLion+PlatformIO环境搭建开发NodeMcu
 title: CLion+PlatformIO环境搭建开发NodeMcu
 tags:
   - arduino
@@ -6,10 +7,8 @@ tags:
   - esp8266
   - nodemcu
   - PlatformIO
-id: '374'
 categories:
   - - 嵌入式开发
-comments: false
 date: 2021-06-10 03:46:56
 ---
 

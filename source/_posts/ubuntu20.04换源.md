@@ -1,10 +1,10 @@
 ---
+layout: ubuntu20.04换源
 title: ubuntu20.04换源
 tags:
   - Linux
   - ubuntu
   - ubuntu20.04
-id: '328'
 categories:
   - - 折腾记录
 date: 2020-06-12 01:52:27

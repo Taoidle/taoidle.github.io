@@ -1,9 +1,9 @@
 ---
+layout: Android Studio获取SHA1
 title: Android Studio获取SHA1
 tags:
   - android
   - android studio
-id: '311'
 categories:
   - - 折腾记录
 date: 2020-05-10 16:11:21
@@ -35,7 +35,11 @@ keytool 错误: java.lang.Exception: 密钥库文件不存在
  keytool -genkey -v -keystore debug.keystore -alias androiddebugkey -keyalg RSA -validity 10000
 ```
 
-填写注册信息（可随意填写），设置密码，密码需记住后续获取SHA1需要用到密码 ![](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_dda6a1e249ae12028b5cb20d65b16d4c.jpg) 查看debug.keystore是否生成，得到SHA1值（红框部分）
+填写注册信息（可随意填写），设置密码，密码需记住后续获取SHA1需要用到密码 
+
+![](https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/wp_editor_md_dda6a1e249ae12028b5cb20d65b16d4c.jpg) 
+
+查看debug.keystore是否生成，得到SHA1值（红框部分）
 
 ```shell
 keytool -list -v -keystore debug.keystore

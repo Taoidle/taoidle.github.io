@@ -1,4 +1,5 @@
 ---
+layout: manjaro npm换源
 title: manjaro npm换源
 tags:
   - Linux

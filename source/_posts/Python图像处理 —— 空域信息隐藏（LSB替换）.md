@@ -1,4 +1,5 @@
 ---
+layout: Python图像处理 —— 空域信息隐藏（LSB替换）
 title: Python图像处理 —— 空域信息隐藏（LSB替换）
 tags:
   - opencv
@@ -6,7 +7,6 @@ tags:
   - 原创教程
   - 图像处理
   - 教程
-id: '336'
 categories:
   - - 计算机视觉
 date: 2020-07-02 14:40:04

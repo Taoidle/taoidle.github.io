@@ -1,14 +1,13 @@
 ---
+layout: Raspberry Pi4b安装Docker
 title: Raspberry Pi4b安装Docker
 tags:
   - Docker
   - Raspberry Pi
   - Raspberry Pi4b
   - 树莓派
-id: '404'
 categories:
   - - 嵌入式开发
-comments: false
 date: 2022-04-09 15:22:46
 ---
 

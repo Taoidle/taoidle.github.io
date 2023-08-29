@@ -1,7 +1,6 @@
 ---
 layout: MacOS Apple silicon Install Docker
 title: MacOS Apple silicon Install Docker
-date: 2022-08-07 09:20:53
 categories:
   - - 折腾记录
 tags: 
@@ -10,6 +9,7 @@ tags:
   - 苹果
   - Docker
   - MacOS
+date: 2022-08-07 09:20:53
 ---
 
 ### Install

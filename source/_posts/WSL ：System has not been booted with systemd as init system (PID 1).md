@@ -1,12 +1,12 @@
 ---
 layout: WSL ：System has not been booted with systemd as init system (PID 1)
 title: WSL ：System has not been booted with systemd as init system (PID 1)
-date: 2023-01-08 13:01:23
 categories:
   - - 折腾记录
 tags: 
   - wsl
   - systemd
+date: 2023-01-08 13:01:23
 ---
 
 ## Systemd Error
