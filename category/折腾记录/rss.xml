@@ -5,8 +5,8 @@
         <link>https://www.taoidle.com</link>
         <description>秋深し、情けは人の、為ならず</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 17 Aug 2023 08:10:53 +0800</pubDate>
-        <lastBuildDate>Thu, 17 Aug 2023 08:10:53 +0800</lastBuildDate>
+        <pubDate>Sun, 16 Jul 2023 13:10:53 +0800</pubDate>
+        <lastBuildDate>Sun, 16 Jul 2023 13:10:53 +0800</lastBuildDate>
         <category>opencv</category>
         <category>pyqt5</category>
         <category>python</category>
@@ -68,15 +68,15 @@
         <category>scf</category>
         <category>javascript</category>
         <item>
-            <guid isPermalink="true">https://www.taoidle.com/2023/08/17/Brew%20Error%20Miscellaneous/</guid>
+            <guid isPermalink="true">https://www.taoidle.com/2023/07/16/Brew%20Error%20Miscellaneous/</guid>
             <title>Brew Error Miscellaneous</title>
-            <link>https://www.taoidle.com/2023/08/17/Brew%20Error%20Miscellaneous/</link>
+            <link>https://www.taoidle.com/2023/07/16/Brew%20Error%20Miscellaneous/</link>
             <category>Arm</category>
             <category>Apple</category>
             <category>苹果</category>
             <category>MacOS</category>
             <category>Brew</category>
-            <pubDate>Thu, 17 Aug 2023 08:10:53 +0800</pubDate>
+            <pubDate>Sun, 16 Jul 2023 13:10:53 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;brew-services-error&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#brew-services-error&#34;&gt;#&lt;/a&gt; Brew Services Error&lt;/h2&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Error: uninitialized constant Homebrew::Service::System&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;/opt/homebrew/Library/Taps/homebrew/homebrew-services/cmd/services.rb:61:in &lt;span class=&#34;token variable&#34;&gt;&lt;span class=&#34;token variable&#34;&gt;`&lt;/span&gt;services&#39;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;/opt/homebrew/Library/Homebrew/brew.rb:94:in &lt;span class=&#34;token variable&#34;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;main&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&#39;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;issue&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#issue&#34;&gt;#&lt;/a&gt; Issue&lt;/h2&gt;
 &lt;ul&gt;
@@ -439,14 +439,10 @@ TFT_eSPI 这个库使用起来非常方便，根据自己所使用的屏幕具�
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;在 github 上创建一个空仓库用于存放图片，然后将自己喜欢的图片提交到该仓库即可，然后就可以在 jsdelivr 上取到该仓库的文件&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;https://cdn.assets.taoidle.com/gh/github用户名/仓库名@分支
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;https://cdn.assets.taoidle.com/gh/github用户名/仓库名@分支&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;克隆 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL1Rhb2lkbGUvUmFuZFBpY1dvcmtlcg==&#34;&gt;RandPicWorker&lt;/span&gt; 这个项目，在项目根目录下执行 yarn 打好依赖。然后使用以下命令登录 cloudflare&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;yarn run wrangler login
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;yarn&lt;/span&gt; run wrangler login&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;在 cloudflare 上创建一个 kv namespace&lt;/p&gt;
 &lt;/li&gt;
