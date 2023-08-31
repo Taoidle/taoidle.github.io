@@ -20,15 +20,15 @@
         <category>苹果</category>
         <category>MacOS</category>
         <category>Brew</category>
+        <category>esp32</category>
+        <category>esp32-s3-devkitc</category>
+        <category>platformio</category>
         <category>arduino</category>
+        <category>git</category>
         <category>CLion</category>
         <category>esp8266</category>
         <category>nodemcu</category>
         <category>PlatformIO</category>
-        <category>esp32</category>
-        <category>esp32-s3-devkitc</category>
-        <category>platformio</category>
-        <category>git</category>
         <category>科普</category>
         <category>职业规划</category>
         <category>linux</category>
@@ -70,6 +70,7 @@
         <category>杂谈</category>
         <category>scf</category>
         <category>javascript</category>
+        <category>TODO</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/04/22/Git%E6%95%99%E7%A8%8B%20%E2%80%94%E2%80%94%20Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</guid>
             <title>Git教程 —— Git的基本操作</title>

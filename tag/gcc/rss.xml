@@ -20,15 +20,15 @@
         <category>苹果</category>
         <category>MacOS</category>
         <category>Brew</category>
+        <category>esp32</category>
+        <category>esp32-s3-devkitc</category>
+        <category>platformio</category>
         <category>arduino</category>
+        <category>git</category>
         <category>CLion</category>
         <category>esp8266</category>
         <category>nodemcu</category>
         <category>PlatformIO</category>
-        <category>esp32</category>
-        <category>esp32-s3-devkitc</category>
-        <category>platformio</category>
-        <category>git</category>
         <category>科普</category>
         <category>职业规划</category>
         <category>linux</category>
@@ -70,6 +70,7 @@
         <category>杂谈</category>
         <category>scf</category>
         <category>javascript</category>
+        <category>TODO</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/06/12/%E5%85%B3%E4%BA%8EUbuntu20.04%E5%AE%89%E8%A3%85arm-linux-gcc%E5%8F%91%E7%94%9F%E7%9A%84%E9%94%99%E8%AF%AF/</guid>
             <title>关于Ubuntu20.04安装arm-linux-gcc发生的错误</title>

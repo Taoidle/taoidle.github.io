@@ -20,15 +20,15 @@
         <category>苹果</category>
         <category>MacOS</category>
         <category>Brew</category>
+        <category>esp32</category>
+        <category>esp32-s3-devkitc</category>
+        <category>platformio</category>
         <category>arduino</category>
+        <category>git</category>
         <category>CLion</category>
         <category>esp8266</category>
         <category>nodemcu</category>
         <category>PlatformIO</category>
-        <category>esp32</category>
-        <category>esp32-s3-devkitc</category>
-        <category>platformio</category>
-        <category>git</category>
         <category>科普</category>
         <category>职业规划</category>
         <category>linux</category>
@@ -70,6 +70,7 @@
         <category>杂谈</category>
         <category>scf</category>
         <category>javascript</category>
+        <category>TODO</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2022/05/24/%E4%BD%BF%E7%94%A8cloudflare%E5%92%8Cjsdelivr%E5%81%9A%E4%B8%80%E4%B8%AA%E9%9A%8F%E6%9C%BA%E5%9B%BEapi/</guid>
             <title>使用cloudflare和jsdelivr做一个随机图api</title>

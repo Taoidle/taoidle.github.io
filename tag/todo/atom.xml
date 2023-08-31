@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.taoidle.com</id>
+    <title>Taoidle • Posts by &#34;todo&#34; tag</title>
+    <link href="https://www.taoidle.com" />
+    <updated>2021-01-15T12:11:45.000Z</updated>
+    <category term="opencv" />
+    <category term="pyqt5" />
+    <category term="python" />
+    <category term="vscode" />
+    <category term="图像处理" />
+    <category term="教程" />
+    <category term="android" />
+    <category term="android studio" />
+    <category term="Arm" />
+    <category term="Apple" />
+    <category term="苹果" />
+    <category term="MacOS" />
+    <category term="Brew" />
+    <category term="esp32" />
+    <category term="esp32-s3-devkitc" />
+    <category term="platformio" />
+    <category term="arduino" />
+    <category term="git" />
+    <category term="CLion" />
+    <category term="esp8266" />
+    <category term="nodemcu" />
+    <category term="PlatformIO" />
+    <category term="科普" />
+    <category term="职业规划" />
+    <category term="linux" />
+    <category term="Docker" />
+    <category term="原创教程" />
+    <category term="Raspberry Pi" />
+    <category term="Raspberry Pi4b" />
+    <category term="树莓派" />
+    <category term="Bitwarden" />
+    <category term="树莓派4b" />
+    <category term="wsl" />
+    <category term="systemd" />
+    <category term="Linux" />
+    <category term="manjaro" />
+    <category term="nodejs" />
+    <category term="npm" />
+    <category term="ubuntu" />
+    <category term="ubuntu20.04" />
+    <category term="gpg" />
+    <category term="yubikey" />
+    <category term="canokeys" />
+    <category term="cloudflare" />
+    <category term="cloudflare worker" />
+    <category term="github" />
+    <category term="cdn" />
+    <category term="typescript" />
+    <category term="esp01" />
+    <category term="esp01s" />
+    <category term="Homekit" />
+    <category term="智能家居" />
+    <category term="物联网" />
+    <category term="计算机视觉" />
+    <category term="ARM" />
+    <category term="arm-linux-gcc" />
+    <category term="gcc" />
+    <category term="tencent cloud" />
+    <category term="leancloud" />
+    <category term="upyun" />
+    <category term="杂谈" />
+    <category term="scf" />
+    <category term="javascript" />
+    <category term="TODO" />
+    <entry>
+        <id>https://www.taoidle.com/2021/01/15/%E8%AE%A9%E6%88%91%E7%9C%8B%E7%9C%8B%E8%BF%98%E6%9C%89%E5%95%A5%E5%9D%91%E6%B2%A1%E5%A1%AB/</id>
+        <title>让我看看还有啥坑没填</title>
+        <link rel="alternate" href="https://www.taoidle.com/2021/01/15/%E8%AE%A9%E6%88%91%E7%9C%8B%E7%9C%8B%E8%BF%98%E6%9C%89%E5%95%A5%E5%9D%91%E6%B2%A1%E5%A1%AB/"/>
+        <content type="html">&lt;h2 id=&#34;编程类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#编程类&#34;&gt;#&lt;/a&gt; 编程类&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;s&gt;opencv&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;shell&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;uboot&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;linux&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;docker&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;tensorflow&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;pytorch&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;vue3&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;php&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;laravel&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;redis&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;kafka&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;rabbitmq&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;swift&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;typescript&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;nodejs&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;postgresql&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;vue3&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;element ui&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;angular&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;material design&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;ant design&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;c#&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;.net&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;rust&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;tauri&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;c++ 20&lt;/li&gt;
+&lt;li&gt;naive ui&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;电子类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#电子类&#34;&gt;#&lt;/a&gt; 电子类&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;s&gt;焊接&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;stm32f1&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;altium designer&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;stm32f4&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;stm32 hal&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;free rtos&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;rt thread&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;uCOS&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;stm32f0&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;arduino&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;esp8266&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;esp32&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;六层 Layout 设计&lt;/li&gt;
+&lt;li&gt;高速 HDI 设计&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;电气类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#电气类&#34;&gt;#&lt;/a&gt; 电气类&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;s&gt;电路原理&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;电工基础&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;电子电力技术&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;自控原理&lt;/li&gt;
+&lt;li&gt;PLC&lt;/li&gt;
+&lt;li&gt;工程力学&lt;/li&gt;
+&lt;li&gt;电力系统分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;设计类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设计类&#34;&gt;#&lt;/a&gt; 设计类&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;s&gt;Photoshop&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Axure&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;墨刀&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Final Cut Pro&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;C4D&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Fusion360&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;AutoCAD&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;Rhino&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;交叉学科&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#交叉学科&#34;&gt;#&lt;/a&gt; 交叉学科&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;s&gt;经济学原理&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;货币金融学&lt;/li&gt;
+&lt;li&gt;金融市场与金融机构基础&lt;/li&gt;
+&lt;li&gt;投资学&lt;/li&gt;
+&lt;li&gt;博弈论&lt;/li&gt;
+&lt;li&gt;计量经济学&lt;/li&gt;
+&lt;li&gt;量化交易&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;数码类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数码类&#34;&gt;#&lt;/a&gt; 数码类&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;s&gt;手机&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;音响&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;耳机&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;台式电脑&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;笔记本电脑&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;电视&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;投影仪&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;生活类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#生活类&#34;&gt;#&lt;/a&gt; 生活类&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;s&gt;饮水机怎么选&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;菜刀怎么选&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;厨房锅具&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;食用油&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;汽车基础知识&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;装修知识&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;空调怎么选&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;洗碗机怎么选&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;冰箱怎么选&lt;/li&gt;
+&lt;li&gt;床垫怎么选&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;博客文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#博客文章&#34;&gt;#&lt;/a&gt; 博客文章&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;嵌入式开发方式&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;职业规划&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;智能家居&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;博客架构&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;gpg&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;图像处理&lt;/li&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;硬件密钥&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;硬件科普&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="TODO" />
+        <updated>2021-01-15T12:11:45.000Z</updated>
+    </entry>
+</feed>

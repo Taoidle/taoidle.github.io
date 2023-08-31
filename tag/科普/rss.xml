@@ -20,15 +20,15 @@
         <category>苹果</category>
         <category>MacOS</category>
         <category>Brew</category>
+        <category>esp32</category>
+        <category>esp32-s3-devkitc</category>
+        <category>platformio</category>
         <category>arduino</category>
+        <category>git</category>
         <category>CLion</category>
         <category>esp8266</category>
         <category>nodemcu</category>
         <category>PlatformIO</category>
-        <category>esp32</category>
-        <category>esp32-s3-devkitc</category>
-        <category>platformio</category>
-        <category>git</category>
         <category>科普</category>
         <category>职业规划</category>
         <category>linux</category>
@@ -70,6 +70,7 @@
         <category>杂谈</category>
         <category>scf</category>
         <category>javascript</category>
+        <category>TODO</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2023/08/24/%E5%8F%8C%E5%9B%A0%E7%B4%A0%E9%AA%8C%E8%AF%81%E3%80%81%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%8E%E7%A1%AC%E4%BB%B6%E5%AF%86%E9%92%A5/</guid>
             <title>双因素验证、密码管理器与硬件密钥</title>

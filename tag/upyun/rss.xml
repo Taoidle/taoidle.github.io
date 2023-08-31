@@ -20,15 +20,15 @@
         <category>苹果</category>
         <category>MacOS</category>
         <category>Brew</category>
+        <category>esp32</category>
+        <category>esp32-s3-devkitc</category>
+        <category>platformio</category>
         <category>arduino</category>
+        <category>git</category>
         <category>CLion</category>
         <category>esp8266</category>
         <category>nodemcu</category>
         <category>PlatformIO</category>
-        <category>esp32</category>
-        <category>esp32-s3-devkitc</category>
-        <category>platformio</category>
-        <category>git</category>
         <category>科普</category>
         <category>职业规划</category>
         <category>linux</category>
@@ -70,6 +70,7 @@
         <category>杂谈</category>
         <category>scf</category>
         <category>javascript</category>
+        <category>TODO</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2022/11/02/%E5%8D%9A%E5%AE%A2%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%9C%8D%E5%8A%A1/</guid>
             <title>博客及相关服务</title>

@@ -34,6 +34,16 @@
                 "科普",
                 "职业规划"
             ]
+        },
+        {
+            "id": "https://www.taoidle.com/2021/01/15/%E8%AE%A9%E6%88%91%E7%9C%8B%E7%9C%8B%E8%BF%98%E6%9C%89%E5%95%A5%E5%9D%91%E6%B2%A1%E5%A1%AB/",
+            "url": "https://www.taoidle.com/2021/01/15/%E8%AE%A9%E6%88%91%E7%9C%8B%E7%9C%8B%E8%BF%98%E6%9C%89%E5%95%A5%E5%9D%91%E6%B2%A1%E5%A1%AB/",
+            "title": "让我看看还有啥坑没填",
+            "date_published": "2021-01-15T12:11:45.000Z",
+            "content_html": "<h2 id=\"编程类\"><a class=\"anchor\" href=\"#编程类\">#</a> 编程类</h2>\n<ul>\n<li><s>opencv</s></li>\n<li><s>shell</s></li>\n<li><s>uboot</s></li>\n<li><s>linux</s></li>\n<li><s>docker</s></li>\n<li><s>tensorflow</s></li>\n<li><s>pytorch</s></li>\n<li><s>vue3</s></li>\n<li><s>php</s></li>\n<li><s>laravel</s></li>\n<li><s>redis</s></li>\n<li><s>kafka</s></li>\n<li><s>rabbitmq</s></li>\n<li><s>swift</s></li>\n<li><s>typescript</s></li>\n<li><s>nodejs</s></li>\n<li><s>postgresql</s></li>\n<li><s>vue3</s></li>\n<li><s>element ui</s></li>\n<li><s>angular</s></li>\n<li><s>material design</s></li>\n<li><s>ant design</s></li>\n<li><s>c#</s></li>\n<li><s>.net</s></li>\n<li><s>rust</s></li>\n<li><s>tauri</s></li>\n<li>c++ 20</li>\n<li>naive ui</li>\n</ul>\n<h2 id=\"电子类\"><a class=\"anchor\" href=\"#电子类\">#</a> 电子类</h2>\n<ul>\n<li><s>焊接</s></li>\n<li><s>stm32f1</s></li>\n<li><s>altium designer</s></li>\n<li><s>stm32f4</s></li>\n<li><s>stm32 hal</s></li>\n<li><s>free rtos</s></li>\n<li><s>rt thread</s></li>\n<li><s>uCOS</s></li>\n<li><s>stm32f0</s></li>\n<li><s>arduino</s></li>\n<li><s>esp8266</s></li>\n<li><s>esp32</s></li>\n<li>六层 Layout 设计</li>\n<li>高速 HDI 设计</li>\n</ul>\n<h2 id=\"电气类\"><a class=\"anchor\" href=\"#电气类\">#</a> 电气类</h2>\n<ul>\n<li><s>电路原理</s></li>\n<li><s>电工基础</s></li>\n<li><s>电子电力技术</s></li>\n<li>自控原理</li>\n<li>PLC</li>\n<li>工程力学</li>\n<li>电力系统分析</li>\n</ul>\n<h2 id=\"设计类\"><a class=\"anchor\" href=\"#设计类\">#</a> 设计类</h2>\n<ul>\n<li><s>Photoshop</s></li>\n<li><s>Axure</s></li>\n<li>墨刀</li>\n<li><s>Final Cut Pro</s></li>\n<li>C4D</li>\n<li><s>Fusion360</s></li>\n<li><s>AutoCAD</s></li>\n<li>Rhino</li>\n</ul>\n<h2 id=\"交叉学科\"><a class=\"anchor\" href=\"#交叉学科\">#</a> 交叉学科</h2>\n<ul>\n<li><s>经济学原理</s></li>\n<li>货币金融学</li>\n<li>金融市场与金融机构基础</li>\n<li>投资学</li>\n<li>博弈论</li>\n<li>计量经济学</li>\n<li>量化交易</li>\n</ul>\n<h2 id=\"数码类\"><a class=\"anchor\" href=\"#数码类\">#</a> 数码类</h2>\n<ul>\n<li><s>手机</s></li>\n<li><s>音响</s></li>\n<li><s>耳机</s></li>\n<li><s>台式电脑</s></li>\n<li><s>笔记本电脑</s></li>\n<li><s>电视</s></li>\n<li>投影仪</li>\n</ul>\n<h2 id=\"生活类\"><a class=\"anchor\" href=\"#生活类\">#</a> 生活类</h2>\n<ul>\n<li><s>饮水机怎么选</s></li>\n<li><s>菜刀怎么选</s></li>\n<li><s>厨房锅具</s></li>\n<li><s>食用油</s></li>\n<li><s>汽车基础知识</s></li>\n<li>装修知识</li>\n<li><s>空调怎么选</s></li>\n<li><s>洗碗机怎么选</s></li>\n<li>冰箱怎么选</li>\n<li>床垫怎么选</li>\n</ul>\n<h2 id=\"博客文章\"><a class=\"anchor\" href=\"#博客文章\">#</a> 博客文章</h2>\n<ul>\n<li>嵌入式开发方式</li>\n<li><s>职业规划</s></li>\n<li>智能家居</li>\n<li><s>博客架构</s></li>\n<li><s>gpg</s></li>\n<li>图像处理</li>\n<li>git</li>\n<li><s>硬件密钥</s></li>\n<li>硬件科普</li>\n</ul>\n",
+            "tags": [
+                "TODO"
+            ]
         }
     ]
 }
