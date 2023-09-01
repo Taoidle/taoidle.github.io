@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Taoidle • Posts by &#34;折腾记录&#34; category</title>
+        <title>陶陶闲人个人站 • Posts by &#34;折腾记录&#34; category</title>
         <link>https://www.taoidle.com</link>
-        <description>秋深し、情けは人の、為ならず</description>
+        <description>(づ●─●)づ&lt;()&gt;让我看看再学点什么好</description>
         <language>zh-CN</language>
         <pubDate>Sun, 16 Jul 2023 13:10:53 +0800</pubDate>
         <lastBuildDate>Sun, 16 Jul 2023 13:10:53 +0800</lastBuildDate>
@@ -20,15 +20,15 @@
         <category>苹果</category>
         <category>MacOS</category>
         <category>Brew</category>
-        <category>esp32</category>
-        <category>esp32-s3-devkitc</category>
-        <category>platformio</category>
         <category>arduino</category>
-        <category>git</category>
         <category>CLion</category>
         <category>esp8266</category>
         <category>nodemcu</category>
         <category>PlatformIO</category>
+        <category>esp32</category>
+        <category>esp32-s3-devkitc</category>
+        <category>platformio</category>
+        <category>git</category>
         <category>科普</category>
         <category>职业规划</category>
         <category>linux</category>
@@ -227,10 +227,10 @@
             <guid isPermalink="true">https://www.taoidle.com/2022/07/30/ESP32-S3%20%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</guid>
             <title>ESP32-S3 折腾记录</title>
             <link>https://www.taoidle.com/2022/07/30/ESP32-S3%20%E6%8A%98%E8%85%BE%E8%AE%B0%E5%BD%95/</link>
+            <category>arduino</category>
             <category>esp32</category>
             <category>esp32-s3-devkitc</category>
             <category>platformio</category>
-            <category>arduino</category>
             <pubDate>Sat, 30 Jul 2022 12:00:24 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
 &lt;p&gt;开发板：ESP32-S3-DEVKIT-C&lt;/p&gt;
