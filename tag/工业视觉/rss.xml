@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title> • Posts by &#34;工业视觉&#34; tag</title>
+        <link>https://www.taoidle.com</link>
+        <description>(づ●─●)づ让我看看再学点什么好</description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 02 Sep 2023 14:11:32 +0800</pubDate>
+        <lastBuildDate>Sat, 02 Sep 2023 14:11:32 +0800</lastBuildDate>
+        <category>opencv</category>
+        <category>pyqt5</category>
+        <category>python</category>
+        <category>vscode</category>
+        <category>图像处理</category>
+        <category>教程</category>
+        <category>android</category>
+        <category>android studio</category>
+        <category>Arm</category>
+        <category>Apple</category>
+        <category>苹果</category>
+        <category>MacOS</category>
+        <category>Brew</category>
+        <category>arduino</category>
+        <category>CLion</category>
+        <category>esp8266</category>
+        <category>nodemcu</category>
+        <category>PlatformIO</category>
+        <category>esp32</category>
+        <category>esp32-s3-devkitc</category>
+        <category>platformio</category>
+        <category>git</category>
+        <category>科普</category>
+        <category>职业规划</category>
+        <category>linux</category>
+        <category>Docker</category>
+        <category>原创教程</category>
+        <category>Raspberry Pi</category>
+        <category>Raspberry Pi4b</category>
+        <category>树莓派</category>
+        <category>Bitwarden</category>
+        <category>树莓派4b</category>
+        <category>wsl</category>
+        <category>systemd</category>
+        <category>Linux</category>
+        <category>manjaro</category>
+        <category>nodejs</category>
+        <category>npm</category>
+        <category>ubuntu</category>
+        <category>ubuntu20.04</category>
+        <category>gpg</category>
+        <category>yubikey</category>
+        <category>canokeys</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
+        <category>esp01</category>
+        <category>esp01s</category>
+        <category>Homekit</category>
+        <category>智能家居</category>
+        <category>物联网</category>
+        <category>计算机视觉</category>
+        <category>ARM</category>
+        <category>arm-linux-gcc</category>
+        <category>gcc</category>
+        <category>tencent cloud</category>
+        <category>leancloud</category>
+        <category>upyun</category>
+        <category>经济学原理</category>
+        <category>工业视觉</category>
+        <category>杂谈</category>
+        <category>scf</category>
+        <category>javascript</category>
+        <category>TODO</category>
+        <item>
+            <guid isPermalink="true">https://www.taoidle.com/2023/09/02/%E5%B7%A5%E4%B8%9A%E8%A7%86%E8%A7%89%E8%A1%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E7%8E%B0%E7%8A%B6%E6%A6%82%E5%86%B5/</guid>
+            <title>工业视觉行业发展现状概况</title>
+            <link>https://www.taoidle.com/2023/09/02/%E5%B7%A5%E4%B8%9A%E8%A7%86%E8%A7%89%E8%A1%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E7%8E%B0%E7%8A%B6%E6%A6%82%E5%86%B5/</link>
+            <category>工业视觉</category>
+            <pubDate>Sat, 02 Sep 2023 14:11:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;机器视觉行业概况&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#机器视觉行业概况&#34;&gt;#&lt;/a&gt; 机器视觉行业概况&lt;/h2&gt;
+&lt;p&gt;资料来源：国家统计局，中国通信院，中国电子信息产业发展研究院，华西证券研究所，国元证券，天风证券，华鑫证券，国海证券，中移智库，图漾科技，奥普特，GGI，CCID，euresys&lt;/p&gt;
+&lt;h2 id=&#34;行业发展环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#行业发展环境&#34;&gt;#&lt;/a&gt; 行业发展环境&lt;/h2&gt;
+&lt;p&gt;中国机器视觉市场规模 2021 年约 138 亿，2022 年约 169 亿，2023 年预计达到 225 亿。2019 至今 CAGP 约 25%。&lt;/p&gt;
+&lt;p&gt;其中以 2D 机器视觉为主，当前市场规模约为 3D 视觉的 8~10 倍。&lt;/p&gt;
+&lt;p&gt;工业是目前中国奇迹视觉行业最大的应用领域，占比约 80%，其中电子、半导体、新能源、汽车约占整个行业的 65%，这也是目前最值得关注的四大赛道。&lt;/p&gt;
+&lt;p&gt;消费电子元器件尺寸较小，检测要求较高，适合用机器视觉系统检测。是机器视觉主要应用行业。应用场景举例：电子零件、设备检测、CIS 高精密点胶与自动检测、电子产品表面缺陷检测、手机盖板玻璃检测等&lt;/p&gt;
+&lt;p&gt;汽车制造领域，机器视觉主要用于车身装配检测，面板印刷质量检测、字符检测、零件尺寸的紧密检测、工业表面缺陷检测、自由曲面检测、间隙检测等几乎所有系统和不见的制造流程。随着质量官管控、智能化趋势对检测要求的提高，机器视觉需求也会继续提高。3D 视觉是汽车制造行业的趋势。场景举例：冷凝器外观检测、汽车电磁阀滤芯检测、汽车曲轴连杆检测等&lt;/p&gt;
+&lt;p&gt;新能源方面，除了锂电，光伏也是重点发展对象。&lt;/p&gt;
+&lt;h2 id=&#34;工业机器视觉产业链&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#工业机器视觉产业链&#34;&gt;#&lt;/a&gt; 工业机器视觉产业链&lt;/h2&gt;
+&lt;p&gt;上游：工业机器视觉产业链上游包括光源、工业镜头、工业相机、图像采集卡和软件及算法平台，其中工业镜头、相机、采集卡等核心零部件与算法软件是机器视觉价值最高的部分，其成本占据工业视觉产品总成本的 80%。&lt;/p&gt;
+&lt;p&gt;中游：二次开发的系统集成和软件服务商，主要根据上游产品以及下游需求进行集成整合，越来越多上游企业向中游业务扩展延伸，形成自有的完整解决方案。&lt;/p&gt;
+&lt;p&gt;下游：机器视觉下游的应用领域广泛，涉及到多种制造业及服务行业，主要应用于消费电子、汽车制造、半导体、新能源、医疗制药等行业。&lt;/p&gt;
+&lt;h2 id=&#34;工业视觉厂商销售模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#工业视觉厂商销售模式&#34;&gt;#&lt;/a&gt; 工业视觉厂商销售模式&lt;/h2&gt;
+&lt;p&gt;主要有 3 种销售模式，其中较多的是和集成商合作，将产品给集成商做系统集成，因此成为集成商需求的核心厂商是工业视觉厂商努力的方向。&lt;/p&gt;
+&lt;h2 id=&#34;机器视觉解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#机器视觉解决方案&#34;&gt;#&lt;/a&gt; 机器视觉解决方案&lt;/h2&gt;
+&lt;p&gt;场景应用可分为：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;识别：基于目标物进行甄别，包括外形、颜色、条码等。&lt;/li&gt;
+&lt;li&gt;测量：把获取的图像像素信息标定成常用的度量衡单位，然后在图像中精确地计算出目标物体的几何尺寸。&lt;/li&gt;
+&lt;li&gt;定位：获得目标物体的位置，可以是二维或者是三位的位置信息。定位的精度和速度是定位功能的主要指标。在识别出物体的基础上精确给出物体的坐标和角度信息，自动判断物体位置。&lt;/li&gt;
+&lt;li&gt;检测：外观检测，其内涵种类繁多。如产品装配后的完整性检测、外观缺陷检测等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;应用较多的场景为视觉检测与视觉定位。&lt;/p&gt;
+&lt;h2 id=&#34;工业领域典型应用场景&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#工业领域典型应用场景&#34;&gt;#&lt;/a&gt; 工业领域典型应用场景&lt;/h2&gt;
+&lt;h3 id=&#34;自动化产线质检&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自动化产线质检&#34;&gt;#&lt;/a&gt; 自动化产线质检&lt;/h3&gt;
+&lt;p&gt;目前人工质检面临质量、成本、特殊场景应对等问题。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;质量：人类视觉对灰度的分辨能力较差，在空间分辨能力上效果也不好，难以分辨微小目标，且存在视觉疲劳及心理波动。&lt;/li&gt;
+&lt;li&gt;成本：产品复杂度逐渐增加，产线工人数量增多，人员流动性高，培训和用工成本高。&lt;/li&gt;
+&lt;li&gt;效率：人工质检的检测时间是 s 级，而机器视觉快门时间和计算时间都可以达到 us 级。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;工业领域质检主要涉及产品外观缺陷、尺寸、平整度、距离、校准、焊接、质量、弯曲度等检测。典型自动化产线上的工业视觉检测由视觉检测系统（成像、光源、图像采集处理）、运动控制系统、显示单元组成。&lt;/p&gt;
+&lt;h3 id=&#34;工业机器人视觉引导与检测&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#工业机器人视觉引导与检测&#34;&gt;#&lt;/a&gt; 工业机器人视觉引导与检测&lt;/h3&gt;
+&lt;p&gt;视觉引导是指通过成像系统对工件进行定位和识别，引导机器人进行抓取，用于无序分拣，上下料，焊接等。&lt;/p&gt;
+&lt;p&gt;典型机器人工业视觉引导组装系统有三部分组成：工业相机、工控机（图像处理软件）、机械手。工业相机获取图像信息，传送到工控机上的图像处理软件，进行动态定位和识别，获取要抓取物品空间位置信息，规划机械手运动路径、拾取及放置的位置。&lt;/p&gt;
+&lt;h2 id=&#34;技术发展趋势&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#技术发展趋势&#34;&gt;#&lt;/a&gt; 技术发展趋势&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;集成化，小型化&lt;/p&gt;
+&lt;p&gt;将光学模组、通信模组、计算模组集成到一个单一的设备，缩小体积，即嵌入式视觉应用。端侧视觉检测系统与运动控制平台结合，实时对端侧异常情况进行处理，而随着检测精度的提高，端侧数据量增大，边缘端的数据处理可以减轻数据回传的通信链路带宽压力。场景举例：基于视觉的辅助驾驶、智能安防系统、智能读码器、机器人引导系统等。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;智能化，简易化&lt;/p&gt;
+&lt;p&gt;从传统工业视觉逐渐向基于深度学习的 AI 工业视觉过渡，由于视觉工程师基于视觉任务的特定需求进行目标特征的定义及数值判断的阈值定义的实现难以适应随机性强、特征复杂的工作任务。算法集成度越来越高，操作简易化，大幅度降低使用门槛。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;3D 机器视觉&lt;/p&gt;
+&lt;p&gt;从 2D 视觉逐渐向 3D 视觉转变。3D 视觉对光照条件相对不敏感，且精度和可靠性高，可以更好的进行多传感器融合，检测目标并获得形状、对比度、空间坐标信息等。而 2D 视觉不擅长测量任何具有高度或深度的物体。&lt;/p&gt;
+&lt;p&gt;3D 视觉目前四种主要技术&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;激光三角测量：在激光三角测量系统中，激光线被投射在 3D 对象上，用以测量。 相机从一个不同的角度对着激光线。 相机观察到的激光线变形包含了被测量物体的形状信息。对物体的扫描包含物体在激光线下移动和多图像的记录。通过扫描可以重构其 3D 形状。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;双目立体视觉：基于视差原理并利用成像设备从不同的位置获取被测物体的两幅图像，通过计算图像对应点间的位置偏差，来获取物体三维几何信息的方法。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TOF：通过给目标连续发送光脉冲，然后用传感器接收从物体返回的光，通过探测光脉冲的飞行（往返）时间来得到目标物距离。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;结构光：通过一个投影器投射出一个特定的图案，然后在摄像机所拍摄的图像中识别出这个图案，通过计算这个图案变形的程度和位置，推断出物体的三维形状。投影器投射出的图案称为结构光系统的编码或模式编码。可分为线扫描结构光和面阵结构光。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;结构光 &amp;amp; TOF&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;结构光 优点：方案成熟，功耗低，平面信息分辨率高 缺点：识别距离近，受光照影响大&lt;/li&gt;
+&lt;li&gt;TOF 优点：抗干扰性好，识别距离远 缺点：平面分辨率低，功耗大&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;智能质检典型应用模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#智能质检典型应用模式&#34;&gt;#&lt;/a&gt; 智能质检典型应用模式&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;外观表面质量检测&lt;/li&gt;
+&lt;li&gt;几何尺寸公差检测&lt;/li&gt;
+&lt;li&gt;装配质量防错检测&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;产业概况图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#产业概况图&#34;&gt;#&lt;/a&gt; 产业概况图&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E4%BA%A7%E4%B8%9A%E6%A6%82%E5%86%B5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
