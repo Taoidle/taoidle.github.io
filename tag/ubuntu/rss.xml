@@ -25,10 +25,10 @@
         <category>esp8266</category>
         <category>nodemcu</category>
         <category>PlatformIO</category>
+        <category>git</category>
         <category>esp32</category>
         <category>esp32-s3-devkitc</category>
         <category>platformio</category>
-        <category>git</category>
         <category>科普</category>
         <category>职业规划</category>
         <category>linux</category>
@@ -67,9 +67,8 @@
         <category>tencent cloud</category>
         <category>leancloud</category>
         <category>upyun</category>
-        <category>经济学原理</category>
         <category>工业视觉</category>
-        <category>杂谈</category>
+        <category>经济学原理</category>
         <category>scf</category>
         <category>javascript</category>
         <category>TODO</category>
