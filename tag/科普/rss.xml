@@ -7,6 +7,12 @@
         <language>zh-CN</language>
         <pubDate>Thu, 24 Aug 2023 19:17:22 +0800</pubDate>
         <lastBuildDate>Thu, 24 Aug 2023 19:17:22 +0800</lastBuildDate>
+        <category>opencv</category>
+        <category>pyqt5</category>
+        <category>python</category>
+        <category>vscode</category>
+        <category>图像处理</category>
+        <category>教程</category>
         <category>android</category>
         <category>android studio</category>
         <category>Arm</category>
@@ -23,15 +29,10 @@
         <category>esp32-s3-devkitc</category>
         <category>platformio</category>
         <category>git</category>
-        <category>教程</category>
         <category>科普</category>
         <category>职业规划</category>
         <category>linux</category>
         <category>Docker</category>
-        <category>opencv</category>
-        <category>pyqt5</category>
-        <category>python</category>
-        <category>图像处理</category>
         <category>原创教程</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
@@ -40,26 +41,25 @@
         <category>树莓派4b</category>
         <category>wsl</category>
         <category>systemd</category>
-        <category>yubikey</category>
-        <category>canokeys</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
         <category>npm</category>
+        <category>yubikey</category>
+        <category>canokeys</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
         <category>gpg</category>
-        <category>vscode</category>
-        <category>esp01</category>
-        <category>esp01s</category>
-        <category>Homekit</category>
-        <category>智能家居</category>
-        <category>物联网</category>
         <category>cloudflare</category>
         <category>cloudflare worker</category>
         <category>github</category>
         <category>cdn</category>
         <category>typescript</category>
+        <category>esp01</category>
+        <category>esp01s</category>
+        <category>Homekit</category>
+        <category>智能家居</category>
+        <category>物联网</category>
         <category>计算机视觉</category>
         <category>ARM</category>
         <category>arm-linux-gcc</category>
@@ -67,11 +67,11 @@
         <category>tencent cloud</category>
         <category>leancloud</category>
         <category>upyun</category>
-        <category>经济学原理</category>
         <category>工业视觉</category>
         <category>scf</category>
         <category>javascript</category>
         <category>TODO</category>
+        <category>经济学原理</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2023/08/24/%E5%8F%8C%E5%9B%A0%E7%B4%A0%E9%AA%8C%E8%AF%81%E3%80%81%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%8E%E7%A1%AC%E4%BB%B6%E5%AF%86%E9%92%A5/</guid>
             <title>双因素验证、密码管理器与硬件密钥</title>

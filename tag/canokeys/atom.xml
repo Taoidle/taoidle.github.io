@@ -4,6 +4,12 @@
     <title> • Posts by &#34;canokeys&#34; tag</title>
     <link href="https://www.taoidle.com" />
     <updated>2024-11-20T03:40:23.000Z</updated>
+    <category term="opencv" />
+    <category term="pyqt5" />
+    <category term="python" />
+    <category term="vscode" />
+    <category term="图像处理" />
+    <category term="教程" />
     <category term="android" />
     <category term="android studio" />
     <category term="Arm" />
@@ -20,15 +26,10 @@
     <category term="esp32-s3-devkitc" />
     <category term="platformio" />
     <category term="git" />
-    <category term="教程" />
     <category term="科普" />
     <category term="职业规划" />
     <category term="linux" />
     <category term="Docker" />
-    <category term="opencv" />
-    <category term="pyqt5" />
-    <category term="python" />
-    <category term="图像处理" />
     <category term="原创教程" />
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
@@ -37,26 +38,25 @@
     <category term="树莓派4b" />
     <category term="wsl" />
     <category term="systemd" />
-    <category term="yubikey" />
-    <category term="canokeys" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
     <category term="npm" />
+    <category term="yubikey" />
+    <category term="canokeys" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
     <category term="gpg" />
-    <category term="vscode" />
-    <category term="esp01" />
-    <category term="esp01s" />
-    <category term="Homekit" />
-    <category term="智能家居" />
-    <category term="物联网" />
     <category term="cloudflare" />
     <category term="cloudflare worker" />
     <category term="github" />
     <category term="cdn" />
     <category term="typescript" />
+    <category term="esp01" />
+    <category term="esp01s" />
+    <category term="Homekit" />
+    <category term="智能家居" />
+    <category term="物联网" />
     <category term="计算机视觉" />
     <category term="ARM" />
     <category term="arm-linux-gcc" />
@@ -64,11 +64,11 @@
     <category term="tencent cloud" />
     <category term="leancloud" />
     <category term="upyun" />
-    <category term="经济学原理" />
     <category term="工业视觉" />
     <category term="scf" />
     <category term="javascript" />
     <category term="TODO" />
+    <category term="经济学原理" />
     <entry>
         <id>https://www.taoidle.com/2024/11/20/Yubikey&amp;Canokey%20PIV%20%E9%85%8D%E7%BD%AE/</id>
         <title>Yubikey&amp;Canokey PIV 配置</title>
@@ -77,7 +77,7 @@
 &lt;ul&gt;
 &lt;li&gt;Yubikey &amp;amp; Canokey&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;%5BReleases%5D(https://developers.yubico.com/yubico-piv-tool/Releases/)&#34;&gt;yubico-piv-tool&lt;/a&gt; &amp;amp; &lt;a href=&#34;%5BReleases%5D(https://developers.yubico.com/yubikey-manager/Releases/)&#34;&gt;ykman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[WinCryptSSHAgent](&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2J1cHRjenEvV2luQ3J5cHRTU0hBZ2VudA==&#34;&gt;buptczq/WinCryptSSHAgent: Using a Yubikey for SSH Authentication on Windows Seamlessly&lt;/span&gt;)  Windows Only&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;%5BReleases%5D(https://github.com/buptczq/WinCryptSSHAgent)&#34;&gt;WinCryptSSHAgent&lt;/a&gt;  (Windows Only)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;生成私钥及证书&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#生成私钥及证书&#34;&gt;#&lt;/a&gt; 生成私钥及证书&lt;/h1&gt;
 &lt;h2 id=&#34;ca-私钥和证书&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ca-私钥和证书&#34;&gt;#&lt;/a&gt; CA 私钥和证书&lt;/h2&gt;

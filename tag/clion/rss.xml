@@ -7,6 +7,12 @@
         <language>zh-CN</language>
         <pubDate>Thu, 10 Jun 2021 03:46:56 +0800</pubDate>
         <lastBuildDate>Thu, 10 Jun 2021 03:46:56 +0800</lastBuildDate>
+        <category>opencv</category>
+        <category>pyqt5</category>
+        <category>python</category>
+        <category>vscode</category>
+        <category>图像处理</category>
+        <category>教程</category>
         <category>android</category>
         <category>android studio</category>
         <category>Arm</category>
@@ -23,15 +29,10 @@
         <category>esp32-s3-devkitc</category>
         <category>platformio</category>
         <category>git</category>
-        <category>教程</category>
         <category>科普</category>
         <category>职业规划</category>
         <category>linux</category>
         <category>Docker</category>
-        <category>opencv</category>
-        <category>pyqt5</category>
-        <category>python</category>
-        <category>图像处理</category>
         <category>原创教程</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
@@ -40,26 +41,25 @@
         <category>树莓派4b</category>
         <category>wsl</category>
         <category>systemd</category>
-        <category>yubikey</category>
-        <category>canokeys</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
         <category>npm</category>
+        <category>yubikey</category>
+        <category>canokeys</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
         <category>gpg</category>
-        <category>vscode</category>
-        <category>esp01</category>
-        <category>esp01s</category>
-        <category>Homekit</category>
-        <category>智能家居</category>
-        <category>物联网</category>
         <category>cloudflare</category>
         <category>cloudflare worker</category>
         <category>github</category>
         <category>cdn</category>
         <category>typescript</category>
+        <category>esp01</category>
+        <category>esp01s</category>
+        <category>Homekit</category>
+        <category>智能家居</category>
+        <category>物联网</category>
         <category>计算机视觉</category>
         <category>ARM</category>
         <category>arm-linux-gcc</category>
@@ -67,11 +67,11 @@
         <category>tencent cloud</category>
         <category>leancloud</category>
         <category>upyun</category>
-        <category>经济学原理</category>
         <category>工业视觉</category>
         <category>scf</category>
         <category>javascript</category>
         <category>TODO</category>
+        <category>经济学原理</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2021/06/10/CLion+PlatformIO%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91NodeMcu/</guid>
             <title>CLion+PlatformIO环境搭建开发NodeMcu</title>

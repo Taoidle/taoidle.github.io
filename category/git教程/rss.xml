@@ -7,6 +7,12 @@
         <language>zh-CN</language>
         <pubDate>Wed, 22 Apr 2020 12:00:08 +0800</pubDate>
         <lastBuildDate>Wed, 22 Apr 2020 12:00:08 +0800</lastBuildDate>
+        <category>opencv</category>
+        <category>pyqt5</category>
+        <category>python</category>
+        <category>vscode</category>
+        <category>图像处理</category>
+        <category>教程</category>
         <category>android</category>
         <category>android studio</category>
         <category>Arm</category>
@@ -23,15 +29,10 @@
         <category>esp32-s3-devkitc</category>
         <category>platformio</category>
         <category>git</category>
-        <category>教程</category>
         <category>科普</category>
         <category>职业规划</category>
         <category>linux</category>
         <category>Docker</category>
-        <category>opencv</category>
-        <category>pyqt5</category>
-        <category>python</category>
-        <category>图像处理</category>
         <category>原创教程</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
@@ -40,26 +41,25 @@
         <category>树莓派4b</category>
         <category>wsl</category>
         <category>systemd</category>
-        <category>yubikey</category>
-        <category>canokeys</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
         <category>npm</category>
+        <category>yubikey</category>
+        <category>canokeys</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
         <category>gpg</category>
-        <category>vscode</category>
-        <category>esp01</category>
-        <category>esp01s</category>
-        <category>Homekit</category>
-        <category>智能家居</category>
-        <category>物联网</category>
         <category>cloudflare</category>
         <category>cloudflare worker</category>
         <category>github</category>
         <category>cdn</category>
         <category>typescript</category>
+        <category>esp01</category>
+        <category>esp01s</category>
+        <category>Homekit</category>
+        <category>智能家居</category>
+        <category>物联网</category>
         <category>计算机视觉</category>
         <category>ARM</category>
         <category>arm-linux-gcc</category>
@@ -67,17 +67,17 @@
         <category>tencent cloud</category>
         <category>leancloud</category>
         <category>upyun</category>
-        <category>经济学原理</category>
         <category>工业视觉</category>
         <category>scf</category>
         <category>javascript</category>
         <category>TODO</category>
+        <category>经济学原理</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/04/22/Git%E6%95%99%E7%A8%8B%20%E2%80%94%E2%80%94%20Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</guid>
             <title>Git教程 —— Git的基本操作</title>
             <link>https://www.taoidle.com/2020/04/22/Git%E6%95%99%E7%A8%8B%20%E2%80%94%E2%80%94%20Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</link>
-            <category>git</category>
             <category>教程</category>
+            <category>git</category>
             <pubDate>Wed, 22 Apr 2020 12:00:08 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;创建版本库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建版本库&#34;&gt;#&lt;/a&gt; 创建版本库&lt;/h2&gt;
 &lt;p&gt;在前边的例子中，我们已经创建过的版本库，这里我们来回顾一下，首先我们找了一个合适的地方创建了一个空目录，然后我们使用 git init 命令让该目录变成 git 仓库，这里我们看到 git 输出信息 Initalized empty Git repository，这是告诉我们这是一个空仓库。&lt;/p&gt;
@@ -137,8 +137,8 @@
             <guid isPermalink="true">https://www.taoidle.com/2020/03/16/Git%E6%95%99%E7%A8%8B%20%E2%80%94%E2%80%94%20%E7%89%88%E6%9C%AC%E5%BA%93%E3%80%81%E5%B7%A5%E4%BD%9C%E5%8C%BA%E5%92%8C%E6%9A%82%E5%AD%98%E5%8C%BA/</guid>
             <title>Git教程 —— 版本库、工作区和暂存区</title>
             <link>https://www.taoidle.com/2020/03/16/Git%E6%95%99%E7%A8%8B%20%E2%80%94%E2%80%94%20%E7%89%88%E6%9C%AC%E5%BA%93%E3%80%81%E5%B7%A5%E4%BD%9C%E5%8C%BA%E5%92%8C%E6%9A%82%E5%AD%98%E5%8C%BA/</link>
-            <category>git</category>
             <category>教程</category>
+            <category>git</category>
             <pubDate>Mon, 16 Mar 2020 10:17:41 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;git的基本工作流程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git的基本工作流程&#34;&gt;#&lt;/a&gt; Git 的基本工作流程&lt;/h2&gt;
 &lt;ol&gt;
@@ -184,8 +184,8 @@
             <guid isPermalink="true">https://www.taoidle.com/2020/02/24/Git%E6%95%99%E7%A8%8B%20%E2%80%94%E2%80%94%20Git%E7%AE%80%E4%BB%8B/</guid>
             <title>Git教程 —— Git简介</title>
             <link>https://www.taoidle.com/2020/02/24/Git%E6%95%99%E7%A8%8B%20%E2%80%94%E2%80%94%20Git%E7%AE%80%E4%BB%8B/</link>
-            <category>git</category>
             <category>教程</category>
+            <category>git</category>
             <pubDate>Mon, 24 Feb 2020 15:54:12 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;一-git简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-git简介&#34;&gt;#&lt;/a&gt; &lt;strong&gt;一、Git 简介&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;1、Git 是什么&lt;/strong&gt; Git (读音为 /gɪt/。) 是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。 [1] Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。（百度百科）&lt;/p&gt;
