@@ -60,10 +60,10 @@
         <category>Homekit</category>
         <category>智能家居</category>
         <category>物联网</category>
-        <category>计算机视觉</category>
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
+        <category>计算机视觉</category>
         <category>tencent cloud</category>
         <category>leancloud</category>
         <category>upyun</category>

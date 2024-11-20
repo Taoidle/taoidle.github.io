@@ -57,10 +57,10 @@
     <category term="Homekit" />
     <category term="智能家居" />
     <category term="物联网" />
-    <category term="计算机视觉" />
     <category term="ARM" />
     <category term="arm-linux-gcc" />
     <category term="gcc" />
+    <category term="计算机视觉" />
     <category term="tencent cloud" />
     <category term="leancloud" />
     <category term="upyun" />
