@@ -52,23 +52,23 @@ jobs:
         run: |
           npm install
 
-      - name: Configuration COS Environment
-        run:
-          sudo pip install tencentcloud-sdk-python==3.0.557
-          sudo pip install coscmd
-          sudo pip install tccli==3.0.557.1
+      # - name: Configuration COS Environment
+      #   run:
+      #     sudo pip install tencentcloud-sdk-python==3.0.557
+      #     sudo pip install coscmd
+      #     sudo pip install tccli==3.0.557.1
 
-      - name: Configuration COS
-        env:
-          SECRET_ID: ${{secrets.SECRETID}}
-          SECRET_KEY: ${{ secrets.SECRETKEY }}
-          BUCKET: ${{ secrets.BUCKET }}
-          REGION: ${{ secrets.REGION }}     
-        run: |
-          coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
-          tccli configure set secretId $SECRET_ID
-          tccli configure set secretKey $SECRET_KEY
-          tccli configure set region $REGION
+      # - name: Configuration COS
+      #   env:
+      #     SECRET_ID: ${{secrets.SECRETID}}
+      #     SECRET_KEY: ${{ secrets.SECRETKEY }}
+      #     BUCKET: ${{ secrets.BUCKET }}
+      #     REGION: ${{ secrets.REGION }}     
+      #   run: |
+      #     coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+      #     tccli configure set secretId $SECRET_ID
+      #     tccli configure set secretKey $SECRET_KEY
+      #     tccli configure set region $REGION
 
 
       - name: Deploy hexo
@@ -77,10 +77,10 @@ jobs:
           npm run build
           npm run deploy
 
-      - name: Upload Cos
-        run: |
-          coscmd upload -rfs --delete ./public/ /
-          tccli cdn PurgePathCache --cli-unfold-argument --Paths https://www.taoidle.com/ --FlushType flush
+      # - name: Upload Cos
+      #   run: |
+      #     coscmd upload -rfs --delete ./public/ /
+      #     tccli cdn PurgePathCache --cli-unfold-argument --Paths https://www.taoidle.com/ --FlushType flush
 
       # - name: Read Version
       #   id: version
