@@ -7,12 +7,6 @@
         <language>zh-CN</language>
         <pubDate>Sat, 30 Jul 2022 12:00:24 +0800</pubDate>
         <lastBuildDate>Sat, 30 Jul 2022 12:00:24 +0800</lastBuildDate>
-        <category>opencv</category>
-        <category>pyqt5</category>
-        <category>python</category>
-        <category>vscode</category>
-        <category>图像处理</category>
-        <category>教程</category>
         <category>android</category>
         <category>android studio</category>
         <category>Arm</category>
@@ -29,10 +23,15 @@
         <category>esp32-s3-devkitc</category>
         <category>platformio</category>
         <category>git</category>
+        <category>教程</category>
         <category>科普</category>
         <category>职业规划</category>
-        <category>Docker</category>
         <category>linux</category>
+        <category>Docker</category>
+        <category>opencv</category>
+        <category>pyqt5</category>
+        <category>python</category>
+        <category>图像处理</category>
         <category>原创教程</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
@@ -50,20 +49,21 @@
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
         <category>gpg</category>
-        <category>cloudflare</category>
-        <category>cloudflare worker</category>
-        <category>github</category>
-        <category>cdn</category>
-        <category>typescript</category>
+        <category>vscode</category>
         <category>esp01</category>
         <category>esp01s</category>
         <category>Homekit</category>
         <category>智能家居</category>
         <category>物联网</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
+        <category>计算机视觉</category>
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
-        <category>计算机视觉</category>
         <category>tencent cloud</category>
         <category>leancloud</category>
         <category>upyun</category>
@@ -238,10 +238,10 @@ TFT_eSPI 这个库使用起来非常方便，根据自己所使用的屏幕具�
             <guid isPermalink="true">https://www.taoidle.com/2020/02/28/%E4%BD%BF%E7%94%A8Arduino+VsCode%E7%9A%84%E6%96%B9%E5%BC%8F%E5%BC%80%E5%8F%91Nodemcu/</guid>
             <title>使用Arduino+VsCode的方式开发Nodemcu</title>
             <link>https://www.taoidle.com/2020/02/28/%E4%BD%BF%E7%94%A8Arduino+VsCode%E7%9A%84%E6%96%B9%E5%BC%8F%E5%BC%80%E5%8F%91Nodemcu/</link>
-            <category>vscode</category>
             <category>arduino</category>
             <category>esp8266</category>
             <category>nodemcu</category>
+            <category>vscode</category>
             <pubDate>Fri, 28 Feb 2020 17:40:36 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;前言&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;为什么用 Vscode？很简单，Arduino IDE 的编辑器不好用。废话不多说，来看怎么配置。&lt;/p&gt;
