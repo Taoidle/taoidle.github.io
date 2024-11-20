@@ -5,8 +5,8 @@
         <link>https://www.taoidle.com</link>
         <description>(づ●─●)づ让我看看再学点什么好</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 23 Jun 2022 21:17:40 +0800</pubDate>
-        <lastBuildDate>Thu, 23 Jun 2022 21:17:40 +0800</lastBuildDate>
+        <pubDate>Wed, 20 Nov 2024 11:40:23 +0800</pubDate>
+        <lastBuildDate>Wed, 20 Nov 2024 11:40:23 +0800</lastBuildDate>
         <category>opencv</category>
         <category>pyqt5</category>
         <category>python</category>
@@ -25,14 +25,14 @@
         <category>esp8266</category>
         <category>nodemcu</category>
         <category>PlatformIO</category>
-        <category>git</category>
         <category>esp32</category>
         <category>esp32-s3-devkitc</category>
         <category>platformio</category>
+        <category>git</category>
         <category>科普</category>
         <category>职业规划</category>
-        <category>linux</category>
         <category>Docker</category>
+        <category>linux</category>
         <category>原创教程</category>
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
@@ -41,6 +41,8 @@
         <category>树莓派4b</category>
         <category>wsl</category>
         <category>systemd</category>
+        <category>yubikey</category>
+        <category>canokeys</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
@@ -48,8 +50,6 @@
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
         <category>gpg</category>
-        <category>yubikey</category>
-        <category>canokeys</category>
         <category>cloudflare</category>
         <category>cloudflare worker</category>
         <category>github</category>
@@ -67,18 +67,72 @@
         <category>tencent cloud</category>
         <category>leancloud</category>
         <category>upyun</category>
-        <category>工业视觉</category>
         <category>经济学原理</category>
+        <category>工业视觉</category>
         <category>scf</category>
         <category>javascript</category>
         <category>TODO</category>
         <item>
+            <guid isPermalink="true">https://www.taoidle.com/2024/11/20/Yubikey&amp;Canokey%20PIV%20%E9%85%8D%E7%BD%AE/</guid>
+            <title>Yubikey&amp;Canokey PIV 配置</title>
+            <link>https://www.taoidle.com/2024/11/20/Yubikey&amp;Canokey%20PIV%20%E9%85%8D%E7%BD%AE/</link>
+            <category>yubikey</category>
+            <category>canokeys</category>
+            <pubDate>Wed, 20 Nov 2024 11:40:23 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备&#34;&gt;#&lt;/a&gt; 准备&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Yubikey &amp;amp; Canokey&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;%5BReleases%5D(https://developers.yubico.com/yubico-piv-tool/Releases/)&#34;&gt;yubico-piv-tool&lt;/a&gt; &amp;amp; &lt;a href=&#34;%5BReleases%5D(https://developers.yubico.com/yubikey-manager/Releases/)&#34;&gt;ykman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[WinCryptSSHAgent (Windows)](&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2J1cHRjenEvV2luQ3J5cHRTU0hBZ2VudA==&#34;&gt;buptczq/WinCryptSSHAgent: Using a Yubikey for SSH Authentication on Windows Seamlessly&lt;/span&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;生成私钥及证书&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#生成私钥及证书&#34;&gt;#&lt;/a&gt; 生成私钥及证书&lt;/h1&gt;
+&lt;h2 id=&#34;ca-私钥和证书&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ca-私钥和证书&#34;&gt;#&lt;/a&gt; CA 私钥和证书&lt;/h2&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;openssl genpkey -algorithm RSA -out ca_private_key.pem -pkeyopt rsa_keygen_bits:2048&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;openssl req -new -x509 -key ca_private_key.pem -out ca_cert.pem -days &lt;span class=&#34;token number&#34;&gt;3650&lt;/span&gt; -subj &lt;span class=&#34;token string&#34;&gt;&#34;/C=CN/ST=Guangdong/L=Guangzhou/O=XXX/OU=XXX/CN=taoidle&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;rsa-私钥和csr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#rsa-私钥和csr&#34;&gt;#&lt;/a&gt; RSA 私钥和 CSR&lt;/h2&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;openssl genpkey -algorithm RSA -out rsa_private_key.pem -pkeyopt rsa_keygen_bits:2048&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;openssl req -new -key rsa_private_key.pem -out csr.pem -subj &lt;span class=&#34;token string&#34;&gt;&#34;/C=CN/ST=Guangdong/L=Guangzhou/O=XXX/OU=XXX/CN=taoidle&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;使用ca签发csr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用ca签发csr&#34;&gt;#&lt;/a&gt; 使用 CA 签发 CSR&lt;/h2&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;openssl x509 -req -in csr.pem -CA ca_cert.pem -CAkey ca_private_key.pem -CAcreateserial -out signed_cert.pem -days &lt;span class=&#34;token number&#34;&gt;3650&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;证书验证&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#证书验证&#34;&gt;#&lt;/a&gt; 证书验证&lt;/h2&gt;
+&lt;h3 id=&#34;csr验证&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#csr验证&#34;&gt;#&lt;/a&gt; CSR 验证&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;openssl req -in csr.pem -noout -text&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;验证生成证书&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#验证生成证书&#34;&gt;#&lt;/a&gt; 验证生成证书&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;openssl x509 -in signed_cert.pem -noout -text&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;证书链验证&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#证书链验证&#34;&gt;#&lt;/a&gt; 证书链验证&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;openssl verify -CAfile ca_cert.pem signed_cert.pem&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;自签证书链验证&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自签证书链验证&#34;&gt;#&lt;/a&gt; 自签证书链验证&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;openssl verify -CAfile signed_cert.pem signed_cert.pem&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ca_private_key.pem&lt;/code&gt; ：CA 私钥。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ca_cert.pem&lt;/code&gt; ：自签名 CA 证书。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rsa_private_key.pem&lt;/code&gt; ： RSA 私钥。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;csr.pem&lt;/code&gt; ：证书签名请求。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;signed_cert.pem&lt;/code&gt; ：CA 签发的证书。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;yubikey-piv&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#yubikey-piv&#34;&gt;#&lt;/a&gt; Yubikey PIV&lt;/h1&gt;
+&lt;h2 id=&#34;yubico-piv-tool&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#yubico-piv-tool&#34;&gt;#&lt;/a&gt; yubico-piv-tool&lt;/h2&gt;
+&lt;h3 id=&#34;导入私钥&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#导入私钥&#34;&gt;#&lt;/a&gt; 导入私钥&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yubico-piv-tool -a import-key -s 9a -i rsa_private_key.pem&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;导入证书&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#导入证书&#34;&gt;#&lt;/a&gt; 导入证书&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yubico-piv-tool -a import-key -s 9a -i signed_cert.pem&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;ykman&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ykman&#34;&gt;#&lt;/a&gt; ykman&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;把 rsa_private_key.pem、signed_cert.pem cat 出来，对应到私钥、证书，输入后留空一行然后 ctrl+c 取消后输入 pin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;导入私钥-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#导入私钥-2&#34;&gt;#&lt;/a&gt; 导入私钥&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ykman piv keys &lt;span class=&#34;token function&#34;&gt;import&lt;/span&gt; 9a -&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;导入证书-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#导入证书-2&#34;&gt;#&lt;/a&gt; 导入证书&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ykman piv certificates &lt;span class=&#34;token function&#34;&gt;import&lt;/span&gt; 9a -&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;canokey-piv&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#canokey-piv&#34;&gt;#&lt;/a&gt; Canokey PIV&lt;/h1&gt;
+&lt;h2 id=&#34;yubico-piv-tool-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#yubico-piv-tool-2&#34;&gt;#&lt;/a&gt; yubico-piv-tool&lt;/h2&gt;
+&lt;h3 id=&#34;导入私钥-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#导入私钥-3&#34;&gt;#&lt;/a&gt; 导入私钥&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yubico-piv-tool -r canokey -a import-key -s 9a -i rsa_private_key.pem&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;导入证书-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#导入证书-3&#34;&gt;#&lt;/a&gt; 导入证书&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yubico-piv-tool -r canokey -a import-key -s 9a -i signed_cert.pem&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;ykman-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ykman-2&#34;&gt;#&lt;/a&gt; ykman&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;把 rsa_private_key.pem、signed_cert.pem cat 出来，对应到私钥、证书，输入后留空一行然后 ctrl+c 取消后输入 pin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;导入私钥-4&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#导入私钥-4&#34;&gt;#&lt;/a&gt; 导入私钥&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ykman -r canokey piv keys &lt;span class=&#34;token function&#34;&gt;import&lt;/span&gt; 9a -&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;导入证书-4&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#导入证书-4&#34;&gt;#&lt;/a&gt; 导入证书&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ykman -r canokey piv certificates &lt;span class=&#34;token function&#34;&gt;import&lt;/span&gt; 9a -&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;ssh自动登录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ssh自动登录&#34;&gt;#&lt;/a&gt; SSH 自动登录&lt;/h1&gt;
+&lt;h2 id=&#34;windows&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#windows&#34;&gt;#&lt;/a&gt; Windows&lt;/h2&gt;
+&lt;p&gt;下载 WinCryptSSHAgent，启动后右键托盘图标 ， &lt;code&gt;show public key&lt;/code&gt; 。将公钥放到服务器.ssh/authorized_keys&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://www.taoidle.com/2022/06/23/use%20gpg&amp;smart%20card/</guid>
             <title>use gpg&amp;smart card</title>
             <link>https://www.taoidle.com/2022/06/23/use%20gpg&amp;smart%20card/</link>
-            <category>gpg</category>
             <category>yubikey</category>
             <category>canokeys</category>
+            <category>gpg</category>
             <pubDate>Thu, 23 Jun 2022 21:17:40 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;import-key&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#import-key&#34;&gt;#&lt;/a&gt; Import Key&lt;/h2&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;gpg --import &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;key_path&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/gpg_import(1).png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;

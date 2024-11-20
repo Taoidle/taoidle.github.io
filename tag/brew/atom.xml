@@ -22,14 +22,14 @@
     <category term="esp8266" />
     <category term="nodemcu" />
     <category term="PlatformIO" />
-    <category term="git" />
     <category term="esp32" />
     <category term="esp32-s3-devkitc" />
     <category term="platformio" />
+    <category term="git" />
     <category term="科普" />
     <category term="职业规划" />
-    <category term="linux" />
     <category term="Docker" />
+    <category term="linux" />
     <category term="原创教程" />
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
@@ -38,6 +38,8 @@
     <category term="树莓派4b" />
     <category term="wsl" />
     <category term="systemd" />
+    <category term="yubikey" />
+    <category term="canokeys" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
@@ -45,8 +47,6 @@
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
     <category term="gpg" />
-    <category term="yubikey" />
-    <category term="canokeys" />
     <category term="cloudflare" />
     <category term="cloudflare worker" />
     <category term="github" />
@@ -64,8 +64,8 @@
     <category term="tencent cloud" />
     <category term="leancloud" />
     <category term="upyun" />
-    <category term="工业视觉" />
     <category term="经济学原理" />
+    <category term="工业视觉" />
     <category term="scf" />
     <category term="javascript" />
     <category term="TODO" />
