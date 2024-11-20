@@ -12,7 +12,7 @@ date: 2024-11-20 11:40:23
 
 -  Yubikey & Canokey
 -  [yubico-piv-tool]([Releases](https://developers.yubico.com/yubico-piv-tool/Releases/)) & [ykman]([Releases](https://developers.yubico.com/yubikey-manager/Releases/))
--  [WinCryptSSHAgent]([buptczq/WinCryptSSHAgent: Using a Yubikey for SSH Authentication on Windows Seamlessly](https://github.com/buptczq/WinCryptSSHAgent))  Windows Only
+-  [WinCryptSSHAgent]([Releases](https://github.com/buptczq/WinCryptSSHAgent))  (Windows Only)
 # 生成私钥及证书
 ## CA 私钥和证书
 
