@@ -41,16 +41,15 @@
         <category>树莓派4b</category>
         <category>wsl</category>
         <category>systemd</category>
+        <category>gpg</category>
         <category>yubikey</category>
         <category>canokeys</category>
-        <category>gpg</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
         <category>npm</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
-        <category>计算机视觉</category>
         <category>cloudflare</category>
         <category>cloudflare worker</category>
         <category>github</category>
@@ -61,16 +60,17 @@
         <category>Homekit</category>
         <category>智能家居</category>
         <category>物联网</category>
-        <category>tencent cloud</category>
-        <category>leancloud</category>
-        <category>upyun</category>
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
-        <category>工业视觉</category>
+        <category>计算机视觉</category>
+        <category>tencent cloud</category>
+        <category>leancloud</category>
+        <category>upyun</category>
         <category>经济学原理</category>
         <category>scf</category>
         <category>javascript</category>
+        <category>工业视觉</category>
         <category>TODO</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/04/21/%E5%85%B3%E4%BA%8ECV%20Tool%E5%B0%8F%E5%B7%A5%E5%85%B7/</guid>

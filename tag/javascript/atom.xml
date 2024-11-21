@@ -38,16 +38,15 @@
     <category term="树莓派4b" />
     <category term="wsl" />
     <category term="systemd" />
+    <category term="gpg" />
     <category term="yubikey" />
     <category term="canokeys" />
-    <category term="gpg" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
     <category term="npm" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
-    <category term="计算机视觉" />
     <category term="cloudflare" />
     <category term="cloudflare worker" />
     <category term="github" />
@@ -58,16 +57,17 @@
     <category term="Homekit" />
     <category term="智能家居" />
     <category term="物联网" />
-    <category term="tencent cloud" />
-    <category term="leancloud" />
-    <category term="upyun" />
     <category term="ARM" />
     <category term="arm-linux-gcc" />
     <category term="gcc" />
-    <category term="工业视觉" />
+    <category term="计算机视觉" />
+    <category term="tencent cloud" />
+    <category term="leancloud" />
+    <category term="upyun" />
     <category term="经济学原理" />
     <category term="scf" />
     <category term="javascript" />
+    <category term="工业视觉" />
     <category term="TODO" />
     <entry>
         <id>https://www.taoidle.com/2022/07/10/%E8%85%BE%E8%AE%AF%E4%BA%91%E5%87%BD%E6%95%B0%E9%9A%8F%E6%9C%BA%E5%9B%BEapi%E5%AE%9E%E7%8E%B0/</id>

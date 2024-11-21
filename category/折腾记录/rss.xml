@@ -41,16 +41,15 @@
         <category>树莓派4b</category>
         <category>wsl</category>
         <category>systemd</category>
+        <category>gpg</category>
         <category>yubikey</category>
         <category>canokeys</category>
-        <category>gpg</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
         <category>npm</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
-        <category>计算机视觉</category>
         <category>cloudflare</category>
         <category>cloudflare worker</category>
         <category>github</category>
@@ -61,16 +60,17 @@
         <category>Homekit</category>
         <category>智能家居</category>
         <category>物联网</category>
-        <category>tencent cloud</category>
-        <category>leancloud</category>
-        <category>upyun</category>
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
-        <category>工业视觉</category>
+        <category>计算机视觉</category>
+        <category>tencent cloud</category>
+        <category>leancloud</category>
+        <category>upyun</category>
         <category>经济学原理</category>
         <category>scf</category>
         <category>javascript</category>
+        <category>工业视觉</category>
         <category>TODO</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2024/11/20/Yubikey&amp;Canokey%20PIV%20%E9%85%8D%E7%BD%AE/</guid>
@@ -429,9 +429,9 @@ TFT_eSPI 这个库使用起来非常方便，根据自己所使用的屏幕具�
             <guid isPermalink="true">https://www.taoidle.com/2022/06/23/Yubikey&amp;Canokey%20GPG/</guid>
             <title>Yubikey&amp;Canokey GPG</title>
             <link>https://www.taoidle.com/2022/06/23/Yubikey&amp;Canokey%20GPG/</link>
+            <category>gpg</category>
             <category>yubikey</category>
             <category>canokeys</category>
-            <category>gpg</category>
             <pubDate>Thu, 23 Jun 2022 21:17:40 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;import-key&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#import-key&#34;&gt;#&lt;/a&gt; Import Key&lt;/h1&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;gpg --import &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;key_path&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.assets.taoidle.com/gh/taoidle/taoidle.github.io@master/assets/images/gpg_import(1).png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -453,7 +453,7 @@ TFT_eSPI 这个库使用起来非常方便，根据自己所使用的屏幕具�
 &lt;h1 id=&#34;bind-smart-card&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#bind-smart-card&#34;&gt;#&lt;/a&gt; Bind Smart Card&lt;/h1&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;gpg-connect-agent &lt;span class=&#34;token string&#34;&gt;&#34;scd serialno&#34;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;learn --force&#34;&lt;/span&gt; /bye&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;set-touch-on&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#set-touch-on&#34;&gt;#&lt;/a&gt; Set Touch On&lt;/h1&gt;
 &lt;p&gt;for yubikey &amp;amp; conokey , the gpg touch default settting is off. use ykman change this setting.&lt;/p&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ykman openpgp keys set-touch sig on&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ykman openpgp keys set-touch aut on&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ykman openpgp keys set-touch enc on&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# Signature Key&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ykman openpgp keys set-touch sig on&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# Authentication Key&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ykman openpgp keys set-touch aut on&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# Encryption Key&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ykman openpgp keys set-touch enc on&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# Attachment Key&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ykman openpgp keys set-touch att on&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2022/05/24/%E4%BD%BF%E7%94%A8cloudflare%E5%92%8Cjsdelivr%E5%81%9A%E4%B8%80%E4%B8%AA%E9%9A%8F%E6%9C%BA%E5%9B%BEapi/</guid>
