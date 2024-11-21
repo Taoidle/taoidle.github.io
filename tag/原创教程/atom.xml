@@ -38,15 +38,16 @@
     <category term="树莓派4b" />
     <category term="wsl" />
     <category term="systemd" />
+    <category term="yubikey" />
+    <category term="canokeys" />
+    <category term="gpg" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
     <category term="npm" />
-    <category term="yubikey" />
-    <category term="canokeys" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
-    <category term="gpg" />
+    <category term="计算机视觉" />
     <category term="cloudflare" />
     <category term="cloudflare worker" />
     <category term="github" />
@@ -57,18 +58,17 @@
     <category term="Homekit" />
     <category term="智能家居" />
     <category term="物联网" />
-    <category term="计算机视觉" />
-    <category term="ARM" />
-    <category term="arm-linux-gcc" />
-    <category term="gcc" />
     <category term="tencent cloud" />
     <category term="leancloud" />
     <category term="upyun" />
+    <category term="ARM" />
+    <category term="arm-linux-gcc" />
+    <category term="gcc" />
     <category term="工业视觉" />
+    <category term="经济学原理" />
     <category term="scf" />
     <category term="javascript" />
     <category term="TODO" />
-    <category term="经济学原理" />
     <entry>
         <id>https://www.taoidle.com/2020/09/02/Python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%20%E2%80%94%E2%80%94%20%E7%9B%B8%E6%9C%BA%E6%A0%87%E5%AE%9A%E3%80%81%E7%95%B8%E5%8F%98%E7%9F%AB%E6%AD%A3/</id>
         <title>Python图像处理 —— 相机标定、畸变矫正</title>

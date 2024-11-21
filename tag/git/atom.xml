@@ -38,15 +38,16 @@
     <category term="树莓派4b" />
     <category term="wsl" />
     <category term="systemd" />
+    <category term="yubikey" />
+    <category term="canokeys" />
+    <category term="gpg" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
     <category term="npm" />
-    <category term="yubikey" />
-    <category term="canokeys" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
-    <category term="gpg" />
+    <category term="计算机视觉" />
     <category term="cloudflare" />
     <category term="cloudflare worker" />
     <category term="github" />
@@ -57,18 +58,17 @@
     <category term="Homekit" />
     <category term="智能家居" />
     <category term="物联网" />
-    <category term="计算机视觉" />
-    <category term="ARM" />
-    <category term="arm-linux-gcc" />
-    <category term="gcc" />
     <category term="tencent cloud" />
     <category term="leancloud" />
     <category term="upyun" />
+    <category term="ARM" />
+    <category term="arm-linux-gcc" />
+    <category term="gcc" />
     <category term="工业视觉" />
+    <category term="经济学原理" />
     <category term="scf" />
     <category term="javascript" />
     <category term="TODO" />
-    <category term="经济学原理" />
     <entry>
         <id>https://www.taoidle.com/2020/04/22/Git%E6%95%99%E7%A8%8B%20%E2%80%94%E2%80%94%20Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</id>
         <title>Git教程 —— Git的基本操作</title>

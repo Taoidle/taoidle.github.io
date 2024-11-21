@@ -38,15 +38,16 @@
     <category term="树莓派4b" />
     <category term="wsl" />
     <category term="systemd" />
+    <category term="yubikey" />
+    <category term="canokeys" />
+    <category term="gpg" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
     <category term="npm" />
-    <category term="yubikey" />
-    <category term="canokeys" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
-    <category term="gpg" />
+    <category term="计算机视觉" />
     <category term="cloudflare" />
     <category term="cloudflare worker" />
     <category term="github" />
@@ -57,18 +58,17 @@
     <category term="Homekit" />
     <category term="智能家居" />
     <category term="物联网" />
-    <category term="计算机视觉" />
-    <category term="ARM" />
-    <category term="arm-linux-gcc" />
-    <category term="gcc" />
     <category term="tencent cloud" />
     <category term="leancloud" />
     <category term="upyun" />
+    <category term="ARM" />
+    <category term="arm-linux-gcc" />
+    <category term="gcc" />
     <category term="工业视觉" />
+    <category term="经济学原理" />
     <category term="scf" />
     <category term="javascript" />
     <category term="TODO" />
-    <category term="经济学原理" />
     <entry>
         <id>https://www.taoidle.com/2021/06/10/CLion+PlatformIO%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91NodeMcu/</id>
         <title>CLion+PlatformIO环境搭建开发NodeMcu</title>

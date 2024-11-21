@@ -41,15 +41,16 @@
         <category>树莓派4b</category>
         <category>wsl</category>
         <category>systemd</category>
+        <category>yubikey</category>
+        <category>canokeys</category>
+        <category>gpg</category>
         <category>Linux</category>
         <category>manjaro</category>
         <category>nodejs</category>
         <category>npm</category>
-        <category>yubikey</category>
-        <category>canokeys</category>
         <category>ubuntu</category>
         <category>ubuntu20.04</category>
-        <category>gpg</category>
+        <category>计算机视觉</category>
         <category>cloudflare</category>
         <category>cloudflare worker</category>
         <category>github</category>
@@ -60,18 +61,17 @@
         <category>Homekit</category>
         <category>智能家居</category>
         <category>物联网</category>
-        <category>计算机视觉</category>
-        <category>ARM</category>
-        <category>arm-linux-gcc</category>
-        <category>gcc</category>
         <category>tencent cloud</category>
         <category>leancloud</category>
         <category>upyun</category>
+        <category>ARM</category>
+        <category>arm-linux-gcc</category>
+        <category>gcc</category>
         <category>工业视觉</category>
+        <category>经济学原理</category>
         <category>scf</category>
         <category>javascript</category>
         <category>TODO</category>
-        <category>经济学原理</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/06/12/%E5%85%B3%E4%BA%8EUbuntu20.04%E5%AE%89%E8%A3%85arm-linux-gcc%E5%8F%91%E7%94%9F%E7%9A%84%E9%94%99%E8%AF%AF/</guid>
             <title>关于Ubuntu20.04安装arm-linux-gcc发生的错误</title>

@@ -38,15 +38,16 @@
     <category term="树莓派4b" />
     <category term="wsl" />
     <category term="systemd" />
+    <category term="yubikey" />
+    <category term="canokeys" />
+    <category term="gpg" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
     <category term="npm" />
-    <category term="yubikey" />
-    <category term="canokeys" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
-    <category term="gpg" />
+    <category term="计算机视觉" />
     <category term="cloudflare" />
     <category term="cloudflare worker" />
     <category term="github" />
@@ -57,18 +58,17 @@
     <category term="Homekit" />
     <category term="智能家居" />
     <category term="物联网" />
-    <category term="计算机视觉" />
-    <category term="ARM" />
-    <category term="arm-linux-gcc" />
-    <category term="gcc" />
     <category term="tencent cloud" />
     <category term="leancloud" />
     <category term="upyun" />
+    <category term="ARM" />
+    <category term="arm-linux-gcc" />
+    <category term="gcc" />
     <category term="工业视觉" />
+    <category term="经济学原理" />
     <category term="scf" />
     <category term="javascript" />
     <category term="TODO" />
-    <category term="经济学原理" />
     <entry>
         <id>https://www.taoidle.com/2023/01/08/WSL%20%EF%BC%9ASystem%20has%20not%20been%20booted%20with%20systemd%20as%20init%20system%20(PID%201)/</id>
         <title>WSL ：System has not been booted with systemd as init system (PID 1)</title>

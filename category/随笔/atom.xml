@@ -38,15 +38,16 @@
     <category term="树莓派4b" />
     <category term="wsl" />
     <category term="systemd" />
+    <category term="yubikey" />
+    <category term="canokeys" />
+    <category term="gpg" />
     <category term="Linux" />
     <category term="manjaro" />
     <category term="nodejs" />
     <category term="npm" />
-    <category term="yubikey" />
-    <category term="canokeys" />
     <category term="ubuntu" />
     <category term="ubuntu20.04" />
-    <category term="gpg" />
+    <category term="计算机视觉" />
     <category term="cloudflare" />
     <category term="cloudflare worker" />
     <category term="github" />
@@ -57,18 +58,17 @@
     <category term="Homekit" />
     <category term="智能家居" />
     <category term="物联网" />
-    <category term="计算机视觉" />
-    <category term="ARM" />
-    <category term="arm-linux-gcc" />
-    <category term="gcc" />
     <category term="tencent cloud" />
     <category term="leancloud" />
     <category term="upyun" />
+    <category term="ARM" />
+    <category term="arm-linux-gcc" />
+    <category term="gcc" />
     <category term="工业视觉" />
+    <category term="经济学原理" />
     <category term="scf" />
     <category term="javascript" />
     <category term="TODO" />
-    <category term="经济学原理" />
     <entry>
         <id>https://www.taoidle.com/2023/09/02/%E5%B7%A5%E4%B8%9A%E8%A7%86%E8%A7%89%E8%A1%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E7%8E%B0%E7%8A%B6%E6%A6%82%E5%86%B5/</id>
         <title>工业视觉行业发展现状概况</title>
