@@ -120,7 +120,15 @@ gpg-connect-agent "scd serialno" "learn --force" /bye
 for yubikey & conokey , the gpg touch default settting is off. use ykman change this setting.
 
 ```shell
+# Signature Key
 ykman openpgp keys set-touch sig on
+
+# Authentication Key
 ykman openpgp keys set-touch aut on
+
+# Encryption Key
 ykman openpgp keys set-touch enc on
+
+# Attachment Key
+ykman openpgp keys set-touch att on
 ```
