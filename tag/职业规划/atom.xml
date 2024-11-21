@@ -38,6 +38,7 @@
     <category term="树莓派4b" />
     <category term="wsl" />
     <category term="systemd" />
+    <category term="windows" />
     <category term="gpg" />
     <category term="yubikey" />
     <category term="canokeys" />
@@ -65,9 +66,9 @@
     <category term="leancloud" />
     <category term="upyun" />
     <category term="经济学原理" />
+    <category term="工业视觉" />
     <category term="scf" />
     <category term="javascript" />
-    <category term="工业视觉" />
     <category term="TODO" />
     <entry>
         <id>https://www.taoidle.com/2021/03/27/IT%E8%A1%8C%E4%B8%9A%E5%B2%97%E4%BD%8D%E9%83%BD%E6%9C%89%E5%93%AA%E4%BA%9B/</id>

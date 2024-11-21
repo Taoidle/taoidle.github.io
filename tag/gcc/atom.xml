@@ -38,6 +38,7 @@
     <category term="树莓派4b" />
     <category term="wsl" />
     <category term="systemd" />
+    <category term="windows" />
     <category term="gpg" />
     <category term="yubikey" />
     <category term="canokeys" />
@@ -65,9 +66,9 @@
     <category term="leancloud" />
     <category term="upyun" />
     <category term="经济学原理" />
+    <category term="工业视觉" />
     <category term="scf" />
     <category term="javascript" />
-    <category term="工业视觉" />
     <category term="TODO" />
     <entry>
         <id>https://www.taoidle.com/2020/06/12/%E5%85%B3%E4%BA%8EUbuntu20.04%E5%AE%89%E8%A3%85arm-linux-gcc%E5%8F%91%E7%94%9F%E7%9A%84%E9%94%99%E8%AF%AF/</id>

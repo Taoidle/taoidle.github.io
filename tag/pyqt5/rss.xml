@@ -41,6 +41,7 @@
         <category>树莓派4b</category>
         <category>wsl</category>
         <category>systemd</category>
+        <category>windows</category>
         <category>gpg</category>
         <category>yubikey</category>
         <category>canokeys</category>
@@ -68,9 +69,9 @@
         <category>leancloud</category>
         <category>upyun</category>
         <category>经济学原理</category>
+        <category>工业视觉</category>
         <category>scf</category>
         <category>javascript</category>
-        <category>工业视觉</category>
         <category>TODO</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/05/03/Python%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%20%E2%80%94%E2%80%94%20DCT%E5%8F%98%E6%8D%A2/</guid>

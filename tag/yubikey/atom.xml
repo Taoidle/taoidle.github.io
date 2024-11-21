@@ -38,6 +38,7 @@
     <category term="树莓派4b" />
     <category term="wsl" />
     <category term="systemd" />
+    <category term="windows" />
     <category term="gpg" />
     <category term="yubikey" />
     <category term="canokeys" />
@@ -65,9 +66,9 @@
     <category term="leancloud" />
     <category term="upyun" />
     <category term="经济学原理" />
+    <category term="工业视觉" />
     <category term="scf" />
     <category term="javascript" />
-    <category term="工业视觉" />
     <category term="TODO" />
     <entry>
         <id>https://www.taoidle.com/2024/11/20/Yubikey&amp;Canokey%20PIV%20%E9%85%8D%E7%BD%AE/</id>

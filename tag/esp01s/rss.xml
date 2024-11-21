@@ -41,6 +41,7 @@
         <category>树莓派4b</category>
         <category>wsl</category>
         <category>systemd</category>
+        <category>windows</category>
         <category>gpg</category>
         <category>yubikey</category>
         <category>canokeys</category>
@@ -68,9 +69,9 @@
         <category>leancloud</category>
         <category>upyun</category>
         <category>经济学原理</category>
+        <category>工业视觉</category>
         <category>scf</category>
         <category>javascript</category>
-        <category>工业视觉</category>
         <category>TODO</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2020/06/03/%E4%BD%BF%E7%94%A8esp-01s%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%94%9Fhomekit%E6%8E%A7%E5%88%B6/</guid>

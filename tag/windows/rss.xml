@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title> • Posts by &#34;windows&#34; tag</title>
+        <link>https://www.taoidle.com</link>
+        <description>(づ●─●)づ让我看看再学点什么好</description>
+        <language>zh-CN</language>
+        <pubDate>Thu, 21 Nov 2024 11:08:40 +0800</pubDate>
+        <lastBuildDate>Thu, 21 Nov 2024 11:08:40 +0800</lastBuildDate>
+        <category>opencv</category>
+        <category>pyqt5</category>
+        <category>python</category>
+        <category>vscode</category>
+        <category>图像处理</category>
+        <category>教程</category>
+        <category>android</category>
+        <category>android studio</category>
+        <category>Arm</category>
+        <category>Apple</category>
+        <category>苹果</category>
+        <category>MacOS</category>
+        <category>Brew</category>
+        <category>arduino</category>
+        <category>CLion</category>
+        <category>esp8266</category>
+        <category>nodemcu</category>
+        <category>PlatformIO</category>
+        <category>esp32</category>
+        <category>esp32-s3-devkitc</category>
+        <category>platformio</category>
+        <category>git</category>
+        <category>科普</category>
+        <category>职业规划</category>
+        <category>linux</category>
+        <category>Docker</category>
+        <category>原创教程</category>
+        <category>Raspberry Pi</category>
+        <category>Raspberry Pi4b</category>
+        <category>树莓派</category>
+        <category>Bitwarden</category>
+        <category>树莓派4b</category>
+        <category>wsl</category>
+        <category>systemd</category>
+        <category>windows</category>
+        <category>gpg</category>
+        <category>yubikey</category>
+        <category>canokeys</category>
+        <category>Linux</category>
+        <category>manjaro</category>
+        <category>nodejs</category>
+        <category>npm</category>
+        <category>ubuntu</category>
+        <category>ubuntu20.04</category>
+        <category>cloudflare</category>
+        <category>cloudflare worker</category>
+        <category>github</category>
+        <category>cdn</category>
+        <category>typescript</category>
+        <category>esp01</category>
+        <category>esp01s</category>
+        <category>Homekit</category>
+        <category>智能家居</category>
+        <category>物联网</category>
+        <category>ARM</category>
+        <category>arm-linux-gcc</category>
+        <category>gcc</category>
+        <category>计算机视觉</category>
+        <category>tencent cloud</category>
+        <category>leancloud</category>
+        <category>upyun</category>
+        <category>经济学原理</category>
+        <category>工业视觉</category>
+        <category>scf</category>
+        <category>javascript</category>
+        <category>TODO</category>
+        <item>
+            <guid isPermalink="true">https://www.taoidle.com/2024/11/21/Win11%E6%89%BE%E4%B8%8D%E5%88%B0%E6%9C%AC%E5%9C%B0%E7%BB%84%E7%AD%96%E7%95%A5%E7%BC%96%E8%BE%91%E5%99%A8(gpedit.msc)/</guid>
+            <title>Win11找不到本地组策略编辑器(gpedit.msc)</title>
+            <link>https://www.taoidle.com/2024/11/21/Win11%E6%89%BE%E4%B8%8D%E5%88%B0%E6%9C%AC%E5%9C%B0%E7%BB%84%E7%AD%96%E7%95%A5%E7%BC%96%E8%BE%91%E5%99%A8(gpedit.msc)/</link>
+            <category>windows</category>
+            <pubDate>Thu, 21 Nov 2024 11:08:40 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;解决方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方式&#34;&gt;#&lt;/a&gt; 解决方式&lt;/h1&gt;
+&lt;p&gt;以管理员方式打开 cmd，运行以下命令：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-batchfile&#34;&gt;FOR %F IN (&amp;quot;%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~*.mum&amp;quot;) DO ( DISM /Online /NoRestart /Add-Package:&amp;quot;%F&amp;quot; )
+
+FOR %F IN (&amp;quot;%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~*.mum&amp;quot;) DO ( DISM /Online /NoRestart /Add-Package:&amp;quot;%F&amp;quot; )
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;等命令运行完成，Win + R 输入 gpedit.msc，回车即可打开本地组策略编辑器&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

@@ -5,6 +5,16 @@
     "home_page_url": "https://www.taoidle.com",
     "items": [
         {
+            "id": "https://www.taoidle.com/2024/11/21/Win11%E6%89%BE%E4%B8%8D%E5%88%B0%E6%9C%AC%E5%9C%B0%E7%BB%84%E7%AD%96%E7%95%A5%E7%BC%96%E8%BE%91%E5%99%A8(gpedit.msc)/",
+            "url": "https://www.taoidle.com/2024/11/21/Win11%E6%89%BE%E4%B8%8D%E5%88%B0%E6%9C%AC%E5%9C%B0%E7%BB%84%E7%AD%96%E7%95%A5%E7%BC%96%E8%BE%91%E5%99%A8(gpedit.msc)/",
+            "title": "Win11找不到本地组策略编辑器(gpedit.msc)",
+            "date_published": "2024-11-21T03:08:40.000Z",
+            "content_html": "<h1 id=\"解决方式\"><a class=\"anchor\" href=\"#解决方式\">#</a> 解决方式</h1>\n<p>以管理员方式打开 cmd，运行以下命令：</p>\n<pre><code class=\"language-batchfile\">FOR %F IN (&quot;%SystemRoot%\\servicing\\Packages\\Microsoft-Windows-GroupPolicy-ClientTools-Package~*.mum&quot;) DO ( DISM /Online /NoRestart /Add-Package:&quot;%F&quot; )\n\nFOR %F IN (&quot;%SystemRoot%\\servicing\\Packages\\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~*.mum&quot;) DO ( DISM /Online /NoRestart /Add-Package:&quot;%F&quot; )\n</code></pre>\n<p>等命令运行完成，Win + R 输入 gpedit.msc，回车即可打开本地组策略编辑器</p>\n",
+            "tags": [
+                "windows"
+            ]
+        },
+        {
             "id": "https://www.taoidle.com/2024/11/20/Yubikey&Canokey%20PIV%20%E9%85%8D%E7%BD%AE/",
             "url": "https://www.taoidle.com/2024/11/20/Yubikey&Canokey%20PIV%20%E9%85%8D%E7%BD%AE/",
             "title": "Yubikey&Canokey PIV 配置",
