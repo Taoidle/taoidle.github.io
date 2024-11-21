@@ -37,10 +37,10 @@
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
         <category>树莓派</category>
-        <category>Bitwarden</category>
-        <category>树莓派4b</category>
         <category>wsl</category>
         <category>systemd</category>
+        <category>Bitwarden</category>
+        <category>树莓派4b</category>
         <category>windows</category>
         <category>gpg</category>
         <category>yubikey</category>
@@ -61,17 +61,17 @@
         <category>Homekit</category>
         <category>智能家居</category>
         <category>物联网</category>
+        <category>计算机视觉</category>
         <category>ARM</category>
         <category>arm-linux-gcc</category>
         <category>gcc</category>
-        <category>计算机视觉</category>
         <category>tencent cloud</category>
         <category>leancloud</category>
         <category>upyun</category>
-        <category>经济学原理</category>
         <category>工业视觉</category>
         <category>scf</category>
         <category>javascript</category>
+        <category>经济学原理</category>
         <category>TODO</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2021/06/10/CLion+PlatformIO%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91NodeMcu/</guid>
