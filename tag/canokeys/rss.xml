@@ -68,10 +68,10 @@
         <category>tencent cloud</category>
         <category>leancloud</category>
         <category>upyun</category>
-        <category>工业视觉</category>
+        <category>经济学原理</category>
         <category>scf</category>
         <category>javascript</category>
-        <category>经济学原理</category>
+        <category>工业视觉</category>
         <category>TODO</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2024/11/20/Yubikey&amp;Canokey%20PIV%20%E9%85%8D%E7%BD%AE/</guid>
@@ -83,8 +83,8 @@
             <description><![CDATA[ &lt;h1 id=&#34;准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备&#34;&gt;#&lt;/a&gt; 准备&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Yubikey &amp;amp; Canokey&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;%5BReleases%5D(https://developers.yubico.com/yubico-piv-tool/Releases/)&#34;&gt;yubico-piv-tool&lt;/a&gt; &amp;amp; &lt;a href=&#34;%5BReleases%5D(https://developers.yubico.com/yubikey-manager/Releases/)&#34;&gt;ykman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;%5BReleases%5D(https://github.com/buptczq/WinCryptSSHAgent)&#34;&gt;WinCryptSSHAgent&lt;/a&gt;  (Windows Only)&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXJzLnl1Ymljby5jb20veXViaWNvLXBpdi10b29sL1JlbGVhc2VzLw==&#34;&gt;yubico-piv-tool&lt;/span&gt; &amp;amp; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXJzLnl1Ymljby5jb20veXViaWtleS1tYW5hZ2VyL1JlbGVhc2VzLw==&#34;&gt;ykman&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2J1cHRjenEvV2luQ3J5cHRTU0hBZ2VudA==&#34;&gt;WinCryptSSHAgent&lt;/span&gt;  (Windows Only)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;生成私钥及证书&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#生成私钥及证书&#34;&gt;#&lt;/a&gt; 生成私钥及证书&lt;/h1&gt;
 &lt;h2 id=&#34;ca-私钥和证书&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ca-私钥和证书&#34;&gt;#&lt;/a&gt; CA 私钥和证书&lt;/h2&gt;
