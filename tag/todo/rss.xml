@@ -25,10 +25,10 @@
         <category>esp8266</category>
         <category>nodemcu</category>
         <category>PlatformIO</category>
+        <category>git</category>
         <category>esp32</category>
         <category>esp32-s3-devkitc</category>
         <category>platformio</category>
-        <category>git</category>
         <category>科普</category>
         <category>职业规划</category>
         <category>linux</category>
@@ -37,10 +37,10 @@
         <category>Raspberry Pi</category>
         <category>Raspberry Pi4b</category>
         <category>树莓派</category>
-        <category>wsl</category>
-        <category>systemd</category>
         <category>Bitwarden</category>
         <category>树莓派4b</category>
+        <category>wsl</category>
+        <category>systemd</category>
         <category>windows</category>
         <category>gpg</category>
         <category>yubikey</category>
@@ -69,9 +69,9 @@
         <category>leancloud</category>
         <category>upyun</category>
         <category>经济学原理</category>
+        <category>工业视觉</category>
         <category>scf</category>
         <category>javascript</category>
-        <category>工业视觉</category>
         <category>TODO</category>
         <item>
             <guid isPermalink="true">https://www.taoidle.com/2021/01/15/%E8%AE%A9%E6%88%91%E7%9C%8B%E7%9C%8B%E8%BF%98%E6%9C%89%E5%95%A5%E5%9D%91%E6%B2%A1%E5%A1%AB/</guid>

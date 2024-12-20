@@ -22,10 +22,10 @@
     <category term="esp8266" />
     <category term="nodemcu" />
     <category term="PlatformIO" />
+    <category term="git" />
     <category term="esp32" />
     <category term="esp32-s3-devkitc" />
     <category term="platformio" />
-    <category term="git" />
     <category term="科普" />
     <category term="职业规划" />
     <category term="linux" />
@@ -34,10 +34,10 @@
     <category term="Raspberry Pi" />
     <category term="Raspberry Pi4b" />
     <category term="树莓派" />
-    <category term="wsl" />
-    <category term="systemd" />
     <category term="Bitwarden" />
     <category term="树莓派4b" />
+    <category term="wsl" />
+    <category term="systemd" />
     <category term="windows" />
     <category term="gpg" />
     <category term="yubikey" />
@@ -66,9 +66,9 @@
     <category term="leancloud" />
     <category term="upyun" />
     <category term="经济学原理" />
+    <category term="工业视觉" />
     <category term="scf" />
     <category term="javascript" />
-    <category term="工业视觉" />
     <category term="TODO" />
     <entry>
         <id>https://www.taoidle.com/2020/05/10/Android%20Studio%E8%8E%B7%E5%8F%96SHA1/</id>
